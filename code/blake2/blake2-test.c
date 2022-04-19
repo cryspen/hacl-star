@@ -21,7 +21,7 @@
 #include "Hacl_Blake2b_256.h"
 #endif
 
-#include "digestif/src-c/native/blake2b.h"
+#include "digestif-src/blake2b.h"
 
 #include "test_helpers.h"
 
