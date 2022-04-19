@@ -12,17 +12,16 @@
 #include "Hacl_Blake2b_32.h"
 #include "Hacl_Blake2s_32.h"
 
-#if defined(HACL_CAN_COMPILE_VEC128)
+#if defined(VEC128)
+#warning "blahooo"
 #include "Hacl_Blake2s_128.h"
 #endif
 
-#if defined(HACL_CAN_COMPILE_VEC256)
+#if defined(VEC256)
 #include "Hacl_Blake2b_256.h"
 #endif
 
 #include "test_helpers.h"
-
-//#include "EverCrypt_AutoConfig2.h"
 #include "blake2_vectors.h"
 
 #define ROUNDS 16384
@@ -40,7 +39,7 @@ bool print_test2b(int in_len, uint8_t* in, int key_len, uint8_t* key, int exp_le
   printf("testing blake2b vec-32:\n");
   bool ok = print_result(exp_len,comp,exp);
 
-#if defined(HACL_CAN_COMPILE_VEC256)
+#if defined(VEC256)
   Hacl_Blake2b_256_blake2b(exp_len,comp,in_len,in,key_len,key);
   printf("testing blake2b vec-256:\n");
   ok = ok && print_result(exp_len,comp,exp);
@@ -57,7 +56,7 @@ bool print_test2s(int in_len, uint8_t* in, int key_len, uint8_t* key, int exp_le
   printf("testing blake2s vec-32:\n");
   bool ok = print_result(exp_len,comp,exp);
 
-#if defined(HACL_CAN_COMPILE_VEC128)
+#if defined(VEC128)
   Hacl_Blake2s_128_blake2s(exp_len,comp,in_len,in,key_len,key);
   printf("testing blake2s vec-128:\n");
   ok = ok && print_result(exp_len,comp,exp);
@@ -110,7 +109,7 @@ int main()
   t2 = clock();
   clock_t tdiff2 = (t2 - t1);
 
-#if defined(HACL_CAN_COMPILE_VEC128)
+#if defined(VEC128)
   for (int j = 0; j < ROUNDS; j++) {
     Hacl_Blake2s_128_blake2s(32,plain,SIZE,plain,0,NULL);
   }
@@ -122,7 +121,7 @@ int main()
   clock_t tdiff3 = (t2 - t1);
 #endif
 
-#if defined(HACL_CAN_COMPILE_VEC256)
+#if defined(VEC256)
   for (int j = 0; j < ROUNDS; j++) {
     Hacl_Blake2b_256_blake2b(32,plain,SIZE,plain,0,NULL);
   }
@@ -139,11 +138,11 @@ uint64_t count = ROUNDS * SIZE;
   printf("Blake2S (Vec 32-bit):\n"); print_time(count,tdiff1,0);
   printf("Blake2B (Vec 64-bit):\n"); print_time(count,tdiff2,0);
 
-#if defined(HACL_CAN_COMPILE_VEC128)
+#if defined(VEC128)
   printf("Blake2S (Vec 128-bit):\n"); print_time(count,tdiff3,0);
 #endif
 
-#if defined(HACL_CAN_COMPILE_VEC256)
+#if defined(VEC256)
   printf("Blake2B (Vec 256-bit):\n"); print_time(count,tdiff4,0);
 #endif
 
