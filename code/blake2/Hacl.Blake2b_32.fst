@@ -8,7 +8,8 @@ module Core = Hacl.Impl.Blake2.Core
 [@CInline]
 private
 let blake2b_update_block : Impl.blake2_update_block_st Spec.Blake2B Core.M32 =
-  Impl.blake2_update_block #Spec.Blake2B #Core.M32
+    Impl.blake2_update_block #Spec.Blake2B #Core.M32
+   
 
 [@CInline]
 let blake2b_init : Impl.blake2_init_st Spec.Blake2B Core.M32 =

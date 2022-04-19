@@ -25,7 +25,7 @@ let pp_sigmaTable () : Tactics.Tac unit =
   Tactics.norm [delta_only [`%Spec.list_sigma]]; Tactics.trefl ()
 
 [@(Tactics.postprocess_with pp_sigmaTable)]
-let sigmaTable : x:glbuffer Spec.sigma_elt_t 160ul{witnessed x Spec.sigmaTable /\ recallable x} =
+let sigmaTable : x:glbuffer Spec.sigma_elt_t 192ul{witnessed x Spec.sigmaTable /\ recallable x} =
   createL_global Spec.list_sigma
 
 let ivTable_S: (x:glbuffer (Spec.pub_word_t Spec.Blake2S) 8ul{witnessed x (Spec.ivTable Spec.Blake2S) /\ recallable x}) =

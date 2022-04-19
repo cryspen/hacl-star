@@ -34,7 +34,7 @@ inline_for_extraction let size_block_w : size_nat = 16
 inline_for_extraction let size_word (a:alg) : size_nat = numbytes (wt a)
 inline_for_extraction let size_block (a:alg) : size_nat = size_block_w * (size_word a)
 inline_for_extraction let size_ivTable : size_nat = 8
-inline_for_extraction let size_sigmaTable : size_nat = 160
+inline_for_extraction let size_sigmaTable : size_nat = 192
 
 inline_for_extraction let max_key (a:alg) =
   match a with
@@ -172,7 +172,7 @@ let ivTable (a:alg) : lseq (pub_word_t a) 8 =
   | Blake2B -> of_list list_iv_B
 
 type sigma_elt_t = n:size_t{size_v n < 16}
-type list_sigma_t = l:list sigma_elt_t{List.Tot.length l == 160}
+type list_sigma_t = l:list sigma_elt_t{List.Tot.length l == 192}
 
 [@"opaque_to_smt"]
 let list_sigma: list_sigma_t =
@@ -197,9 +197,13 @@ let list_sigma: list_sigma_t =
     size  6; size 15; size 14; size  9; size 11; size  3; size  0; size  8;
     size 12; size  2; size 13; size  7; size  1; size  4; size 10; size  5;
     size 10; size  2; size  8; size  4; size  7; size  6; size  1; size  5;
-    size 15; size 11; size  9; size 14; size  3; size 12; size 13; size  0
+    size 15; size 11; size  9; size 14; size  3; size 12; size 13; size  0;
+    size  0; size  1; size  2; size  3; size  4; size  5; size  6; size  7;
+    size  8; size  9; size 10; size 11; size 12; size 13; size 14; size 15;
+    size 14; size 10; size  4; size  8; size  9; size 15; size 13; size  6;
+    size  1; size 12; size  0; size  2; size 11; size  7; size  5; size  3;
     ] in
-  assert_norm(List.Tot.length l == 160);
+  assert_norm(List.Tot.length l == 192);
   l
 
 
@@ -283,7 +287,7 @@ inline_for_extraction
 let gather_row (#a:alg) (m:block_w a) (i0 i1 i2 i3:sigma_elt_t) : row a =
   create_row m.[v i0] m.[v i1] m.[v i2] m.[v i3]
 
-val gather_state: a:alg -> m:block_w a -> start:nat{start <= 144} -> state a
+val gather_state: a:alg -> m:block_w a -> start:nat{start <= 176} -> state a
 let gather_state a m start =
   let x = gather_row m sigmaTable.[start] sigmaTable.[start+2] sigmaTable.[start+4] sigmaTable.[start+6]  in
   let y = gather_row m sigmaTable.[start+1] sigmaTable.[start+3] sigmaTable.[start+5] sigmaTable.[start+7]  in
@@ -296,12 +300,12 @@ let gather_state a m start =
 val blake2_round:
     a:alg
   -> m:block_w a
-  -> i:size_nat
+  -> i:size_nat{i < 12}
   -> wv:state a
   -> state a
 
 let blake2_round a m i wv =
-  let start = (i%10) * 16 in
+  let start = i * 16 in
   let m_s = gather_state a m start in
   let wv = blake2_mixing a wv m_s.[0] m_s.[1] in
   let wv = diag wv in

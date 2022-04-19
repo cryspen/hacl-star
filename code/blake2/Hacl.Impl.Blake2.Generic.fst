@@ -55,7 +55,7 @@ let get_iv a s =
 
 inline_for_extraction noextract
 val get_sigma:
-  s: size_t{v s < 160} ->
+  s: size_t{v s < 192} ->
   Stack Spec.sigma_elt_t
     (requires (fun h -> True))
     (ensures  (fun h0 z h1 -> h0 == h1 /\ z == Lib.Sequence.(Spec.sigmaTable.[v s])))
@@ -68,7 +68,7 @@ let get_sigma s =
 inline_for_extraction noextract
 val get_sigma_sub:
   start: size_t ->
-  i: size_t{v i < 16 /\ v start + v i < 160} ->
+  i: size_t{v i < 16 /\ v start + v i < 192} ->
   Stack Spec.sigma_elt_t
     (requires (fun h -> True))
     (ensures  (fun h0 z h1 -> h0 == h1 /\ v z == v (Seq.index Spec.sigmaTable (v start + v i))))
@@ -219,7 +219,7 @@ let undiag #a #m wv =
 
 
 inline_for_extraction noextract
-val gather_state: #a:Spec.alg -> #ms:m_spec -> st:state_p a ms -> m:block_w a -> start:size_t{v start <= 144} -> Stack unit
+val gather_state: #a:Spec.alg -> #ms:m_spec -> st:state_p a ms -> m:block_w a -> start:size_t{v start <= 176} -> Stack unit
 		  (requires (fun h -> live h st /\ live h m /\ disjoint st m))
 		  (ensures (fun h0 _ h1 -> modifies (loc st) h0 h1 /\
 					state_v h1 st == Spec.gather_state a (as_seq h0 m) (v start)))
@@ -260,7 +260,7 @@ let gather_state #a #ms st m start =
   Lib.Sequence.eq_intro (state_v h5 st) (Spec.gather_state a (as_seq h0 m) (v start))
 
 inline_for_extraction noextract
-val blake2_round : #al:Spec.alg -> #ms:m_spec -> wv:state_p al ms ->  m:block_w al -> i:size_t ->
+val blake2_round : #al:Spec.alg -> #ms:m_spec -> wv:state_p al ms ->  m:block_w al -> i:size_t{v i < 12} ->
   Stack unit
     (requires (fun h -> live h wv /\ live h m /\ disjoint wv m))
     (ensures  (fun h0 _ h1 -> modifies (loc wv) h0 h1
@@ -268,9 +268,8 @@ val blake2_round : #al:Spec.alg -> #ms:m_spec -> wv:state_p al ms ->  m:block_w 
 
 let blake2_round #al #ms wv m i =
   push_frame();
-  let start_idx = (i %. size 10) *. size 16 in
-  assert (v start_idx == (v i % 10) * 16);
-  assert (v start_idx <= 144);
+  let start_idx = i *. size 16 in
+  assert (v start_idx <= 176);
   let m_st = alloc_state al ms in
   gather_state m_st m start_idx;
   let x = rowi m_st 0ul in

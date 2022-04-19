@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "bd2cce8f351917269de4484e1e188161"
+      "e7f6f5d6a50e52580ef2738346051c36"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_to_of_uint",
@@ -17,7 +17,7 @@
       0,
       [ "@query" ],
       0,
-      "9bc436d25a3b2689538e8efdbb78f153"
+      "43b8ffe5b9a7c88aff7c0ac328cdcb60"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_to_of_uint",
@@ -60,7 +60,7 @@
         "typing_Vale.Math.Poly2_s.reverse", "typing_Vale.Math.Poly2_s.to_seq"
       ],
       0,
-      "1ef030df15afd528760715f95c106d11"
+      "0aabbddbe60173c93133325c91b57921"
     ],
     [
       "Vale.Math.Poly2.Bits.of_nat",
@@ -76,7 +76,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "56014778920ce7e9013790fbeedaf1de"
+      "5eed383c2e030658dc2ac2b9b97167ad"
     ],
     [
       "Vale.Math.Poly2.Bits.of_uint_",
@@ -89,7 +89,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "da18153c072cc5fda2397051d8bf98a9"
+      "b6594c17408daab1e9cb13f831107e89"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_to_vec_zero",
@@ -108,15 +108,15 @@
         "primitive_Prims.op_Subtraction",
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_0034800cc12c7b35d78fcf426393e1cc",
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "refinement_interpretation_Tm_refine_ca61ff5cffa50de12482f1ff06f420bd",
         "refinement_interpretation_Tm_refine_e2d5d62a90ceed8a6faf9d20615f4e1e",
         "typing_Prims.pow2"
       ],
       0,
-      "75ef89bdcee2df89dd5c2990d04d75e2"
+      "68039cfed75b5dd68d9dee3e53764ae4"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_to_vec_zero",
@@ -168,7 +168,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "6dab49626b9dad0a80cceb2fbed879a7"
+      "d64614b026899eeb28d6b8118463183f"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_uint_zero",
@@ -208,7 +208,7 @@
         "typing_Vale.Math.Poly2_s.zero"
       ],
       0,
-      "3b0e773ef8c131947e03401e92ff7619"
+      "04e48006cf9b62dec82b2d16223715c5"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_nat_of_uint",
@@ -230,7 +230,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "6d8bded5dcac2e0dfa5d9c202da7bcd0"
+      "6c066df6e7d75f49462a53387e076a60"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_nat_of_uint",
@@ -252,7 +252,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "c2d16c8731fadee3d25aea97abe5b2b6"
+      "f5d52cea6d1a58a5dfdcf7d8d7f7a545"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_nat_of_uint",
@@ -321,7 +321,7 @@
         "typing_Vale.Math.Poly2_s.shift", "well-founded-ordering-on-nat"
       ],
       0,
-      "85e5c6b52e32c84bef99dc9da9bff7bc"
+      "fb086b9a93b6a068f44fcbefa4893039"
     ],
     [
       "Vale.Math.Poly2.Bits.poly_nat_eq_rec",
@@ -340,7 +340,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "403a9f2c780a916ee15fbb53b959ae36"
+      "1e0b640b0e73797a94ed8a3038f60882"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_to_nat_rec",
@@ -382,7 +382,7 @@
         "typing_Vale.Math.Poly2_s.shift", "well-founded-ordering-on-nat"
       ],
       0,
-      "50e2102b70a2392c263ff3dcdedd97fb"
+      "73c4985ada1155fe526f3987fb93e7cd"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_to_nat",
@@ -400,7 +400,7 @@
         "typing_Vale.Math.Poly2_s.poly_index"
       ],
       0,
-      "cde69af6a2d55dba5db55e4e3f876cc2"
+      "5eca01009a3ee0d2828721019dad5d3d"
     ],
     [
       "Vale.Math.Poly2.Bits.of_nat32",
@@ -437,7 +437,7 @@
         "typing_Vale.Math.Poly2_s.of_seq"
       ],
       0,
-      "b4d9cd8158020a3f035466d7fcec6cb0"
+      "424cef784fdf27f9d780e05a9d61a4bd"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_nat_of_uint32",
@@ -461,7 +461,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "1c446d15b9a9f6923e118f30d6e39ee5"
+      "6a8a426137cbb7ac34ab66374c65a787"
     ],
     [
       "Vale.Math.Poly2.Bits.of_nat32_zero",
@@ -484,7 +484,7 @@
         "typing_Vale.Math.Poly2.Bits.of_nat32"
       ],
       0,
-      "3065a6b727f3ce5efe435ee3433dd964"
+      "9428e10b8eca18f2dfa99aa7cc2c08f2"
     ],
     [
       "Vale.Math.Poly2.Bits.of_nat32_ones",
@@ -509,7 +509,7 @@
         "typing_Vale.Math.Poly2.Bits.of_nat32"
       ],
       0,
-      "c8f2407047a43763099c8c5a4113e75d"
+      "3cbb8b02fbdbf70ab012272f5b375ce2"
     ],
     [
       "Vale.Math.Poly2.Bits.of_nat32_eq",
@@ -518,7 +518,7 @@
       0,
       [ "@query" ],
       0,
-      "71b666b8943fa64ff29fc5f196c4a8ee"
+      "aa0803465f846dba83c253d7acbba66e"
     ],
     [
       "Vale.Math.Poly2.Bits.of_nat32_eq",
@@ -547,7 +547,7 @@
         "typing_FStar.UInt.fits", "typing_Prims.pow2"
       ],
       0,
-      "f3affb86d57d87d915097d49ad7b0e6f"
+      "19ffeae6fba65d60841ee584178efc33"
     ],
     [
       "Vale.Math.Poly2.Bits.of_nat32_xor",
@@ -599,7 +599,7 @@
         "typing_Vale.Math.Poly2_s.poly_index"
       ],
       0,
-      "6870c41b77fd0347d8ca691feb186b5d"
+      "8360db6dd64c5c1d38a7809ddf3a1d0b"
     ],
     [
       "Vale.Math.Poly2.Bits.of_nat32_and",
@@ -650,7 +650,7 @@
         "typing_Vale.Math.Poly2_s.poly_index"
       ],
       0,
-      "a506b36cf5b80083d9cd6ad183d5a66a"
+      "0bcbd82820147f7095768d17f0dede51"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_poly128_extract_nat32s",
@@ -690,7 +690,7 @@
         "typing_Vale.Math.Poly2_s.shift"
       ],
       0,
-      "402263f3638bd93e41d51a8fac837210"
+      "bd879b6f850dfbfb68bbfa4d6664fc1a"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_quad32_of_nat32s",
@@ -771,7 +771,7 @@
         "typing_Vale.Math.Poly2_s.to_seq"
       ],
       0,
-      "b76c630220eb025a70db9fa2e0050da8"
+      "98f29ec5038154762895c8981d02e578"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_quad32_to_nat32s",
@@ -842,7 +842,7 @@
         "typing_Vale.Math.Poly2_s.to_seq"
       ],
       0,
-      "d4c36d4223aba761621b9dd315780a95"
+      "07b397aa88b75dc47892ea986403ae40"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_quad32_extract_nat32s",
@@ -857,7 +857,7 @@
         "projection_inverse_Vale.Def.Words_s.Mkfour_lo1"
       ],
       0,
-      "5d4f2d6108c6e526ade7f6a5d1083aac"
+      "e22d14931713c5dd7696b6645c546dd8"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_quad32_double",
@@ -940,7 +940,7 @@
         "typing_Vale.Math.Poly2_s.reverse", "typing_Vale.Math.Poly2_s.to_seq"
       ],
       0,
-      "beddf7ea1ded90b17157e0a804991a6b"
+      "419e48accd1159bc36c93b806c0b2807"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_double32_degree",
@@ -982,7 +982,7 @@
         "typing_Vale.Math.Poly2_s.of_seq"
       ],
       0,
-      "ff479e4e3927c01ceb9c60a37ebb1708"
+      "fc831d99310127b0134c8509ad6ad758"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_quad32_degree",
@@ -1024,7 +1024,7 @@
         "typing_Vale.Math.Poly2_s.of_seq"
       ],
       0,
-      "df6e376d0a5b6d3aeff5013045b1143f"
+      "f78df0e5a49cef51978e148b2bd54236"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_to_of_quad32",
@@ -1112,7 +1112,7 @@
         "typing_Vale.Math.Poly2_s.reverse", "typing_Vale.Math.Poly2_s.to_seq"
       ],
       0,
-      "31116f5deb6bdc8a38b6c9427adef146"
+      "131492b1b202426b92f3c9f9ec184072"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_to_quad32",
@@ -1183,7 +1183,7 @@
         "typing_Vale.Math.Poly2_s.reverse", "typing_Vale.Math.Poly2_s.to_seq"
       ],
       0,
-      "3b20e43be4f54d3d1ff37e7ec48f4baf"
+      "df22c64e21f42e5b0f948e19f8b6c340"
     ],
     [
       "Vale.Math.Poly2.Bits.lemma_of_to_quad32_mask",
@@ -1247,7 +1247,7 @@
         "typing_Vale.Math.Poly2_s.reverse", "typing_Vale.Math.Poly2_s.to_seq"
       ],
       0,
-      "74b18b3e99d22d24e89ff7351dff5b2f"
+      "2963d6453642f9b315639fec88d0dd03"
     ]
   ]
 ]
