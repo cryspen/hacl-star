@@ -62,7 +62,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok"
       ],
       0,
-      "801fa4e8446f0166c469196d4d9e434a"
+      "d35f15b6bef7177ee05c502ca56fa6f3"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.update_multi_extra_state_eq",
@@ -75,7 +75,7 @@
         "refinement_interpretation_Tm_refine_c858038373366c5cc79bf241524e45c5"
       ],
       0,
-      "a3845f31ad1982ca2d2f259f1fde2fe5"
+      "31349892158410bb25aa6671315d0958"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.update_multi_extra_state_eq",
@@ -85,10 +85,10 @@
       [
         "@MaxIFuel_assumption", "@query",
         "equation_Spec.Hash.Definitions.max_extra_state",
-        "refinement_interpretation_Tm_refine_9de00762e7e173eb28983fc67d443a94"
+        "refinement_interpretation_Tm_refine_ea7d83554499bd4d5cda1407533d0ab9"
       ],
       0,
-      "27939f649c0ed0e76a017df4f916eed2"
+      "9d4fca250c7513471b78a689458cd3dc"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.update_multi_extra_state_eq",
@@ -96,7 +96,8 @@
       0,
       0,
       [
-        "@MaxIFuel_assumption", "@query",
+        "@MaxFuel_assumption", "@MaxIFuel_assumption",
+        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565",
         "binder_x_00599810362953d6add81f5999941695_1",
         "binder_x_6e097ef851a9e5e4d94613887cb6e84c_0",
@@ -114,10 +115,9 @@
         "equality_tok_Lib.IntTypes.U128@tok",
         "equality_tok_Lib.IntTypes.U64@tok",
         "equation_FStar.Pervasives.Native.snd", "equation_Lib.IntTypes.bits",
-        "equation_Lib.IntTypes.maxint", "equation_Lib.IntTypes.minint",
-        "equation_Lib.IntTypes.range", "equation_Lib.IntTypes.uint8",
-        "equation_Lib.IntTypes.unsigned", "equation_Prims.nat",
-        "equation_Spec.Agile.Hash.update",
+        "equation_Lib.IntTypes.minint", "equation_Lib.IntTypes.range",
+        "equation_Lib.IntTypes.uint8", "equation_Lib.IntTypes.unsigned",
+        "equation_Prims.nat", "equation_Spec.Agile.Hash.update",
         "equation_Spec.Hash.Definitions.block_length",
         "equation_Spec.Hash.Definitions.block_word_length",
         "equation_Spec.Hash.Definitions.bytes",
@@ -144,8 +144,8 @@
         "lemma_FStar.Seq.Base.lemma_index_slice",
         "lemma_FStar.Seq.Base.lemma_len_append",
         "lemma_FStar.Seq.Base.lemma_len_slice",
-        "primitive_Prims.op_Addition", "primitive_Prims.op_Equality",
-        "primitive_Prims.op_LessThanOrEqual", "primitive_Prims.op_Minus",
+        "lemma_FStar.UInt.pow2_values", "primitive_Prims.op_Addition",
+        "primitive_Prims.op_Equality", "primitive_Prims.op_LessThanOrEqual",
         "primitive_Prims.op_Modulus", "primitive_Prims.op_Multiply",
         "primitive_Prims.op_Subtraction",
         "proj_equation_FStar.Pervasives.Native.Mktuple2__2",
@@ -171,7 +171,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "d6378616bb7a45df3ba3c948f58c00b5"
+      "7a0b8c68355f96493e62dfc01fe74aa9"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.hash_incremental_block_is_update_last",
@@ -191,7 +191,7 @@
         "typing_Spec.Hash.Definitions.word_length"
       ],
       0,
-      "7ce7e9e143c0569d018952804b577667"
+      "7ee86b3d85d4839d1485b4892af7b59c"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.hash_incremental_block_is_update_last",
@@ -246,7 +246,7 @@
         "typing_Spec.Hash.Definitions.max_input_length"
       ],
       0,
-      "621462d24d8c8a1953516f9bb24c7fd1"
+      "ac328a9e4eb3eb2aeec57ad195680c40"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.block_hash_incremental",
@@ -270,7 +270,7 @@
         "typing_Spec.Hash.Definitions.word_length"
       ],
       0,
-      "9cb49d1780ecd1e4bc8e6ac6c2f6fd84"
+      "b3a2fa665b9453ad1499b481dcc9bc4c"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.block_hash_incremental",
@@ -303,7 +303,7 @@
         "typing_Spec.Hash.Incremental.hash_incremental"
       ],
       0,
-      "2ad21cc0f9f092c0e868bbbd1cde11ab"
+      "1b3e6d98023314fe05acb01307ab7bd5"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.lemma_split_blocks_assoc",
@@ -367,7 +367,7 @@
         "typing_Spec.Hash.Incremental.split_blocks"
       ],
       0,
-      "0320c0b0bd1959b09e6dd2cbe6562161"
+      "f4743aae6a5d0e2189782805b85390a0"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.lemma_split_blake_modulo",
@@ -462,7 +462,7 @@
         "typing_tok_Spec.Blake2.Blake2S@tok", "unit_typing"
       ],
       0,
-      "a30b20fbf3d0f219d00a2395992cd069"
+      "ed037a288b4b263e5e4605e047b3df06"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.compose_split_blocks",
@@ -545,7 +545,7 @@
         "typing_Spec.Hash.Definitions.word_length", "unit_typing"
       ],
       0,
-      "307bfc7639d826b357fc5212cf7ab63f"
+      "9b1e72f0be2b256ef9fc233ddef35ce8"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.concatenated_hash_incremental_blake_aux",
@@ -716,7 +716,7 @@
         "typing_tok_Spec.Hash.Definitions.Blake2S@tok", "unit_typing"
       ],
       0,
-      "0ad9291e7bb0ab73129c57289fdf5618"
+      "f16b79d4d5563f8c1aabd5817f2fdd2e"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.concatenated_hash_incremental_blake",
@@ -776,7 +776,7 @@
         "typing_Spec.Hash.Incremental.hash_incremental", "unit_typing"
       ],
       0,
-      "d55adfebae7fe245aac3a66569cb0fb2"
+      "663c2386e2abc6f2e13446a3a762161f"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.concatenated_hash_incremental_md_aux",
@@ -839,7 +839,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_512@tok"
       ],
       0,
-      "7ee73f5577ac98c1e621c40be1384f0d"
+      "4e359aa2729c8ed8f36838ad236da49c"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.concatenated_hash_incremental_md",
@@ -890,7 +890,7 @@
         "typing_Spec.Hash.PadFinish.finish"
       ],
       0,
-      "3ae3fabf44ccec81b14bff32f635f1fd"
+      "cfed906dbb74bc73c686ecbeda5ccdc8"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.concatenated_hash_incremental",
@@ -914,7 +914,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "4573d143f2553836c23125f830b74521"
+      "c76aeb7062491878e677e9a0846d9528"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.concatenated_hash_incremental",
@@ -945,7 +945,7 @@
         "typing_Spec.Hash.Definitions.max_input_length"
       ],
       0,
-      "81fb5bd9092c980974658d9f8685ccb4"
+      "d4ed56df033308dd3acf99fe97c5c818"
     ]
   ]
 ]

@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "abde8b4e89d0d325984784161a857c6c"
+      "e9bef47b9b702c1689fbfc76513db8af"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.as_normal_t",
@@ -17,7 +17,7 @@
       0,
       [ "@query" ],
       0,
-      "766bbfbd3edafdbe63b665941381e9ba"
+      "3f27fc83f7b564be72751fa182dd9572"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.dom",
@@ -36,7 +36,7 @@
         "typing_Vale.Interop.X64.max_stdcall"
       ],
       0,
-      "e17c784be4608f50c77372a5ad1ba62a"
+      "5694539330a1b590c234de5ce6ae6622"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.aesni_lemma'",
@@ -145,7 +145,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "23315ad8ceae9369b78d35cf79f5391e"
+      "de997d60ebdd55bc2e5c1be4e364a29d"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.aesni_lemma",
@@ -191,7 +191,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "e7d1b6c0a8f993e198d20dcb57c9370a"
+      "901f6dfe89eedc12a8da2f0bc4f5267d"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_aesni_t",
@@ -221,7 +221,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "2fa1d1569d061a7072512a35c42eba78"
+      "207ccd1e11ed9985c7d7b3cd60030cc2"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.sha_lemma'",
@@ -330,7 +330,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "4da8f79a1e39210727c8fb07f4a09e0a"
+      "f0691ebc92d11e14cb831a504276cfdb"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.sha_lemma",
@@ -378,7 +378,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "375c696c099e5d99fbf8d4edeae1d8c4"
+      "9b23078a8d057a0ff1951fad7fdac5c9"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_sha_t",
@@ -408,7 +408,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "cb790a7db9c3097eb53e4c4b09f3bc1a"
+      "56c8cfd41ab7ae8eb77a5ab8129082aa"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.adx_lemma'",
@@ -517,7 +517,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "dbbd06441f82bf8bb0a1107548e0b770"
+      "3a53ac3815f4e7ef7b84eb2cb7beea98"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.adx_lemma",
@@ -565,7 +565,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "11a3f6100c20e9cef299d2fb580473c3"
+      "fc28e56d37ff3aaba05422952b49213e"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_adx_t",
@@ -595,7 +595,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "6b0e024756bcc41d9779cedd072dc52e"
+      "4b12459af0b03a6aac40ee9df6fff1c6"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx_lemma'",
@@ -704,7 +704,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "32fc9c05a39498a5bbe0259d1902ebb9"
+      "240110fe62e627663fe0e3d788dd0e68"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx_lemma",
@@ -752,7 +752,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "8e5dff011668520b84672fb418db02ce"
+      "4e220de1b218e3b698acac8bfe965b10"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx_t",
@@ -782,7 +782,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "ec1f6db62dd4daf33b8fb5e1e1779aa6"
+      "213fa27f83f7f3fe3bba7478f3887240"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx2_lemma'",
@@ -891,7 +891,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "44c534f10090a99cf3b92e7614bba7d6"
+      "7f6b12e8b7a0c09fe61d562392006965"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx2_lemma",
@@ -939,7 +939,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "80892a9d386ad6064034c33990d6fb9e"
+      "cddabfdb16155c8795039a12c0f9020a"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx2_t",
@@ -969,7 +969,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "64d119f6ea57590fd6dc04b9d9792005"
+      "5e9c379e76ece5fa6527c0270a5780aa"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.movbe_lemma'",
@@ -1078,7 +1078,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "44d6a3c66a76c1cf1da8456b770930aa"
+      "b0b3acab4be7940953edda9d50ab07a5"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.movbe_lemma",
@@ -1126,7 +1126,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "5b75bb44bdea81d4efb9106b3d93bdbc"
+      "641d5a0737a2f46c5d8a81a7b9926a04"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_movbe_t",
@@ -1156,7 +1156,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "cf5b5850f3c448d66948a805fe7b486d"
+      "08d98d1d93e80a3fd13b9b714746f4bd"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.sse_lemma'",
@@ -1265,7 +1265,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "fada619fdcdbe66b7e52ee3535765f05"
+      "2177646eb33b7d980beb36360a73756d"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.sse_lemma",
@@ -1313,7 +1313,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "62bb4337a71cfcaa440dbda8bc4752a9"
+      "4d1c5646586b9b8553888ab166d5e092"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_sse_t",
@@ -1343,7 +1343,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "ca947bb45952414ff1aec850b38aa5be"
+      "cb536dc113d50b6b0f00dbd6bc3a732c"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.rdrand_lemma'",
@@ -1452,7 +1452,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "0e21fb39d70e95c4bf7c88a8421d1571"
+      "093288a97ad8fef9511a8359b64fef7a"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.rdrand_lemma",
@@ -1500,7 +1500,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "506015b184bd2cc4da9deca3843245ee"
+      "e3e070b0d9d8602580ab974c2629a82e"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_rdrand_t",
@@ -1530,7 +1530,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "04512e4a2c09d410e64be0aac14d3b8b"
+      "1b4413d48e5235201bb179b91d13a901"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx512_lemma'",
@@ -1639,7 +1639,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "17fa9829b1f2141e773023f3df20641b"
+      "7f0660779cf098242700f95930b1e3bb"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx512_lemma",
@@ -1687,7 +1687,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "be214c7803a8fd04b36861990d02ae3d"
+      "b078a8c7223ee61c80acf0e136346dac"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx512_t",
@@ -1717,7 +1717,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "723b7c9e2df6a522dc721e17407ff353"
+      "58aa2cd061b6d80d4fe6225c27da677e"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.osxsave_lemma'",
@@ -1826,7 +1826,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "a05c99f5a777fa72539fdc0076c58616"
+      "e62ace231b3c5658d13455b7dc2f64bd"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.osxsave_lemma",
@@ -1874,7 +1874,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "4e6fe69af57d9b0c0dd6fd85599f6b83"
+      "b5182b4614d9f99558111b2c081a33ac"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_osxsave_t",
@@ -1904,7 +1904,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "396a9afe954e2ba54bfddddbcb17020d"
+      "43448dc0029a948d83351be3c307e736"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx_xcr0_lemma'",
@@ -2013,7 +2013,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "756367ac0be3df103e5da77e1832d3d0"
+      "a3945509efd51c53b43238d8ad790399"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx_xcr0_lemma",
@@ -2061,7 +2061,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "329d1693d6c146eb5b0a866d1bb59d6b"
+      "b76ee1a87e98cc37afa10215d1ff6414"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx_xcr0_t",
@@ -2091,7 +2091,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "7446a35c12e19b324599ab7f60c94afd"
+      "6252ce230bc0a2faf1e9521480284510"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx512_xcr0_lemma'",
@@ -2200,7 +2200,7 @@
         "typing_Vale.X64.State.update_reg"
       ],
       0,
-      "b44cf6251a869427ea2bd624afca71e1"
+      "d911f185a437cb15fb696e9458bb9bdf"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.avx512_xcr0_lemma",
@@ -2248,7 +2248,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "14f5a04c2c8f8e7168ad4c61dc8cc22f"
+      "6ea85274757514e4f6ed73e4ad458d9c"
     ],
     [
       "Vale.Stdcalls.X64.Cpuid.lowstar_avx512_xcr0_t",
@@ -2278,7 +2278,7 @@
         "typing_Vale.Stdcalls.X64.Cpuid.dom"
       ],
       0,
-      "abb393e23a35e209370ef08772f90dca"
+      "f46007780b468d781e35cb28184e4e1d"
     ]
   ]
 ]
