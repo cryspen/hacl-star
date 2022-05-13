@@ -75,7 +75,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "7d688be3e9e4651b10f04f55eaf20fc3"
+      "3ff09ca838d7b2913fcca42646754083"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.sha512_pre_msg",
@@ -173,6 +173,7 @@
         "equation_LowStar.Monotonic.Buffer.length", "equation_Prims.eqtype",
         "equation_Prims.nat", "equation_Prims.squash",
         "equation_Spec.AES.gf8", "equation_Spec.AES.irred",
+        "equation_Spec.Ed25519.max_input_length_sha512",
         "equation_Spec.Ed25519.uu___2", "equation_Spec.GaloisField.gf",
         "equation_Spec.Hash.Definitions.state_word_length",
         "equation_Spec.Hash.Definitions.word",
@@ -292,7 +293,6 @@
         "refinement_interpretation_Tm_refine_d8d83307254a8900dd20598654272e42",
         "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
         "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
-        "refinement_interpretation_Tm_refine_f302e1c5e7902e028b3edb61ef25df5a",
         "refinement_kinding_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "token_correspondence_Hacl.Streaming.Interface.__proj__Block__item__max_input_length",
         "token_correspondence_Hacl.Streaming.Interface.__proj__Block__item__output_len",
@@ -317,7 +317,6 @@
         "typing_FStar.UInt32.v", "typing_Hacl.Hash.Definitions.hash_len",
         "typing_Hacl.Streaming.Functor.footprint",
         "typing_Hacl.Streaming.Functor.footprint_s",
-        "typing_Hacl.Streaming.MD.max_input_length64",
         "typing_Hacl.Streaming.SHA2.hacl_sha2_512",
         "typing_Lib.Buffer.as_seq", "typing_Lib.Buffer.length",
         "typing_Lib.Buffer.loc", "typing_Lib.IntTypes.bits",
@@ -340,7 +339,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_512@tok", "unit_typing"
       ],
       0,
-      "c78a29ebaab3f1002a46c6455f691b71"
+      "9039d5f776feaf28b8ecf13ce3330ecb"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.sha512_pre_pre2_msg",
@@ -419,7 +418,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "d4236d2eef22a31548472bca98a943b7"
+      "e5aba9b1b2736a59636527416e3e4b14"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.sha512_pre_pre2_msg",
@@ -776,7 +775,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "03066a5427487690e913eb44fb17160c"
+      "107d86524a201228ec9b95aa4dcf06d8"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.sha512_modq_pre",
@@ -986,7 +985,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_384@tok"
       ],
       0,
-      "16b67c8db215cdd3f4ca4b29f1b5ef10"
+      "17cca43915babe866332eaa7d81ccf9d"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.sha512_modq_pre_pre2",
@@ -1083,7 +1082,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_224@tok"
       ],
       0,
-      "29e634b7ac34dcfb84a94003f4afc529"
+      "49567dba70f7f1a358dee37e26672f38"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.sha512_modq_pre_pre2",
@@ -1293,7 +1292,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_384@tok"
       ],
       0,
-      "3041207d62f552eafe20de725c491e19"
+      "db26d13e65387540f412fae3b9cb2f57"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.store_sha512_modq_pre",
@@ -1398,7 +1397,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "f0c1d0e83b1e3e7fb0625403dc4bcb12"
+      "cbf7d283d4f11c76a0a36d9c713419e7"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.store_sha512_modq_pre",
@@ -1555,7 +1554,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_384@tok", "unit_typing"
       ],
       0,
-      "3b94dd329f1f419691c38524b771a4d2"
+      "6f0182443525221284f51ff3b514de80"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.store_sha512_modq_pre_pre2",
@@ -1652,7 +1651,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_224@tok"
       ],
       0,
-      "fb0bcf2c6c1a3f522dfc3325a739f1d1"
+      "f2fa73690c75fced184e39588af42dc0"
     ],
     [
       "Hacl.Impl.SHA512.ModQ.store_sha512_modq_pre_pre2",
@@ -1874,7 +1873,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_384@tok"
       ],
       0,
-      "278eb4bbc7c29fee102178a8ca0d2c67"
+      "28055c04194b8e83dfd692e40f0aac2d"
     ]
   ]
 ]

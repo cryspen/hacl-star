@@ -8,7 +8,7 @@
       0,
       [ "@query", "assumption_Lib.IntTypes.inttype__uu___haseq" ],
       0,
-      "ac1cdeda8c1d309b24f147dba9fabdf7"
+      "244bd6976a830ea8d235a6a65343694c"
     ],
     [
       "Hacl.IntTypes.Intrinsics.add_carry_st",
@@ -47,7 +47,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "db1ed9fff9a347f7bd5257bee40c706c"
+      "95695042364ba80c6b58dcffd63c0250"
     ],
     [
       "Hacl.IntTypes.Intrinsics.add_carry_u32",
@@ -68,7 +68,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "801a055b9f73b9386f47113d92099782"
+      "67b6bedf0d48958551529adaf0559ed4"
     ],
     [
       "Hacl.IntTypes.Intrinsics.add_carry_u32",
@@ -147,8 +147,9 @@
         "typing_FStar.UInt.fits", "typing_FStar.UInt32.uint_to_t",
         "typing_FStar.UInt32.v", "typing_Lib.Buffer.as_seq",
         "typing_Lib.Buffer.length", "typing_Lib.IntTypes.bits",
-        "typing_Lib.IntTypes.cast", "typing_Lib.IntTypes.minint",
-        "typing_Lib.IntTypes.mk_int", "typing_Lib.IntTypes.v",
+        "typing_Lib.IntTypes.cast", "typing_Lib.IntTypes.maxint",
+        "typing_Lib.IntTypes.minint", "typing_Lib.IntTypes.mk_int",
+        "typing_Lib.IntTypes.op_At_Percent_Dot", "typing_Lib.IntTypes.v",
         "typing_Lib.Sequence.index", "typing_Lib.Sequence.upd",
         "typing_LowStar.Buffer.trivial_preorder",
         "typing_LowStar.Monotonic.Buffer.len",
@@ -157,7 +158,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "9fa2193bb10fe6bbfb233011ed3a5d6f"
+      "d220a17cc7f517279a0b5a1aa8d0321a"
     ],
     [
       "Hacl.IntTypes.Intrinsics.sub_borrow_st",
@@ -166,7 +167,7 @@
       0,
       [ "@query", "assumption_Lib.IntTypes.inttype__uu___haseq" ],
       0,
-      "6dd64ee025bed9df51c30b3a2bb83a05"
+      "708f55fc9a8f22ac73ef4a7af7366c6c"
     ],
     [
       "Hacl.IntTypes.Intrinsics.sub_borrow_st",
@@ -205,7 +206,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "60590879bf9c3fa3086d7db65f2b6f7d"
+      "a1bdf4898a4c3eee504d9a3e48c2f6da"
     ],
     [
       "Hacl.IntTypes.Intrinsics.sub_borrow_u32",
@@ -226,7 +227,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "ca0e47544b00f20efa1e6e24c3ca4158"
+      "01797959886fb06fb25860fb802b3baf"
     ],
     [
       "Hacl.IntTypes.Intrinsics.sub_borrow_u32",
@@ -328,7 +329,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "a242488c216f79d5f06f731bf12b6dba"
+      "7cc74c131f6c60cb1eabe92cb1c7eed4"
     ],
     [
       "Hacl.IntTypes.Intrinsics.add_carry_fallback",
@@ -337,7 +338,7 @@
       0,
       [ "@query", "assumption_Lib.IntTypes.inttype__uu___haseq" ],
       0,
-      "665d9e607c2735278d8cf9a805d3730c"
+      "498304e678937d60b44f6515066849da"
     ],
     [
       "Hacl.IntTypes.Intrinsics.add_carry_fallback",
@@ -366,7 +367,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "d9ab7b11da680501ac2e5bb773e144d0"
+      "812754c640aecb40d9a559908a291cae"
     ],
     [
       "Hacl.IntTypes.Intrinsics.add_carry_fallback",
@@ -463,7 +464,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "e479f0840b2e7143b310fec6b9daed49"
+      "c9611d92c21b32d5119ce6f19a71d16d"
     ],
     [
       "Hacl.IntTypes.Intrinsics.add_carry_u64",
@@ -487,7 +488,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "5c80e7c3e6854c4d3700479ce07b7483"
+      "2c72a093a5d3546fdad8258752a1d8d7"
     ],
     [
       "Hacl.IntTypes.Intrinsics.sub_borrow_fallback",
@@ -496,7 +497,7 @@
       0,
       [ "@query", "assumption_Lib.IntTypes.inttype__uu___haseq" ],
       0,
-      "6b7ca4e728baf1b7e76ef7fe4aaaf18b"
+      "0cd328ba16da79bb8a22bdf1ef7e2450"
     ],
     [
       "Hacl.IntTypes.Intrinsics.sub_borrow_fallback",
@@ -525,7 +526,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "afdbfecd6faa53285c188d9ca55434da"
+      "8636d59c701fd7ef3f9bb911ea720d85"
     ],
     [
       "Hacl.IntTypes.Intrinsics.sub_borrow_fallback",
@@ -622,7 +623,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "1fe16d0ec3f9674f8c39cb02b198e70f"
+      "b0e30fb76be6a09d621906e6ab293ab2"
     ],
     [
       "Hacl.IntTypes.Intrinsics.sub_borrow_u64",
@@ -646,7 +647,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "22a0810c86785db176f0b09274998a93"
+      "209689b0eeff09cb728160a4c47d14ac"
     ]
   ]
 ]

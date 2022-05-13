@@ -37,7 +37,8 @@ extern "C" {
 
 #include "Hacl_Spec.h"
 #include "Hacl_Krmllib.h"
-#include "Hacl_Hash_Blake2.h"
+#include "Hacl_Blake2s_32.h"
+#include "Hacl_Blake2b_32.h"
 #include "evercrypt_targetconfig.h"
 #include "libintvector.h"
 uint32_t

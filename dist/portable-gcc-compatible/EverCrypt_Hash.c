@@ -28,7 +28,7 @@
 #include "internal/Hacl_Hash_SHA2.h"
 #include "internal/Hacl_Hash_SHA1.h"
 #include "internal/Hacl_Hash_MD5.h"
-#include "internal/Hacl_Hash_Blake2.h"
+#include "internal/Hacl_Hash_Base.h"
 
 /* SNIPPET_START: EverCrypt_Hash_string_of_alg */
 

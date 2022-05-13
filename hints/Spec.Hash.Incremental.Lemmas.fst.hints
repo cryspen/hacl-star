@@ -88,7 +88,7 @@
         "refinement_interpretation_Tm_refine_ea7d83554499bd4d5cda1407533d0ab9"
       ],
       0,
-      "9d4fca250c7513471b78a689458cd3dc"
+      "fdeb6d20685fc4c17f5809dc8c0cf2e6"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.update_multi_extra_state_eq",
@@ -96,8 +96,7 @@
       0,
       0,
       [
-        "@MaxFuel_assumption", "@MaxIFuel_assumption",
-        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
+        "@MaxIFuel_assumption", "@query",
         "Prims_pretyping_ae567c2fb75be05905677af440075565",
         "binder_x_00599810362953d6add81f5999941695_1",
         "binder_x_6e097ef851a9e5e4d94613887cb6e84c_0",
@@ -115,9 +114,10 @@
         "equality_tok_Lib.IntTypes.U128@tok",
         "equality_tok_Lib.IntTypes.U64@tok",
         "equation_FStar.Pervasives.Native.snd", "equation_Lib.IntTypes.bits",
-        "equation_Lib.IntTypes.minint", "equation_Lib.IntTypes.range",
-        "equation_Lib.IntTypes.uint8", "equation_Lib.IntTypes.unsigned",
-        "equation_Prims.nat", "equation_Spec.Agile.Hash.update",
+        "equation_Lib.IntTypes.maxint", "equation_Lib.IntTypes.minint",
+        "equation_Lib.IntTypes.range", "equation_Lib.IntTypes.uint8",
+        "equation_Lib.IntTypes.unsigned", "equation_Prims.nat",
+        "equation_Spec.Agile.Hash.update",
         "equation_Spec.Hash.Definitions.block_length",
         "equation_Spec.Hash.Definitions.block_word_length",
         "equation_Spec.Hash.Definitions.bytes",
@@ -144,8 +144,8 @@
         "lemma_FStar.Seq.Base.lemma_index_slice",
         "lemma_FStar.Seq.Base.lemma_len_append",
         "lemma_FStar.Seq.Base.lemma_len_slice",
-        "lemma_FStar.UInt.pow2_values", "primitive_Prims.op_Addition",
-        "primitive_Prims.op_Equality", "primitive_Prims.op_LessThanOrEqual",
+        "primitive_Prims.op_Addition", "primitive_Prims.op_Equality",
+        "primitive_Prims.op_LessThanOrEqual", "primitive_Prims.op_Minus",
         "primitive_Prims.op_Modulus", "primitive_Prims.op_Multiply",
         "primitive_Prims.op_Subtraction",
         "proj_equation_FStar.Pervasives.Native.Mktuple2__2",
@@ -171,7 +171,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "7a0b8c68355f96493e62dfc01fe74aa9"
+      "fe436401cbe5ac977054a9188777b1c5"
     ],
     [
       "Spec.Hash.Incremental.Lemmas.hash_incremental_block_is_update_last",

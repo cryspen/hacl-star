@@ -37,7 +37,7 @@ extern "C" {
 
 #include "internal/Hacl_Hash_SHA2.h"
 #include "internal/Hacl_Hash_SHA1.h"
-#include "internal/Hacl_Hash_Blake2.h"
+#include "internal/Hacl_Hash_Base.h"
 #include "../Hacl_HMAC.h"
 #include "evercrypt_targetconfig.h"
 #include "libintvector.h"

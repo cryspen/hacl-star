@@ -24,7 +24,7 @@
 
 #include "Hacl_HMAC_Blake2b_256.h"
 
-#include "internal/Hacl_Hash_Blake2b_256.h"
+#include "internal/Hacl_Hash_Base.h"
 
 typedef struct ___Lib_IntVector_Intrinsics_vec256__FStar_UInt128_uint128_s
 {

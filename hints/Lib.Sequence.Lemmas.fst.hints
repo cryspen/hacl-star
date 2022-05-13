@@ -136,7 +136,7 @@
         "refinement_interpretation_Tm_refine_fd19feb5f9ea77c43306cb5b7a87bc36"
       ],
       0,
-      "d51377993907d37a687c546044332727"
+      "a186aa8913b39a53507e64a41d2d3616"
     ],
     [
       "Lib.Sequence.Lemmas.repeat_right_extensionality",
@@ -209,7 +209,7 @@
         "refinement_interpretation_Tm_refine_e7fccb01210c2efde8affa46b16abcf2"
       ],
       0,
-      "a8d7f96eec86b3ec48c36d66a077dc9d"
+      "efe8db45883865fee436d76628723b58"
     ],
     [
       "Lib.Sequence.Lemmas.repeat_gen_right_extensionality",
@@ -579,7 +579,8 @@
       0,
       0,
       [
-        "@MaxIFuel_assumption", "@query",
+        "@MaxIFuel_assumption",
+        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
         "constructor_distinct_Lib.IntTypes.U32",
         "equality_tok_Lib.IntTypes.U32@tok",
         "equation_Lib.IntTypes.unsigned",
@@ -604,10 +605,10 @@
         "refinement_interpretation_Tm_refine_d8d83307254a8900dd20598654272e42",
         "refinement_interpretation_Tm_refine_e7fccb01210c2efde8affa46b16abcf2",
         "refinement_interpretation_Tm_refine_f4f040c0afc8e02646bd007fb369c803",
-        "typing_FStar.Seq.Base.length", "typing_FStar.Seq.Base.slice"
+        "typing_FStar.Seq.Base.slice"
       ],
       0,
-      "c70995e1ea34379bf650a8f567338894"
+      "f353d48548f770e9d6f0e583b0d727ad"
     ],
     [
       "Lib.Sequence.Lemmas.repeat_gen_blocks_extensionality_zero",
@@ -2264,7 +2265,7 @@
         "typing_FStar.Seq.Base.empty", "typing_Lib.Sequence.length"
       ],
       0,
-      "ad6f44cb217e2b23a84bc0e824ab6cc3"
+      "f8ca3d70371597d23377e67d4c9fd157"
     ],
     [
       "Lib.Sequence.Lemmas.map_blocks_multi_acc_is_map_blocks_multi_",
