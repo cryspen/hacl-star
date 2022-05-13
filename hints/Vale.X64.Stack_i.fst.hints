@@ -66,7 +66,7 @@
         "typing_Vale.X64.Stack_i.valid_src_stack64"
       ],
       0,
-      "7b687a8a0cb193f7521439362893c33e"
+      "54a30bb117724ef2eaecd9b2237381a0"
     ],
     [
       "Vale.X64.Stack_i.lemma_free_stack_same_valid64",
@@ -100,7 +100,7 @@
         "typing_Vale.X64.Stack_i.valid_src_stack64"
       ],
       0,
-      "89bdc543a16c71e8cd69e03a5b40392f"
+      "5a9953e4585fd813cdac1d15d9b3df26"
     ],
     [
       "Vale.X64.Stack_i.lemma_store_new_valid64",
@@ -165,7 +165,7 @@
         "typing_Vale.Def.Words_s.__proj__Mkfour__item__lo1"
       ],
       0,
-      "3848e0b5f1f8448b1ec2adc6ba32ffc3"
+      "32d3f2c5ac70510f86cabc7821efc1a0"
     ],
     [
       "Vale.X64.Stack_i.lemma_correct_store_load_stack64",
@@ -180,7 +180,7 @@
         "projection_inverse_Vale.X64.Machine_Semantics_s.Machine_stack_stack_mem"
       ],
       0,
-      "41d07cf574455c64e50d6918922b925b"
+      "ea2dc19f3ca060867174141a4ceb1cb4"
     ],
     [
       "Vale.X64.Stack_i.lemma_frame_store_load_stack64",
@@ -199,7 +199,7 @@
         "token_correspondence_Vale.Arch.MachineHeap_s.get_heap_val64_def"
       ],
       0,
-      "cacf817d0bcc5411e631d85520e14b33"
+      "e18b6eec5510789bd25e8bf715830a51"
     ],
     [
       "Vale.X64.Stack_i.lemma_free_stack_same_load64",
@@ -237,7 +237,7 @@
         "typing_Vale.X64.Stack_i.valid_src_stack64"
       ],
       0,
-      "5cae0390291b91d8eaecc5036c91cc53"
+      "df73d320268eba0e2b5f12055a2a71cb"
     ],
     [
       "Vale.X64.Stack_i.lemma_compose_free_stack64",
@@ -268,7 +268,7 @@
         "typing_FStar.Map.restrict", "typing_Vale.Lib.Set.remove_between"
       ],
       0,
-      "cdd864541cd145ab54eea815e7964791"
+      "80e81626c7a253e0597be0a6b8c8f838"
     ],
     [
       "Vale.X64.Stack_i.lemma_same_init_rsp_free_stack64",
@@ -277,7 +277,7 @@
       0,
       [ "@query" ],
       0,
-      "afdf93bb2455e69ec0c3ca8af5d5f61d"
+      "f64e5cd5b0789fad2cd19ad39168ba47"
     ],
     [
       "Vale.X64.Stack_i.lemma_same_init_rsp_free_stack64",
@@ -296,7 +296,7 @@
         "projection_inverse_Vale.X64.Machine_Semantics_s.Machine_stack_initial_rsp"
       ],
       0,
-      "f00f5bf43218a7211ae9f2332a1c71f2"
+      "5c7904115f6ecd44631fc880926360a1"
     ],
     [
       "Vale.X64.Stack_i.lemma_same_init_rsp_store_stack64",
@@ -305,7 +305,7 @@
       0,
       [ "@query" ],
       0,
-      "5fb55bd7003052ba46bd7e1468551633"
+      "58a00a7882a483512904e0103f5b9e6b"
     ],
     [
       "Vale.X64.Stack_i.lemma_same_init_rsp_store_stack64",
@@ -322,7 +322,7 @@
         "projection_inverse_Vale.X64.Machine_Semantics_s.Machine_stack_initial_rsp"
       ],
       0,
-      "aaf7e254c42aedbe7f0fa82b5b38dab1"
+      "99f63ac5b5beb6ea0c823bbaff590968"
     ],
     [
       "Vale.X64.Stack_i.lemma_valid_taint_stack64",
@@ -336,7 +336,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "6fc8ac432e81388a7cd9ab75c804afca"
+      "9333367ce138295d227d4e1b4f04abc2"
     ],
     [
       "Vale.X64.Stack_i.lemma_valid_taint_stack128",
@@ -355,7 +355,7 @@
         "typing_tok_Vale.X64.Machine_s.Public@tok"
       ],
       0,
-      "98644f51fc8f07e0b023cd6ec9573af9"
+      "20893d93a8855a951cf4f44b5acfdead"
     ],
     [
       "Vale.X64.Stack_i.lemma_valid_taint_stack64_reveal",
@@ -373,7 +373,7 @@
         "typing_tok_Vale.X64.Machine_s.Public@tok"
       ],
       0,
-      "d0aa0c78c795a0910000e074248272e7"
+      "185005696509b5104d58d374aca681f1"
     ],
     [
       "Vale.X64.Stack_i.lemma_correct_store_load_taint_stack64",
@@ -396,7 +396,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "9e160020ea7f90de8beff6daafb56554"
+      "3e403d1cffdfde1aec33db46d8dc0e5b"
     ],
     [
       "Vale.X64.Stack_i.lemma_frame_store_load_taint_stack64",
@@ -414,7 +414,7 @@
         "typing_Vale.X64.Machine_Semantics_s.update_n"
       ],
       0,
-      "494eef231de3599fee5b3869050f6709"
+      "61ca126a91f889f582b39329380b7d8a"
     ]
   ]
 ]

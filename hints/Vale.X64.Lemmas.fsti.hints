@@ -22,7 +22,7 @@
         "subterm_ordering_Vale.X64.Machine_s.While"
       ],
       0,
-      "ead863a46702535c22c1718d2b7575be"
+      "a6a10cced534a39c6128f46f7ee9f703"
     ],
     [
       "Vale.X64.Lemmas.code_modifies_ghost",
@@ -39,7 +39,7 @@
         "fuel_guarded_inversion_Prims.list", "subterm_ordering_Prims.Cons"
       ],
       0,
-      "35268e82109a9f252b07f669104f6e2a"
+      "da33951517597145d72c922364e4da75"
     ],
     [
       "Vale.X64.Lemmas.eval_ins",
@@ -89,7 +89,7 @@
         "typing_Vale.X64.StateLemmas.state_to_S"
       ],
       0,
-      "39776e965d244cffc16826bd588df06e"
+      "04e00d75205f0352c980fa00fecf7ad7"
     ],
     [
       "Vale.X64.Lemmas.lemma_cmp_eq",
@@ -108,7 +108,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "0916ecf1b36a98b87980cf2a82d24b35"
+      "950f91bd3890e04064e919cdf5aa30d4"
     ],
     [
       "Vale.X64.Lemmas.lemma_cmp_ne",
@@ -127,7 +127,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "ebcdc7efa3beaf56712a3fa780051d37"
+      "d159b527ffb77ce4a1b478255672a34f"
     ],
     [
       "Vale.X64.Lemmas.lemma_cmp_le",
@@ -146,7 +146,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "a9d107b3c890cd79c8ac05ee96ad7d36"
+      "b01e103ed69f002c2fc96c405792c5cd"
     ],
     [
       "Vale.X64.Lemmas.lemma_cmp_ge",
@@ -165,7 +165,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "b2e4813f867c1469d7302c66ba850831"
+      "a00011f09ce01ab271a84245e23e2824"
     ],
     [
       "Vale.X64.Lemmas.lemma_cmp_lt",
@@ -184,7 +184,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "e560b978cfe87da020d432cb08c30707"
+      "c320f8e1a24efda1f51d3f2a2f0fbae7"
     ],
     [
       "Vale.X64.Lemmas.lemma_cmp_gt",
@@ -203,7 +203,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "b19940ff93f28a96212b54f1302f7803"
+      "0a978b511a72059b170dc9daf9f8f228"
     ],
     [
       "Vale.X64.Lemmas.lemma_valid_cmp_eq",
@@ -222,7 +222,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "4697c65c61494bec3956c0f23bf94149"
+      "c6eea843aefaa2aa7cfbead6d05749d4"
     ],
     [
       "Vale.X64.Lemmas.lemma_valid_cmp_ne",
@@ -241,7 +241,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "97aed45d161bfea5d3e172477015a4ca"
+      "7634b39a5590a131e1a041eee289b613"
     ],
     [
       "Vale.X64.Lemmas.lemma_valid_cmp_le",
@@ -260,7 +260,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "bb9a7c931440ae597f6588e73b75c1c9"
+      "cd8aa43b498d9addc731f341e0fde5d4"
     ],
     [
       "Vale.X64.Lemmas.lemma_valid_cmp_ge",
@@ -279,7 +279,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "cb5206c0039f61975f109f74d4efb9e3"
+      "824379cc3373ec554ee6f6f0eba84a4c"
     ],
     [
       "Vale.X64.Lemmas.lemma_valid_cmp_lt",
@@ -298,7 +298,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "bedfe92ce6e2e893627654248101c021"
+      "b448c49597788246f13a62d8830d627e"
     ],
     [
       "Vale.X64.Lemmas.lemma_valid_cmp_gt",
@@ -317,7 +317,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "373b9fbcea18e3e2ffe5c43d21139169"
+      "7e2d7dd54bfe52a62d7325a637abf9c7"
     ],
     [
       "Vale.X64.Lemmas.lemma_merge_total",
@@ -326,7 +326,7 @@
       0,
       [ "@query" ],
       0,
-      "3cc1022be78c50e686cf5a52b4e1eeb2"
+      "703cc1b44c62291f6f7846b8ae750ee4"
     ],
     [
       "Vale.X64.Lemmas.lemma_whileMerge_total",
@@ -335,7 +335,7 @@
       0,
       [ "@query" ],
       0,
-      "9510bf8ca959de03f2d960e2a6a25ddb"
+      "64bdd65cdeec231a68ee69c27dad51b6"
     ]
   ]
 ]
