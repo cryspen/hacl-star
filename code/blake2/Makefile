@@ -33,10 +33,10 @@ dist/Makefile.basic: $(filter-out %/prims.krml,$(ALL_KRML_FILES))
 	  -add-include '"libintvector.h"'
 
 dist/blake2-test.exe: dist/Makefile.basic blake2-test.c
-	$(CC) -O3 -march=native -mtune=native -DVEC128 -DVEC256 -I ../../dist/gcc64-only -I dist -I ../../lib/c -I ../../../karamel/include -I ../../../karamel/krmllib/c -I ../../../karamel/krmllib/dist/minimal -I ../../tests ../../dist/gcc64-only/Lib_Memzero0.c dist/Hacl_Blake2b_32.c  dist/Hacl_Blake2s_32.c dist/Hacl_Blake2s_128.c dist/Hacl_Blake2b_256.c blake2-test.c -o dist/blake2-test.exe
+	$(CC) -O3 -march=native -mtune=native -DVEC128 -DVEC256 -I ../../dist/gcc64-only -I dist -I ../../lib/c -I ../../dist/karamel/include -I ../../dist/karamel/krmllib/c -I ../../sist/karamel/krmllib/dist/minimal -I ../../tests ../../dist/gcc64-only/Lib_Memzero0.c dist/Hacl_Blake2b_32.c  dist/Hacl_Blake2s_32.c dist/Hacl_Blake2s_128.c dist/Hacl_Blake2b_256.c blake2-test.c -o dist/blake2-test.exe
 
 dist/blake2-test32.exe: dist/Makefile.basic blake2-test.c
-	$(CC) -O3 -march=native -mtune=native -UVEC128 -UVEC256 -I ../../dist/gcc64-only -I dist -I ../../lib/c -I ../../../karamel/include -I ../../../karamel/krmllib/c -I ../../../karamel/krmllib/dist/minimal -I ../../tests ../../dist/gcc64-only/Lib_Memzero0.c dist/Hacl_Blake2b_32.c  dist/Hacl_Blake2s_32.c blake2-test.c -o dist/blake2-test32.exe
+	$(CC) -O3 -march=native -mtune=native -UVEC128 -UVEC256 -I ../../dist/gcc64-only -I dist -I ../../lib/c -I ../../dist/karamel/include -I ../../dist/karamel/krmllib/c -I ../../dist/karamel/krmllib/dist/minimal -I ../../tests ../../dist/gcc64-only/Lib_Memzero0.c dist/Hacl_Blake2b_32.c  dist/Hacl_Blake2s_32.c blake2-test.c -o dist/blake2-test32.exe
 
 clean-c:
 	$(MAKE) -C dist/ -f Makefile.basic clean
