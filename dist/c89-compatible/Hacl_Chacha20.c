@@ -143,26 +143,89 @@ Hacl_Impl_Chacha20_chacha20_init(uint32_t *ctx, uint8_t *k, uint8_t *n, uint32_t
   uint32_t *uu____2;
   uint32_t i;
   {
-    uint32_t i0;
-    for (i0 = (uint32_t)0U; i0 < (uint32_t)4U; i0++)
-    {
-      uint32_t *os = uu____0;
-      uint32_t x = chacha20_constants[i0];
-      os[i0] = x;
-    }
+    uint32_t *os = uu____0;
+    uint32_t x = chacha20_constants[0U];
+    os[0U] = x;
+  }
+  {
+    uint32_t *os = uu____0;
+    uint32_t x = chacha20_constants[1U];
+    os[1U] = x;
+  }
+  {
+    uint32_t *os = uu____0;
+    uint32_t x = chacha20_constants[2U];
+    os[2U] = x;
+  }
+  {
+    uint32_t *os = uu____0;
+    uint32_t x = chacha20_constants[3U];
+    os[3U] = x;
   }
   uu____1 = ctx + (uint32_t)4U;
   {
-    uint32_t i0;
-    for (i0 = (uint32_t)0U; i0 < (uint32_t)8U; i0++)
-    {
-      uint32_t *os = uu____1;
-      uint8_t *bj = k + i0 * (uint32_t)4U;
-      uint32_t u = load32_le(bj);
-      uint32_t r = u;
-      uint32_t x = r;
-      os[i0] = x;
-    }
+    uint32_t *os = uu____1;
+    uint8_t *bj = k + (uint32_t)0U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[0U] = x;
+  }
+  {
+    uint32_t *os = uu____1;
+    uint8_t *bj = k + (uint32_t)1U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[1U] = x;
+  }
+  {
+    uint32_t *os = uu____1;
+    uint8_t *bj = k + (uint32_t)2U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[2U] = x;
+  }
+  {
+    uint32_t *os = uu____1;
+    uint8_t *bj = k + (uint32_t)3U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[3U] = x;
+  }
+  {
+    uint32_t *os = uu____1;
+    uint8_t *bj = k + (uint32_t)4U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[4U] = x;
+  }
+  {
+    uint32_t *os = uu____1;
+    uint8_t *bj = k + (uint32_t)5U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[5U] = x;
+  }
+  {
+    uint32_t *os = uu____1;
+    uint8_t *bj = k + (uint32_t)6U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[6U] = x;
+  }
+  {
+    uint32_t *os = uu____1;
+    uint8_t *bj = k + (uint32_t)7U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[7U] = x;
   }
   ctx[12U] = ctr;
   uu____2 = ctx + (uint32_t)13U;

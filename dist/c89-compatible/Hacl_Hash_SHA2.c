@@ -221,13 +221,44 @@ static void update_224(uint32_t *hash, uint8_t *block)
     }
   }
   {
-    uint32_t i;
-    for (i = (uint32_t)0U; i < (uint32_t)8U; i++)
-    {
-      uint32_t xi = hash[i];
-      uint32_t yi = hash1[i];
-      hash[i] = xi + yi;
-    }
+    uint32_t xi = hash[0U];
+    uint32_t yi = hash1[0U];
+    hash[0U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[1U];
+    uint32_t yi = hash1[1U];
+    hash[1U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[2U];
+    uint32_t yi = hash1[2U];
+    hash[2U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[3U];
+    uint32_t yi = hash1[3U];
+    hash[3U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[4U];
+    uint32_t yi = hash1[4U];
+    hash[4U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[5U];
+    uint32_t yi = hash1[5U];
+    hash[5U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[6U];
+    uint32_t yi = hash1[6U];
+    hash[6U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[7U];
+    uint32_t yi = hash1[7U];
+    hash[7U] = xi + yi;
   }
 }
 
@@ -307,13 +338,44 @@ static void update_256(uint32_t *hash, uint8_t *block)
     }
   }
   {
-    uint32_t i;
-    for (i = (uint32_t)0U; i < (uint32_t)8U; i++)
-    {
-      uint32_t xi = hash[i];
-      uint32_t yi = hash1[i];
-      hash[i] = xi + yi;
-    }
+    uint32_t xi = hash[0U];
+    uint32_t yi = hash1[0U];
+    hash[0U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[1U];
+    uint32_t yi = hash1[1U];
+    hash[1U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[2U];
+    uint32_t yi = hash1[2U];
+    hash[2U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[3U];
+    uint32_t yi = hash1[3U];
+    hash[3U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[4U];
+    uint32_t yi = hash1[4U];
+    hash[4U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[5U];
+    uint32_t yi = hash1[5U];
+    hash[5U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[6U];
+    uint32_t yi = hash1[6U];
+    hash[6U] = xi + yi;
+  }
+  {
+    uint32_t xi = hash[7U];
+    uint32_t yi = hash1[7U];
+    hash[7U] = xi + yi;
   }
 }
 
@@ -393,13 +455,44 @@ void Hacl_Hash_Core_SHA2_update_384(uint64_t *hash, uint8_t *block)
     }
   }
   {
-    uint32_t i;
-    for (i = (uint32_t)0U; i < (uint32_t)8U; i++)
-    {
-      uint64_t xi = hash[i];
-      uint64_t yi = hash1[i];
-      hash[i] = xi + yi;
-    }
+    uint64_t xi = hash[0U];
+    uint64_t yi = hash1[0U];
+    hash[0U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[1U];
+    uint64_t yi = hash1[1U];
+    hash[1U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[2U];
+    uint64_t yi = hash1[2U];
+    hash[2U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[3U];
+    uint64_t yi = hash1[3U];
+    hash[3U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[4U];
+    uint64_t yi = hash1[4U];
+    hash[4U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[5U];
+    uint64_t yi = hash1[5U];
+    hash[5U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[6U];
+    uint64_t yi = hash1[6U];
+    hash[6U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[7U];
+    uint64_t yi = hash1[7U];
+    hash[7U] = xi + yi;
   }
 }
 
@@ -479,13 +572,44 @@ void Hacl_Hash_Core_SHA2_update_512(uint64_t *hash, uint8_t *block)
     }
   }
   {
-    uint32_t i;
-    for (i = (uint32_t)0U; i < (uint32_t)8U; i++)
-    {
-      uint64_t xi = hash[i];
-      uint64_t yi = hash1[i];
-      hash[i] = xi + yi;
-    }
+    uint64_t xi = hash[0U];
+    uint64_t yi = hash1[0U];
+    hash[0U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[1U];
+    uint64_t yi = hash1[1U];
+    hash[1U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[2U];
+    uint64_t yi = hash1[2U];
+    hash[2U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[3U];
+    uint64_t yi = hash1[3U];
+    hash[3U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[4U];
+    uint64_t yi = hash1[4U];
+    hash[4U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[5U];
+    uint64_t yi = hash1[5U];
+    hash[5U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[6U];
+    uint64_t yi = hash1[6U];
+    hash[6U] = xi + yi;
+  }
+  {
+    uint64_t xi = hash[7U];
+    uint64_t yi = hash1[7U];
+    hash[7U] = xi + yi;
   }
 }
 

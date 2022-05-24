@@ -142,26 +142,89 @@ static inline void chacha20_init(u32 *ctx, u8 *k, u8 *n, u32 ctr)
   u32 *uu____2;
   u32 i;
   {
-    u32 i0;
-    for (i0 = (u32)0U; i0 < (u32)4U; i0++)
-    {
-      u32 *os = uu____0;
-      u32 x = chacha20_constants[i0];
-      os[i0] = x;
-    }
+    u32 *os = uu____0;
+    u32 x = chacha20_constants[0U];
+    os[0U] = x;
+  }
+  {
+    u32 *os = uu____0;
+    u32 x = chacha20_constants[1U];
+    os[1U] = x;
+  }
+  {
+    u32 *os = uu____0;
+    u32 x = chacha20_constants[2U];
+    os[2U] = x;
+  }
+  {
+    u32 *os = uu____0;
+    u32 x = chacha20_constants[3U];
+    os[3U] = x;
   }
   uu____1 = ctx + (u32)4U;
   {
-    u32 i0;
-    for (i0 = (u32)0U; i0 < (u32)8U; i0++)
-    {
-      u32 *os = uu____1;
-      u8 *bj = k + i0 * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i0] = x;
-    }
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)2U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[2U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)3U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[3U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)4U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[4U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)5U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[5U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)6U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[6U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)7U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[7U] = x;
   }
   ctx[12U] = ctr;
   uu____2 = ctx + (u32)13U;

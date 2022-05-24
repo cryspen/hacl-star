@@ -363,7 +363,15 @@ Hacl_GenericField64_exp_consttime(
     }
     for (uint32_t i0 = (uint32_t)0U; i0 < bBits / (uint32_t)4U; i0++)
     {
-      for (uint32_t i = (uint32_t)0U; i < (uint32_t)4U; i++)
+      {
+        Hacl_Bignum_Montgomery_bn_mont_sqr_u64(len1, k1.n, k1.mu, resM, resM);
+      }
+      {
+        Hacl_Bignum_Montgomery_bn_mont_sqr_u64(len1, k1.n, k1.mu, resM, resM);
+      }
+      {
+        Hacl_Bignum_Montgomery_bn_mont_sqr_u64(len1, k1.n, k1.mu, resM, resM);
+      }
       {
         Hacl_Bignum_Montgomery_bn_mont_sqr_u64(len1, k1.n, k1.mu, resM, resM);
       }
@@ -497,7 +505,15 @@ Hacl_GenericField64_exp_vartime(
     }
     for (uint32_t i = (uint32_t)0U; i < bBits / (uint32_t)4U; i++)
     {
-      for (uint32_t i0 = (uint32_t)0U; i0 < (uint32_t)4U; i0++)
+      {
+        Hacl_Bignum_Montgomery_bn_mont_sqr_u64(len1, k1.n, k1.mu, resM, resM);
+      }
+      {
+        Hacl_Bignum_Montgomery_bn_mont_sqr_u64(len1, k1.n, k1.mu, resM, resM);
+      }
+      {
+        Hacl_Bignum_Montgomery_bn_mont_sqr_u64(len1, k1.n, k1.mu, resM, resM);
+      }
       {
         Hacl_Bignum_Montgomery_bn_mont_sqr_u64(len1, k1.n, k1.mu, resM, resM);
       }

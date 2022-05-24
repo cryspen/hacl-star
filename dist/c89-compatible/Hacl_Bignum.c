@@ -2671,11 +2671,16 @@ Hacl_Bignum_Exponentiation_bn_mod_exp_vartime_precomp_u32(
                     for (i = (uint32_t)0U; i < bBits / (uint32_t)4U; i++)
                     {
                       {
-                        uint32_t i0;
-                        for (i0 = (uint32_t)0U; i0 < (uint32_t)4U; i0++)
-                        {
-                          bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
-                        }
+                        bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
                       }
                       {
                         uint32_t bk = bBits - bBits % (uint32_t)4U;
@@ -2909,11 +2914,16 @@ Hacl_Bignum_Exponentiation_bn_mod_exp_consttime_precomp_u32(
                     for (i0 = (uint32_t)0U; i0 < bBits / (uint32_t)4U; i0++)
                     {
                       {
-                        uint32_t i;
-                        for (i = (uint32_t)0U; i < (uint32_t)4U; i++)
-                        {
-                          bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
-                        }
+                        bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u32(len, n, mu, resM, resM);
                       }
                       {
                         uint32_t bk = bBits - bBits % (uint32_t)4U;
@@ -3277,11 +3287,16 @@ Hacl_Bignum_Exponentiation_bn_mod_exp_vartime_precomp_u64(
                     for (i = (uint32_t)0U; i < bBits / (uint32_t)4U; i++)
                     {
                       {
-                        uint32_t i0;
-                        for (i0 = (uint32_t)0U; i0 < (uint32_t)4U; i0++)
-                        {
-                          bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
-                        }
+                        bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
                       }
                       {
                         uint32_t bk = bBits - bBits % (uint32_t)4U;
@@ -3515,11 +3530,16 @@ Hacl_Bignum_Exponentiation_bn_mod_exp_consttime_precomp_u64(
                     for (i0 = (uint32_t)0U; i0 < bBits / (uint32_t)4U; i0++)
                     {
                       {
-                        uint32_t i;
-                        for (i = (uint32_t)0U; i < (uint32_t)4U; i++)
-                        {
-                          bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
-                        }
+                        bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
+                      }
+                      {
+                        bn_almost_mont_sqr_u64(len, n, mu, resM, resM);
                       }
                       {
                         uint32_t bk = bBits - bBits % (uint32_t)4U;

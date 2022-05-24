@@ -203,40 +203,115 @@ chacha20_init_256(Lib_IntVector_Intrinsics_vec256 *ctx, u8 *k, u8 *n, u32 ctr)
   Lib_IntVector_Intrinsics_vec256 ctr1;
   Lib_IntVector_Intrinsics_vec256 c12;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)4U; i++)
-    {
-      u32 *os = uu____0;
-      u32 x = Hacl_Impl_Chacha20_Vec_chacha20_constants[i];
-      os[i] = x;
-    }
+    u32 *os = uu____0;
+    u32 x = Hacl_Impl_Chacha20_Vec_chacha20_constants[0U];
+    os[0U] = x;
+  }
+  {
+    u32 *os = uu____0;
+    u32 x = Hacl_Impl_Chacha20_Vec_chacha20_constants[1U];
+    os[1U] = x;
+  }
+  {
+    u32 *os = uu____0;
+    u32 x = Hacl_Impl_Chacha20_Vec_chacha20_constants[2U];
+    os[2U] = x;
+  }
+  {
+    u32 *os = uu____0;
+    u32 x = Hacl_Impl_Chacha20_Vec_chacha20_constants[3U];
+    os[3U] = x;
   }
   uu____1 = ctx1 + (u32)4U;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-    {
-      u32 *os = uu____1;
-      u8 *bj = k + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)2U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[2U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)3U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[3U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)4U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[4U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)5U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[5U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)6U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[6U] = x;
+  }
+  {
+    u32 *os = uu____1;
+    u8 *bj = k + (u32)7U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[7U] = x;
   }
   ctx1[12U] = ctr;
   uu____2 = ctx1 + (u32)13U;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)3U; i++)
-    {
-      u32 *os = uu____2;
-      u8 *bj = n + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = uu____2;
+    u8 *bj = n + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
+  }
+  {
+    u32 *os = uu____2;
+    u8 *bj = n + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
+  }
+  {
+    u32 *os = uu____2;
+    u8 *bj = n + (u32)2U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[2U] = x;
   }
   {
     u32 i;

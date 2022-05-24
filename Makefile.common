@@ -102,6 +102,7 @@ CURVE_BUNDLE=-bundle Hacl.Curve25519_64=Hacl.Impl.Curve25519.Field64.Vale \
 
 # First, match the Blake2 stuff
 BLAKE2_BUNDLE_BASE= \
+  -funroll-loops 12 \
   -bundle Hacl.Impl.Blake2.Constants -static-header Hacl.Impl.Blake2.Constants \
   -bundle Hacl.Blake2b_32=Hacl.Impl.Blake2.\* \
   -bundle Hacl.Blake2s_32=Hacl.Impl.Blake2.\*

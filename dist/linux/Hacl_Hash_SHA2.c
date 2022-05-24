@@ -190,13 +190,44 @@ static void update_224(u32 *hash, u8 *block)
     }
   }
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-    {
-      u32 xi = hash[i];
-      u32 yi = hash1[i];
-      hash[i] = xi + yi;
-    }
+    u32 xi = hash[0U];
+    u32 yi = hash1[0U];
+    hash[0U] = xi + yi;
+  }
+  {
+    u32 xi = hash[1U];
+    u32 yi = hash1[1U];
+    hash[1U] = xi + yi;
+  }
+  {
+    u32 xi = hash[2U];
+    u32 yi = hash1[2U];
+    hash[2U] = xi + yi;
+  }
+  {
+    u32 xi = hash[3U];
+    u32 yi = hash1[3U];
+    hash[3U] = xi + yi;
+  }
+  {
+    u32 xi = hash[4U];
+    u32 yi = hash1[4U];
+    hash[4U] = xi + yi;
+  }
+  {
+    u32 xi = hash[5U];
+    u32 yi = hash1[5U];
+    hash[5U] = xi + yi;
+  }
+  {
+    u32 xi = hash[6U];
+    u32 yi = hash1[6U];
+    hash[6U] = xi + yi;
+  }
+  {
+    u32 xi = hash[7U];
+    u32 yi = hash1[7U];
+    hash[7U] = xi + yi;
   }
 }
 
@@ -270,13 +301,44 @@ static void update_256(u32 *hash, u8 *block)
     }
   }
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-    {
-      u32 xi = hash[i];
-      u32 yi = hash1[i];
-      hash[i] = xi + yi;
-    }
+    u32 xi = hash[0U];
+    u32 yi = hash1[0U];
+    hash[0U] = xi + yi;
+  }
+  {
+    u32 xi = hash[1U];
+    u32 yi = hash1[1U];
+    hash[1U] = xi + yi;
+  }
+  {
+    u32 xi = hash[2U];
+    u32 yi = hash1[2U];
+    hash[2U] = xi + yi;
+  }
+  {
+    u32 xi = hash[3U];
+    u32 yi = hash1[3U];
+    hash[3U] = xi + yi;
+  }
+  {
+    u32 xi = hash[4U];
+    u32 yi = hash1[4U];
+    hash[4U] = xi + yi;
+  }
+  {
+    u32 xi = hash[5U];
+    u32 yi = hash1[5U];
+    hash[5U] = xi + yi;
+  }
+  {
+    u32 xi = hash[6U];
+    u32 yi = hash1[6U];
+    hash[6U] = xi + yi;
+  }
+  {
+    u32 xi = hash[7U];
+    u32 yi = hash1[7U];
+    hash[7U] = xi + yi;
   }
 }
 
@@ -348,13 +410,44 @@ static void update_384(u64 *hash, u8 *block)
     }
   }
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-    {
-      u64 xi = hash[i];
-      u64 yi = hash1[i];
-      hash[i] = xi + yi;
-    }
+    u64 xi = hash[0U];
+    u64 yi = hash1[0U];
+    hash[0U] = xi + yi;
+  }
+  {
+    u64 xi = hash[1U];
+    u64 yi = hash1[1U];
+    hash[1U] = xi + yi;
+  }
+  {
+    u64 xi = hash[2U];
+    u64 yi = hash1[2U];
+    hash[2U] = xi + yi;
+  }
+  {
+    u64 xi = hash[3U];
+    u64 yi = hash1[3U];
+    hash[3U] = xi + yi;
+  }
+  {
+    u64 xi = hash[4U];
+    u64 yi = hash1[4U];
+    hash[4U] = xi + yi;
+  }
+  {
+    u64 xi = hash[5U];
+    u64 yi = hash1[5U];
+    hash[5U] = xi + yi;
+  }
+  {
+    u64 xi = hash[6U];
+    u64 yi = hash1[6U];
+    hash[6U] = xi + yi;
+  }
+  {
+    u64 xi = hash[7U];
+    u64 yi = hash1[7U];
+    hash[7U] = xi + yi;
   }
 }
 
@@ -426,13 +519,44 @@ static void update_512(u64 *hash, u8 *block)
     }
   }
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-    {
-      u64 xi = hash[i];
-      u64 yi = hash1[i];
-      hash[i] = xi + yi;
-    }
+    u64 xi = hash[0U];
+    u64 yi = hash1[0U];
+    hash[0U] = xi + yi;
+  }
+  {
+    u64 xi = hash[1U];
+    u64 yi = hash1[1U];
+    hash[1U] = xi + yi;
+  }
+  {
+    u64 xi = hash[2U];
+    u64 yi = hash1[2U];
+    hash[2U] = xi + yi;
+  }
+  {
+    u64 xi = hash[3U];
+    u64 yi = hash1[3U];
+    hash[3U] = xi + yi;
+  }
+  {
+    u64 xi = hash[4U];
+    u64 yi = hash1[4U];
+    hash[4U] = xi + yi;
+  }
+  {
+    u64 xi = hash[5U];
+    u64 yi = hash1[5U];
+    hash[5U] = xi + yi;
+  }
+  {
+    u64 xi = hash[6U];
+    u64 yi = hash1[6U];
+    hash[6U] = xi + yi;
+  }
+  {
+    u64 xi = hash[7U];
+    u64 yi = hash1[7U];
+    hash[7U] = xi + yi;
   }
 }
 

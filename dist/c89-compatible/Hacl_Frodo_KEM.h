@@ -636,13 +636,60 @@ Hacl_Impl_Frodo_Encode_frodo_key_decode(
     uint64_t templong0 = (uint64_t)0U;
     uint64_t templong;
     {
-      uint32_t i0;
-      for (i0 = (uint32_t)0U; i0 < (uint32_t)8U; i0++)
-      {
-        uint16_t aik = a[i * n + i0];
-        uint16_t res1 = (aik + ((uint16_t)1U << (logq - b - (uint32_t)1U))) >> (logq - b);
-        templong0 = templong0 | (uint64_t)(res1 & (((uint16_t)1U << b) - (uint16_t)1U)) << b * i0;
-      }
+      uint16_t aik = a[i * n + (uint32_t)0U];
+      uint16_t res1 = (aik + ((uint16_t)1U << (logq - b - (uint32_t)1U))) >> (logq - b);
+      templong0 =
+        templong0
+        | (uint64_t)(res1 & (((uint16_t)1U << b) - (uint16_t)1U)) << b * (uint32_t)0U;
+    }
+    {
+      uint16_t aik = a[i * n + (uint32_t)1U];
+      uint16_t res1 = (aik + ((uint16_t)1U << (logq - b - (uint32_t)1U))) >> (logq - b);
+      templong0 =
+        templong0
+        | (uint64_t)(res1 & (((uint16_t)1U << b) - (uint16_t)1U)) << b * (uint32_t)1U;
+    }
+    {
+      uint16_t aik = a[i * n + (uint32_t)2U];
+      uint16_t res1 = (aik + ((uint16_t)1U << (logq - b - (uint32_t)1U))) >> (logq - b);
+      templong0 =
+        templong0
+        | (uint64_t)(res1 & (((uint16_t)1U << b) - (uint16_t)1U)) << b * (uint32_t)2U;
+    }
+    {
+      uint16_t aik = a[i * n + (uint32_t)3U];
+      uint16_t res1 = (aik + ((uint16_t)1U << (logq - b - (uint32_t)1U))) >> (logq - b);
+      templong0 =
+        templong0
+        | (uint64_t)(res1 & (((uint16_t)1U << b) - (uint16_t)1U)) << b * (uint32_t)3U;
+    }
+    {
+      uint16_t aik = a[i * n + (uint32_t)4U];
+      uint16_t res1 = (aik + ((uint16_t)1U << (logq - b - (uint32_t)1U))) >> (logq - b);
+      templong0 =
+        templong0
+        | (uint64_t)(res1 & (((uint16_t)1U << b) - (uint16_t)1U)) << b * (uint32_t)4U;
+    }
+    {
+      uint16_t aik = a[i * n + (uint32_t)5U];
+      uint16_t res1 = (aik + ((uint16_t)1U << (logq - b - (uint32_t)1U))) >> (logq - b);
+      templong0 =
+        templong0
+        | (uint64_t)(res1 & (((uint16_t)1U << b) - (uint16_t)1U)) << b * (uint32_t)5U;
+    }
+    {
+      uint16_t aik = a[i * n + (uint32_t)6U];
+      uint16_t res1 = (aik + ((uint16_t)1U << (logq - b - (uint32_t)1U))) >> (logq - b);
+      templong0 =
+        templong0
+        | (uint64_t)(res1 & (((uint16_t)1U << b) - (uint16_t)1U)) << b * (uint32_t)6U;
+    }
+    {
+      uint16_t aik = a[i * n + (uint32_t)7U];
+      uint16_t res1 = (aik + ((uint16_t)1U << (logq - b - (uint32_t)1U))) >> (logq - b);
+      templong0 =
+        templong0
+        | (uint64_t)(res1 & (((uint16_t)1U << b) - (uint16_t)1U)) << b * (uint32_t)7U;
     }
     templong = templong0;
     {

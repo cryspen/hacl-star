@@ -90,16 +90,6 @@ uint64_t Hacl_Bignum4096_add(uint64_t *a, uint64_t *b, uint64_t *res)
       }
     }
   }
-  {
-    uint32_t i;
-    for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-    {
-      uint64_t t1 = a[i];
-      uint64_t t2 = b[i];
-      uint64_t *res_i = res + i;
-      c = Lib_IntTypes_Intrinsics_add_carry_u64(c, t1, t2, res_i);
-    }
-  }
   return c;
 }
 
@@ -139,16 +129,6 @@ uint64_t Hacl_Bignum4096_sub(uint64_t *a, uint64_t *b, uint64_t *res)
           }
         }
       }
-    }
-  }
-  {
-    uint32_t i;
-    for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-    {
-      uint64_t t1 = a[i];
-      uint64_t t2 = b[i];
-      uint64_t *res_i = res + i;
-      c = Lib_IntTypes_Intrinsics_sub_borrow_u64(c, t1, t2, res_i);
     }
   }
   return c;
@@ -196,16 +176,6 @@ void Hacl_Bignum4096_add_mod(uint64_t *n, uint64_t *a, uint64_t *b, uint64_t *re
       }
     }
   }
-  {
-    uint32_t i;
-    for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-    {
-      uint64_t t1 = a[i];
-      uint64_t t2 = b[i];
-      uint64_t *res_i = res + i;
-      c2 = Lib_IntTypes_Intrinsics_add_carry_u64(c2, t1, t2, res_i);
-    }
-  }
   c0 = c2;
   {
     uint64_t tmp[64U] = { 0U };
@@ -238,16 +208,6 @@ void Hacl_Bignum4096_add_mod(uint64_t *n, uint64_t *a, uint64_t *b, uint64_t *re
             }
           }
         }
-      }
-    }
-    {
-      uint32_t i;
-      for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-      {
-        uint64_t t1 = res[i];
-        uint64_t t2 = n[i];
-        uint64_t *res_i = tmp + i;
-        c3 = Lib_IntTypes_Intrinsics_sub_borrow_u64(c3, t1, t2, res_i);
       }
     }
     c1 = c3;
@@ -306,16 +266,6 @@ void Hacl_Bignum4096_sub_mod(uint64_t *n, uint64_t *a, uint64_t *b, uint64_t *re
       }
     }
   }
-  {
-    uint32_t i;
-    for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-    {
-      uint64_t t1 = a[i];
-      uint64_t t2 = b[i];
-      uint64_t *res_i = res + i;
-      c2 = Lib_IntTypes_Intrinsics_sub_borrow_u64(c2, t1, t2, res_i);
-    }
-  }
   c0 = c2;
   {
     uint64_t tmp[64U] = { 0U };
@@ -348,16 +298,6 @@ void Hacl_Bignum4096_sub_mod(uint64_t *n, uint64_t *a, uint64_t *b, uint64_t *re
             }
           }
         }
-      }
-    }
-    {
-      uint32_t i;
-      for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-      {
-        uint64_t t1 = res[i];
-        uint64_t t2 = n[i];
-        uint64_t *res_i = tmp + i;
-        c3 = Lib_IntTypes_Intrinsics_add_carry_u64(c3, t1, t2, res_i);
       }
     }
     c1 = c3;
@@ -449,15 +389,6 @@ static inline void reduction(uint64_t *n, uint64_t nInv, uint64_t *c, uint64_t *
         }
       }
       {
-        uint32_t i;
-        for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-        {
-          uint64_t a_i = n[i];
-          uint64_t *res_i = res_j0 + i;
-          c1 = Hacl_Bignum_Base_mul_wide_add2_u64(a_i, qj, c1, res_i);
-        }
-      }
-      {
         uint64_t r = c1;
         uint64_t c10 = r;
         uint64_t *resb = c + (uint32_t)64U + i0;
@@ -499,16 +430,6 @@ static inline void reduction(uint64_t *n, uint64_t nInv, uint64_t *c, uint64_t *
             }
           }
         }
-      }
-    }
-    {
-      uint32_t i;
-      for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-      {
-        uint64_t t1 = res[i];
-        uint64_t t2 = n[i];
-        uint64_t *res_i = tmp + i;
-        c10 = Lib_IntTypes_Intrinsics_sub_borrow_u64(c10, t1, t2, res_i);
       }
     }
     c1 = c10;
@@ -558,15 +479,6 @@ static inline void areduction(uint64_t *n, uint64_t nInv, uint64_t *c, uint64_t 
               }
             }
           }
-        }
-      }
-      {
-        uint32_t i;
-        for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-        {
-          uint64_t a_i = n[i];
-          uint64_t *res_i = res_j0 + i;
-          c1 = Hacl_Bignum_Base_mul_wide_add2_u64(a_i, qj, c1, res_i);
         }
       }
       {
@@ -651,15 +563,6 @@ bn_slow_precomp(uint64_t *n, uint64_t mu, uint64_t *r2, uint64_t *a, uint64_t *r
                 }
               }
             }
-          }
-        }
-        {
-          uint32_t i;
-          for (i = (uint32_t)64U; i < (uint32_t)64U; i++)
-          {
-            uint64_t a_i = n[i];
-            uint64_t *res_i = res_j0 + i;
-            c = Hacl_Bignum_Base_mul_wide_add2_u64(a_i, qj, c, res_i);
           }
         }
         {
@@ -949,11 +852,16 @@ exp_vartime_precomp(
             for (i = (uint32_t)0U; i < bBits / (uint32_t)4U; i++)
             {
               {
-                uint32_t i0;
-                for (i0 = (uint32_t)0U; i0 < (uint32_t)4U; i0++)
-                {
-                  amont_sqr(n, mu, resM, resM);
-                }
+                amont_sqr(n, mu, resM, resM);
+              }
+              {
+                amont_sqr(n, mu, resM, resM);
+              }
+              {
+                amont_sqr(n, mu, resM, resM);
+              }
+              {
+                amont_sqr(n, mu, resM, resM);
               }
               {
                 uint32_t bk = bBits - bBits % (uint32_t)4U;
@@ -1136,11 +1044,16 @@ exp_consttime_precomp(
             for (i0 = (uint32_t)0U; i0 < bBits / (uint32_t)4U; i0++)
             {
               {
-                uint32_t i;
-                for (i = (uint32_t)0U; i < (uint32_t)4U; i++)
-                {
-                  amont_sqr(n, mu, resM, resM);
-                }
+                amont_sqr(n, mu, resM, resM);
+              }
+              {
+                amont_sqr(n, mu, resM, resM);
+              }
+              {
+                amont_sqr(n, mu, resM, resM);
+              }
+              {
+                amont_sqr(n, mu, resM, resM);
               }
               {
                 uint32_t bk = bBits - bBits % (uint32_t)4U;

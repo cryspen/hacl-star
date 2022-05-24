@@ -447,16 +447,36 @@ static void changeEndian(u64 *i)
 static void toUint64ChangeEndian(u8 *i, u64 *o)
 {
   {
-    u32 i0;
-    for (i0 = (u32)0U; i0 < (u32)4U; i0++)
-    {
-      u64 *os = o;
-      u8 *bj = i + i0 * (u32)8U;
-      u64 u = load64_be(bj);
-      u64 r = u;
-      u64 x = r;
-      os[i0] = x;
-    }
+    u64 *os = o;
+    u8 *bj = i + (u32)0U * (u32)8U;
+    u64 u = load64_be(bj);
+    u64 r = u;
+    u64 x = r;
+    os[0U] = x;
+  }
+  {
+    u64 *os = o;
+    u8 *bj = i + (u32)1U * (u32)8U;
+    u64 u = load64_be(bj);
+    u64 r = u;
+    u64 x = r;
+    os[1U] = x;
+  }
+  {
+    u64 *os = o;
+    u8 *bj = i + (u32)2U * (u32)8U;
+    u64 u = load64_be(bj);
+    u64 r = u;
+    u64 x = r;
+    os[2U] = x;
+  }
+  {
+    u64 *os = o;
+    u8 *bj = i + (u32)3U * (u32)8U;
+    u64 u = load64_be(bj);
+    u64 r = u;
+    u64 x = r;
+    os[3U] = x;
   }
   changeEndian(o);
 }

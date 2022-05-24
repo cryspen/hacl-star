@@ -116,28 +116,84 @@ static inline void salsa20_key_block0(u8 *out, u8 *key, u8 *n)
   u32 *k0;
   u32 *k1;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-    {
-      u32 *os = k32;
-      u8 *bj = key + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = k32;
+    u8 *bj = key + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
   }
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)2U; i++)
-    {
-      u32 *os = n32;
-      u8 *bj = n + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = k32;
+    u8 *bj = key + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)2U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[2U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)3U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[3U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)4U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[4U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)5U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[5U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)6U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[6U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)7U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[7U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
   }
   ctx[0U] = (u32)0x61707865U;
   k0 = k32;
@@ -166,28 +222,84 @@ static inline void salsa20_encrypt(u32 len, u8 *out, u8 *text, u8 *key, u8 *n, u
   u32 *k0;
   u32 *k10;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-    {
-      u32 *os = k32;
-      u8 *bj = key + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = k32;
+    u8 *bj = key + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
   }
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)2U; i++)
-    {
-      u32 *os = n32;
-      u8 *bj = n + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = k32;
+    u8 *bj = key + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)2U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[2U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)3U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[3U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)4U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[4U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)5U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[5U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)6U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[6U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)7U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[7U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
   }
   ctx[0U] = (u32)0x61707865U;
   k0 = k32;
@@ -296,28 +408,84 @@ static inline void salsa20_decrypt(u32 len, u8 *out, u8 *cipher, u8 *key, u8 *n,
   u32 *k0;
   u32 *k10;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-    {
-      u32 *os = k32;
-      u8 *bj = key + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = k32;
+    u8 *bj = key + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
   }
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)2U; i++)
-    {
-      u32 *os = n32;
-      u8 *bj = n + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = k32;
+    u8 *bj = key + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)2U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[2U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)3U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[3U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)4U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[4U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)5U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[5U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)6U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[6U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)7U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[7U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
   }
   ctx[0U] = (u32)0x61707865U;
   k0 = k32;
@@ -435,28 +603,100 @@ static inline void hsalsa20(u8 *out, u8 *key, u8 *n)
   u32 r7;
   u32 res[8];
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-    {
-      u32 *os = k32;
-      u8 *bj = key + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = k32;
+    u8 *bj = key + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
   }
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)4U; i++)
-    {
-      u32 *os = n32;
-      u8 *bj = n + i * (u32)4U;
-      u32 u = load32_le(bj);
-      u32 r = u;
-      u32 x = r;
-      os[i] = x;
-    }
+    u32 *os = k32;
+    u8 *bj = key + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)2U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[2U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)3U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[3U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)4U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[4U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)5U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[5U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)6U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[6U] = x;
+  }
+  {
+    u32 *os = k32;
+    u8 *bj = key + (u32)7U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[7U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)0U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[0U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)1U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[1U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)2U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[2U] = x;
+  }
+  {
+    u32 *os = n32;
+    u8 *bj = n + (u32)3U * (u32)4U;
+    u32 u = load32_le(bj);
+    u32 r = u;
+    u32 x = r;
+    os[3U] = x;
   }
   k0 = k32;
   k1 = k32 + (u32)4U;
@@ -485,9 +725,28 @@ static inline void hsalsa20(u8 *out, u8 *key, u8 *n)
   res[6U] = r6;
   res[7U] = r7;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)8U; i++)
-      store32_le(out + i * (u32)4U, res[i]);
+    store32_le(out + (u32)0U * (u32)4U, res[0U]);
+  }
+  {
+    store32_le(out + (u32)1U * (u32)4U, res[1U]);
+  }
+  {
+    store32_le(out + (u32)2U * (u32)4U, res[2U]);
+  }
+  {
+    store32_le(out + (u32)3U * (u32)4U, res[3U]);
+  }
+  {
+    store32_le(out + (u32)4U * (u32)4U, res[4U]);
+  }
+  {
+    store32_le(out + (u32)5U * (u32)4U, res[5U]);
+  }
+  {
+    store32_le(out + (u32)6U * (u32)4U, res[6U]);
+  }
+  {
+    store32_le(out + (u32)7U * (u32)4U, res[7U]);
   }
 }
 

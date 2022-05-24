@@ -224,16 +224,36 @@ void Hacl_Bignum25519_load_51(u64 *output, u8 *input)
   u64 u64s[4U] = { 0U };
   u64 u64s3;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)4U; i++)
-    {
-      u64 *os = u64s;
-      u8 *bj = input + i * (u32)8U;
-      u64 u = load64_le(bj);
-      u64 r = u;
-      u64 x = r;
-      os[i] = x;
-    }
+    u64 *os = u64s;
+    u8 *bj = input + (u32)0U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[0U] = x;
+  }
+  {
+    u64 *os = u64s;
+    u8 *bj = input + (u32)1U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[1U] = x;
+  }
+  {
+    u64 *os = u64s;
+    u8 *bj = input + (u32)2U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[2U] = x;
+  }
+  {
+    u64 *os = u64s;
+    u8 *bj = input + (u32)3U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[3U] = x;
   }
   u64s3 = u64s[3U];
   u64s[3U] = u64s3 & (u64)0x7fffffffffffffffU;
@@ -249,9 +269,16 @@ void Hacl_Bignum25519_store_51(u8 *output, u64 *input)
   u64 u64s[4U] = { 0U };
   Hacl_Impl_Curve25519_Field51_store_felem(u64s, input);
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)4U; i++)
-      store64_le(output + i * (u32)8U, u64s[i]);
+    store64_le(output + (u32)0U * (u32)8U, u64s[0U]);
+  }
+  {
+    store64_le(output + (u32)1U * (u32)8U, u64s[1U]);
+  }
+  {
+    store64_le(output + (u32)2U * (u32)8U, u64s[2U]);
+  }
+  {
+    store64_le(output + (u32)3U * (u32)8U, u64s[3U]);
   }
 }
 
@@ -1206,16 +1233,36 @@ void Hacl_Impl_Ed25519_Ladder_point_mul(u64 *result, u8 *scalar, u64 *q)
   u64 *z;
   u64 *t;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)4U; i++)
-    {
-      u64 *os = bscalar;
-      u8 *bj = scalar + i * (u32)8U;
-      u64 u = load64_le(bj);
-      u64 r = u;
-      u64 x = r;
-      os[i] = x;
-    }
+    u64 *os = bscalar;
+    u8 *bj = scalar + (u32)0U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[0U] = x;
+  }
+  {
+    u64 *os = bscalar;
+    u8 *bj = scalar + (u32)1U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[1U] = x;
+  }
+  {
+    u64 *os = bscalar;
+    u8 *bj = scalar + (u32)2U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[2U] = x;
+  }
+  {
+    u64 *os = bscalar;
+    u8 *bj = scalar + (u32)3U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[3U] = x;
   }
   x0 = result;
   y = result + (u32)5U;
@@ -1261,9 +1308,16 @@ void Hacl_Impl_Ed25519_Ladder_point_mul(u64 *result, u8 *scalar, u64 *q)
       for (i0 = (u32)0U; i0 < (u32)64U; i0++)
       {
         {
-          u32 i;
-          for (i = (u32)0U; i < (u32)4U; i++)
-            Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
+          Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
+        }
+        {
+          Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
+        }
+        {
+          Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
+        }
+        {
+          Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
         }
         {
           u32 bk = (u32)256U;
@@ -1340,16 +1394,36 @@ point_mul_double_vartime(u64 *result, u8 *scalar1, u64 *q1, u8 *scalar2, u64 *q2
 {
   u64 bscalar1[4U] = { 0U };
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)4U; i++)
-    {
-      u64 *os = bscalar1;
-      u8 *bj = scalar1 + i * (u32)8U;
-      u64 u = load64_le(bj);
-      u64 r = u;
-      u64 x = r;
-      os[i] = x;
-    }
+    u64 *os = bscalar1;
+    u8 *bj = scalar1 + (u32)0U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[0U] = x;
+  }
+  {
+    u64 *os = bscalar1;
+    u8 *bj = scalar1 + (u32)1U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[1U] = x;
+  }
+  {
+    u64 *os = bscalar1;
+    u8 *bj = scalar1 + (u32)2U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[2U] = x;
+  }
+  {
+    u64 *os = bscalar1;
+    u8 *bj = scalar1 + (u32)3U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x = r;
+    os[3U] = x;
   }
   {
     u64 bscalar2[4U] = { 0U };
@@ -1358,16 +1432,36 @@ point_mul_double_vartime(u64 *result, u8 *scalar1, u64 *q1, u8 *scalar2, u64 *q2
     u64 *z;
     u64 *t;
     {
-      u32 i;
-      for (i = (u32)0U; i < (u32)4U; i++)
-      {
-        u64 *os = bscalar2;
-        u8 *bj = scalar2 + i * (u32)8U;
-        u64 u = load64_le(bj);
-        u64 r = u;
-        u64 x0 = r;
-        os[i] = x0;
-      }
+      u64 *os = bscalar2;
+      u8 *bj = scalar2 + (u32)0U * (u32)8U;
+      u64 u = load64_le(bj);
+      u64 r = u;
+      u64 x0 = r;
+      os[0U] = x0;
+    }
+    {
+      u64 *os = bscalar2;
+      u8 *bj = scalar2 + (u32)1U * (u32)8U;
+      u64 u = load64_le(bj);
+      u64 r = u;
+      u64 x0 = r;
+      os[1U] = x0;
+    }
+    {
+      u64 *os = bscalar2;
+      u8 *bj = scalar2 + (u32)2U * (u32)8U;
+      u64 u = load64_le(bj);
+      u64 r = u;
+      u64 x0 = r;
+      os[2U] = x0;
+    }
+    {
+      u64 *os = bscalar2;
+      u8 *bj = scalar2 + (u32)3U * (u32)8U;
+      u64 u = load64_le(bj);
+      u64 r = u;
+      u64 x0 = r;
+      os[3U] = x0;
     }
     x = result;
     y = result + (u32)5U;
@@ -1428,9 +1522,16 @@ point_mul_double_vartime(u64 *result, u8 *scalar1, u64 *q1, u8 *scalar2, u64 *q2
           for (i = (u32)0U; i < (u32)64U; i++)
           {
             {
-              u32 i0;
-              for (i0 = (u32)0U; i0 < (u32)4U; i0++)
-                Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
+              Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
+            }
+            {
+              Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
+            }
+            {
+              Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
+            }
+            {
+              Hacl_Impl_Ed25519_PointDouble_point_double(result, result);
             }
             {
               u32 bk = (u32)256U;

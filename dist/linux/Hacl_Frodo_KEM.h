@@ -523,13 +523,44 @@ Hacl_Impl_Frodo_Encode_frodo_key_decode(u32 logq, u32 b, u32 n, u16 *a, u8 *res)
     u64 templong0 = (u64)0U;
     u64 templong;
     {
-      u32 i0;
-      for (i0 = (u32)0U; i0 < (u32)8U; i0++)
-      {
-        u16 aik = a[i * n + i0];
-        u16 res1 = (aik + ((u16)1U << (logq - b - (u32)1U))) >> (logq - b);
-        templong0 = templong0 | (u64)(res1 & (((u16)1U << b) - (u16)1U)) << b * i0;
-      }
+      u16 aik = a[i * n + (u32)0U];
+      u16 res1 = (aik + ((u16)1U << (logq - b - (u32)1U))) >> (logq - b);
+      templong0 = templong0 | (u64)(res1 & (((u16)1U << b) - (u16)1U)) << b * (u32)0U;
+    }
+    {
+      u16 aik = a[i * n + (u32)1U];
+      u16 res1 = (aik + ((u16)1U << (logq - b - (u32)1U))) >> (logq - b);
+      templong0 = templong0 | (u64)(res1 & (((u16)1U << b) - (u16)1U)) << b * (u32)1U;
+    }
+    {
+      u16 aik = a[i * n + (u32)2U];
+      u16 res1 = (aik + ((u16)1U << (logq - b - (u32)1U))) >> (logq - b);
+      templong0 = templong0 | (u64)(res1 & (((u16)1U << b) - (u16)1U)) << b * (u32)2U;
+    }
+    {
+      u16 aik = a[i * n + (u32)3U];
+      u16 res1 = (aik + ((u16)1U << (logq - b - (u32)1U))) >> (logq - b);
+      templong0 = templong0 | (u64)(res1 & (((u16)1U << b) - (u16)1U)) << b * (u32)3U;
+    }
+    {
+      u16 aik = a[i * n + (u32)4U];
+      u16 res1 = (aik + ((u16)1U << (logq - b - (u32)1U))) >> (logq - b);
+      templong0 = templong0 | (u64)(res1 & (((u16)1U << b) - (u16)1U)) << b * (u32)4U;
+    }
+    {
+      u16 aik = a[i * n + (u32)5U];
+      u16 res1 = (aik + ((u16)1U << (logq - b - (u32)1U))) >> (logq - b);
+      templong0 = templong0 | (u64)(res1 & (((u16)1U << b) - (u16)1U)) << b * (u32)5U;
+    }
+    {
+      u16 aik = a[i * n + (u32)6U];
+      u16 res1 = (aik + ((u16)1U << (logq - b - (u32)1U))) >> (logq - b);
+      templong0 = templong0 | (u64)(res1 & (((u16)1U << b) - (u16)1U)) << b * (u32)6U;
+    }
+    {
+      u16 aik = a[i * n + (u32)7U];
+      u16 res1 = (aik + ((u16)1U << (logq - b - (u32)1U))) >> (logq - b);
+      templong0 = templong0 | (u64)(res1 & (((u16)1U << b) - (u16)1U)) << b * (u32)7U;
     }
     templong = templong0;
     {

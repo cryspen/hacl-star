@@ -115,23 +115,85 @@ static inline void salsa20_key_block0(uint8_t *out, uint8_t *key, uint8_t *n)
   uint32_t k[16U] = { 0U };
   uint32_t k32[8U] = { 0U };
   uint32_t n32[2U] = { 0U };
-  for (uint32_t i = (uint32_t)0U; i < (uint32_t)8U; i++)
   {
     uint32_t *os = k32;
-    uint8_t *bj = key + i * (uint32_t)4U;
+    uint8_t *bj = key + (uint32_t)0U * (uint32_t)4U;
     uint32_t u = load32_le(bj);
     uint32_t r = u;
     uint32_t x = r;
-    os[i] = x;
+    os[0U] = x;
   }
-  for (uint32_t i = (uint32_t)0U; i < (uint32_t)2U; i++)
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)1U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[1U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)2U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[2U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)3U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[3U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)4U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[4U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)5U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[5U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)6U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[6U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)7U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[7U] = x;
+  }
   {
     uint32_t *os = n32;
-    uint8_t *bj = n + i * (uint32_t)4U;
+    uint8_t *bj = n + (uint32_t)0U * (uint32_t)4U;
     uint32_t u = load32_le(bj);
     uint32_t r = u;
     uint32_t x = r;
-    os[i] = x;
+    os[0U] = x;
+  }
+  {
+    uint32_t *os = n32;
+    uint8_t *bj = n + (uint32_t)1U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[1U] = x;
   }
   ctx[0U] = (uint32_t)0x61707865U;
   uint32_t *k0 = k32;
@@ -168,23 +230,85 @@ salsa20_encrypt(
   uint32_t ctx[16U] = { 0U };
   uint32_t k32[8U] = { 0U };
   uint32_t n32[2U] = { 0U };
-  for (uint32_t i = (uint32_t)0U; i < (uint32_t)8U; i++)
   {
     uint32_t *os = k32;
-    uint8_t *bj = key + i * (uint32_t)4U;
+    uint8_t *bj = key + (uint32_t)0U * (uint32_t)4U;
     uint32_t u = load32_le(bj);
     uint32_t r = u;
     uint32_t x = r;
-    os[i] = x;
+    os[0U] = x;
   }
-  for (uint32_t i = (uint32_t)0U; i < (uint32_t)2U; i++)
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)1U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[1U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)2U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[2U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)3U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[3U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)4U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[4U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)5U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[5U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)6U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[6U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)7U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[7U] = x;
+  }
   {
     uint32_t *os = n32;
-    uint8_t *bj = n + i * (uint32_t)4U;
+    uint8_t *bj = n + (uint32_t)0U * (uint32_t)4U;
     uint32_t u = load32_le(bj);
     uint32_t r = u;
     uint32_t x = r;
-    os[i] = x;
+    os[0U] = x;
+  }
+  {
+    uint32_t *os = n32;
+    uint8_t *bj = n + (uint32_t)1U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[1U] = x;
   }
   ctx[0U] = (uint32_t)0x61707865U;
   uint32_t *k0 = k32;
@@ -277,23 +401,85 @@ salsa20_decrypt(
   uint32_t ctx[16U] = { 0U };
   uint32_t k32[8U] = { 0U };
   uint32_t n32[2U] = { 0U };
-  for (uint32_t i = (uint32_t)0U; i < (uint32_t)8U; i++)
   {
     uint32_t *os = k32;
-    uint8_t *bj = key + i * (uint32_t)4U;
+    uint8_t *bj = key + (uint32_t)0U * (uint32_t)4U;
     uint32_t u = load32_le(bj);
     uint32_t r = u;
     uint32_t x = r;
-    os[i] = x;
+    os[0U] = x;
   }
-  for (uint32_t i = (uint32_t)0U; i < (uint32_t)2U; i++)
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)1U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[1U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)2U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[2U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)3U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[3U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)4U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[4U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)5U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[5U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)6U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[6U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)7U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[7U] = x;
+  }
   {
     uint32_t *os = n32;
-    uint8_t *bj = n + i * (uint32_t)4U;
+    uint8_t *bj = n + (uint32_t)0U * (uint32_t)4U;
     uint32_t u = load32_le(bj);
     uint32_t r = u;
     uint32_t x = r;
-    os[i] = x;
+    os[0U] = x;
+  }
+  {
+    uint32_t *os = n32;
+    uint8_t *bj = n + (uint32_t)1U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[1U] = x;
   }
   ctx[0U] = (uint32_t)0x61707865U;
   uint32_t *k0 = k32;
@@ -378,23 +564,101 @@ static inline void hsalsa20(uint8_t *out, uint8_t *key, uint8_t *n)
   uint32_t ctx[16U] = { 0U };
   uint32_t k32[8U] = { 0U };
   uint32_t n32[4U] = { 0U };
-  for (uint32_t i = (uint32_t)0U; i < (uint32_t)8U; i++)
   {
     uint32_t *os = k32;
-    uint8_t *bj = key + i * (uint32_t)4U;
+    uint8_t *bj = key + (uint32_t)0U * (uint32_t)4U;
     uint32_t u = load32_le(bj);
     uint32_t r = u;
     uint32_t x = r;
-    os[i] = x;
+    os[0U] = x;
   }
-  for (uint32_t i = (uint32_t)0U; i < (uint32_t)4U; i++)
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)1U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[1U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)2U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[2U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)3U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[3U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)4U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[4U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)5U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[5U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)6U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[6U] = x;
+  }
+  {
+    uint32_t *os = k32;
+    uint8_t *bj = key + (uint32_t)7U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[7U] = x;
+  }
   {
     uint32_t *os = n32;
-    uint8_t *bj = n + i * (uint32_t)4U;
+    uint8_t *bj = n + (uint32_t)0U * (uint32_t)4U;
     uint32_t u = load32_le(bj);
     uint32_t r = u;
     uint32_t x = r;
-    os[i] = x;
+    os[0U] = x;
+  }
+  {
+    uint32_t *os = n32;
+    uint8_t *bj = n + (uint32_t)1U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[1U] = x;
+  }
+  {
+    uint32_t *os = n32;
+    uint8_t *bj = n + (uint32_t)2U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[2U] = x;
+  }
+  {
+    uint32_t *os = n32;
+    uint8_t *bj = n + (uint32_t)3U * (uint32_t)4U;
+    uint32_t u = load32_le(bj);
+    uint32_t r = u;
+    uint32_t x = r;
+    os[3U] = x;
   }
   uint32_t *k0 = k32;
   uint32_t *k1 = k32 + (uint32_t)4U;
@@ -415,9 +679,29 @@ static inline void hsalsa20(uint8_t *out, uint8_t *key, uint8_t *n)
   uint32_t r6 = ctx[8U];
   uint32_t r7 = ctx[9U];
   uint32_t res[8U] = { r0, r1, r2, r3, r4, r5, r6, r7 };
-  for (uint32_t i = (uint32_t)0U; i < (uint32_t)8U; i++)
   {
-    store32_le(out + i * (uint32_t)4U, res[i]);
+    store32_le(out + (uint32_t)0U * (uint32_t)4U, res[0U]);
+  }
+  {
+    store32_le(out + (uint32_t)1U * (uint32_t)4U, res[1U]);
+  }
+  {
+    store32_le(out + (uint32_t)2U * (uint32_t)4U, res[2U]);
+  }
+  {
+    store32_le(out + (uint32_t)3U * (uint32_t)4U, res[3U]);
+  }
+  {
+    store32_le(out + (uint32_t)4U * (uint32_t)4U, res[4U]);
+  }
+  {
+    store32_le(out + (uint32_t)5U * (uint32_t)4U, res[5U]);
+  }
+  {
+    store32_le(out + (uint32_t)6U * (uint32_t)4U, res[6U]);
+  }
+  {
+    store32_le(out + (uint32_t)7U * (uint32_t)4U, res[7U]);
   }
 }
 

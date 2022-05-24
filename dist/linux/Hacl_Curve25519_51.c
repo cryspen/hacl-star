@@ -252,9 +252,16 @@ static void encode_point(u8 *o, u64 *i)
   Hacl_Impl_Curve25519_Field51_fmul(tmp, tmp, x, tmp_w);
   Hacl_Impl_Curve25519_Field51_store_felem(u64s, tmp);
   {
-    u32 i0;
-    for (i0 = (u32)0U; i0 < (u32)4U; i0++)
-      store64_le(o + i0 * (u32)8U, u64s[i0]);
+    store64_le(o + (u32)0U * (u32)8U, u64s[0U]);
+  }
+  {
+    store64_le(o + (u32)1U * (u32)8U, u64s[1U]);
+  }
+  {
+    store64_le(o + (u32)2U * (u32)8U, u64s[2U]);
+  }
+  {
+    store64_le(o + (u32)3U * (u32)8U, u64s[3U]);
   }
 }
 
@@ -274,16 +281,36 @@ void Hacl_Curve25519_51_scalarmult(u8 *out, u8 *priv, u8 *pub)
   u64 f3l;
   u64 f3h;
   {
-    u32 i;
-    for (i = (u32)0U; i < (u32)4U; i++)
-    {
-      u64 *os = tmp;
-      u8 *bj = pub + i * (u32)8U;
-      u64 u = load64_le(bj);
-      u64 r = u;
-      u64 x0 = r;
-      os[i] = x0;
-    }
+    u64 *os = tmp;
+    u8 *bj = pub + (u32)0U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x0 = r;
+    os[0U] = x0;
+  }
+  {
+    u64 *os = tmp;
+    u8 *bj = pub + (u32)1U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x0 = r;
+    os[1U] = x0;
+  }
+  {
+    u64 *os = tmp;
+    u8 *bj = pub + (u32)2U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x0 = r;
+    os[2U] = x0;
+  }
+  {
+    u64 *os = tmp;
+    u8 *bj = pub + (u32)3U * (u32)8U;
+    u64 u = load64_le(bj);
+    u64 r = u;
+    u64 x0 = r;
+    os[3U] = x0;
   }
   tmp3 = tmp[3U];
   tmp[3U] = tmp3 & (u64)0x7fffffffffffffffU;
