@@ -30,16 +30,33 @@ extern "C" {
 #endif
 
 #include <string.h>
-#include "kremlin/internal/types.h"
-#include "kremlin/lowstar_endianness.h"
-#include "kremlin/internal/target.h"
+#include "krml/internal/types.h"
+#include "krml/lowstar_endianness.h"
+#include "krml/internal/target.h"
 
 
-#include "internal/Hacl_Kremlib.h"
+#include "internal/Hacl_Krmllib.h"
 #include "internal/Hacl_Hash_Blake2.h"
 #include "../Hacl_Hash_Blake2s_128.h"
 #include "evercrypt_targetconfig.h"
 #include "libintvector.h"
+/* SNIPPET_START: Hacl_Hash_Blake2s_128_init_blake2s_128 */
+
+uint64_t Hacl_Hash_Blake2s_128_init_blake2s_128(Lib_IntVector_Intrinsics_vec128 *s);
+
+/* SNIPPET_END: Hacl_Hash_Blake2s_128_init_blake2s_128 */
+
+/* SNIPPET_START: Hacl_Hash_Blake2s_128_update_blake2s_128 */
+
+uint64_t
+Hacl_Hash_Blake2s_128_update_blake2s_128(
+  Lib_IntVector_Intrinsics_vec128 *s,
+  uint64_t totlen,
+  uint8_t *block
+);
+
+/* SNIPPET_END: Hacl_Hash_Blake2s_128_update_blake2s_128 */
+
 /* SNIPPET_START: Hacl_Hash_Blake2s_128_finish_blake2s_128 */
 
 void

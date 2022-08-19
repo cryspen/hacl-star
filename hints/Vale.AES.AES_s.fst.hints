@@ -14,7 +14,7 @@
         "fuel_guarded_inversion_Vale.AES.AES_s.algorithm"
       ],
       0,
-      "93dddfc08476228c51281052aa8bb29c"
+      "cef421bd4550027c988ea34c66439722"
     ],
     [
       "Vale.AES.AES_s.nr",
@@ -29,7 +29,7 @@
         "fuel_guarded_inversion_Vale.AES.AES_s.algorithm"
       ],
       0,
-      "ad774973c35cd6b85442e4851e3e1528"
+      "4314e6a93f380bd424efba5d3a075746"
     ],
     [
       "Vale.AES.AES_s.aes_key_LE",
@@ -47,7 +47,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "19ef5c0b777a610fcfc93f3679826ed8"
+      "9e29d74f58b0732f1b34d7b148b83e08"
     ],
     [
       "Vale.AES.AES_s.aes_key",
@@ -65,7 +65,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "06c854e56f21b99dfa47b56672abc17f"
+      "da2bd3966d565029c5661ab52e0b92fb"
     ],
     [
       "Vale.AES.AES_s.eval_rounds_def",
@@ -89,16 +89,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "2d6b1b03c2991f77aa0da7035ea1a6cc"
-    ],
-    [
-      "Vale.AES.AES_s.eval_rounds_reveal",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "da5ac3cf805c77270a75916d2e7eb93a"
+      "526a8f7f7e1ff718b10a50c3b431e7d4"
     ],
     [
       "Vale.AES.AES_s.eval_cipher_def",
@@ -111,16 +102,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "0239d0297e0b7e7e8c623be370bedb4f"
-    ],
-    [
-      "Vale.AES.AES_s.eval_cipher_reveal",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "0f5c4b06aee0f82c037345c747cba0e1"
+      "81f23a23bdbf6f5adef5619a26155dc1"
     ],
     [
       "Vale.AES.AES_s.expand_key_def",
@@ -158,31 +140,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "03c10e0098a46f76348f5205b56db8d6"
-    ],
-    [
-      "Vale.AES.AES_s.expand_key_reveal",
-      1,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query",
-        "Prims_pretyping_ae567c2fb75be05905677af440075565",
-        "constructor_distinct_Tm_unit",
-        "disc_equation_Vale.AES.AES_s.AES_128",
-        "disc_equation_Vale.AES.AES_s.AES_192",
-        "disc_equation_Vale.AES.AES_s.AES_256", "eq2-interp",
-        "equation_Prims.nat", "equation_Vale.AES.AES_s.aes_key_LE",
-        "equation_Vale.AES.AES_s.is_aes_key_LE",
-        "equation_Vale.Def.Words_s.nat32",
-        "function_token_typing_Prims.__cache_version_number__",
-        "function_token_typing_Vale.Def.Words_s.nat32", "int_inversion",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_7ecc9ff2104c1b3467333d052c1b37c3",
-        "typing_FStar.Seq.Base.length"
-      ],
-      0,
-      "4936f3763fa7cf335b75b8c3180f4665"
+      "3367f5fc61c221159b941bfedd5b1430"
     ],
     [
       "Vale.AES.AES_s.key_schedule_to_round_keys",
@@ -210,7 +168,7 @@
         "typing_FStar.Seq.Base.create", "well-founded-ordering-on-nat"
       ],
       0,
-      "f9508231c6f73905a87a5a084f291d80"
+      "03dbda4aead848edb2e5cca66fc6b0d2"
     ],
     [
       "Vale.AES.AES_s.key_to_round_keys_LE",
@@ -230,7 +188,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "dee593535b85ff9fd2fcb50beed60091"
+      "b4368d7c3960c56b1bfe5781d8a30f75"
     ],
     [
       "Vale.AES.AES_s.aes_encrypt_LE_def",
@@ -239,16 +197,7 @@
       0,
       [ "@query" ],
       0,
-      "d781b6f3d88dec4b39765357aaa36c64"
-    ],
-    [
-      "Vale.AES.AES_s.aes_encrypt_LE_reveal",
-      1,
-      1,
-      0,
-      [ "@query" ],
-      0,
-      "ecfa765d9b1902b459d5f17d0ebf48e0"
+      "5b5b4123547450581a64cabda31da0e1"
     ],
     [
       "Vale.AES.AES_s.key_to_round_keys",
@@ -286,7 +235,7 @@
         "typing_Vale.Def.Words.Seq_s.seq_to_seq_four_LE"
       ],
       0,
-      "e1ba5f304d3fe318695020b20513088e"
+      "a70c40e5f9c1d2ddfca83ccd795e5407"
     ],
     [
       "Vale.AES.AES_s.aes_encrypt",
@@ -325,7 +274,7 @@
         "typing_Vale.Def.Words.Seq_s.seq_to_seq_four_LE"
       ],
       0,
-      "091efbce5298ab4aab54193244b10405"
+      "0f9ea659dab33b31069b9a77f358c305"
     ]
   ]
 ]

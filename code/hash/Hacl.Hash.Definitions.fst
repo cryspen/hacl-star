@@ -67,7 +67,7 @@ let impl_state_len (i:impl) : s:size_t{size_v s == impl_state_length i} =
     | Blake2S, Blake2.M128 | Blake2S, Blake2.M256
     | Blake2B, Blake2.M256 -> 4ul
   
-inline_for_extraction
+inline_for_extraction noextract
 type state (i:impl) =
   b:B.buffer (impl_word i) { B.length b = impl_state_length i }
 
@@ -148,6 +148,17 @@ let alloca_st (i:impl) = unit -> ST.StackInline (state i & extra_state (get_alg 
     (as_seq h1 s, v) == Spec.Agile.Hash.init (get_alg i) /\
     B.live h1 s /\
     B.fresh_loc (M.loc_buffer s) h0 h1))
+
+noextract inline_for_extraction
+let malloc_st (i:impl) = r:HS.rid -> ST.ST (state i)
+  (requires (fun h ->
+    ST.is_eternal_region r))
+  (ensures (fun h0 s h1 ->
+    B.live h1 s /\
+    M.(modifies M.loc_none h0 h1) /\
+    B.fresh_loc (M.loc_addr_of_buffer s) h0 h1 /\
+    M.(loc_includes (loc_region_only true r) (loc_addr_of_buffer s)) /\
+    B.freeable s))
 
 noextract inline_for_extraction
 let init_st (i:impl) = s:state i -> ST.Stack (extra_state (get_alg i))

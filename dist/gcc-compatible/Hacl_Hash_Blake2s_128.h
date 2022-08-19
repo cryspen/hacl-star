@@ -30,13 +30,13 @@ extern "C" {
 #endif
 
 #include <string.h>
-#include "kremlin/internal/types.h"
-#include "kremlin/lowstar_endianness.h"
-#include "kremlin/internal/target.h"
+#include "krml/internal/types.h"
+#include "krml/lowstar_endianness.h"
+#include "krml/internal/target.h"
 
 
 #include "Lib_Memzero0.h"
-#include "Hacl_Kremlib.h"
+#include "Hacl_Krmllib.h"
 #include "Hacl_Impl_Blake2_Constants.h"
 #include "evercrypt_targetconfig.h"
 #include "libintvector.h"
@@ -87,6 +87,18 @@ Hacl_Blake2s_128_blake2s(
   uint8_t *d,
   uint32_t kk,
   uint8_t *k
+);
+
+void
+Hacl_Blake2s_128_store_state128s_to_state32(
+  uint32_t *st32,
+  Lib_IntVector_Intrinsics_vec128 *st
+);
+
+void
+Hacl_Blake2s_128_load_state128s_from_state32(
+  Lib_IntVector_Intrinsics_vec128 *st,
+  uint32_t *st32
 );
 
 #if defined(__cplusplus)

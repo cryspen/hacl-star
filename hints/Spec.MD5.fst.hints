@@ -22,7 +22,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "1b7c9eef044e9a86308e453619cdcb0e"
+      "dfe2346c249846ff952c166c3c1f24c2"
     ],
     [
       "Spec.MD5.h0",
@@ -52,7 +52,7 @@
         "typing_FStar.List.Tot.Base.length", "typing_Spec.MD5.init_as_list"
       ],
       0,
-      "58ad8266ff6ad45b6fc82b0e5b947418"
+      "5885f20c376cf2ec606355a2877b1378"
     ],
     [
       "Spec.MD5.t_as_list",
@@ -75,7 +75,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "e867ba1a7534d332d0e769175aedcaca"
+      "a1f61310201d655c641811d0cc43e616"
     ],
     [
       "Spec.MD5.t",
@@ -91,7 +91,7 @@
         "typing_Spec.MD5.t_as_list"
       ],
       0,
-      "cbc87b544b576e7d62d693676ce615a9"
+      "28d423e2df161e529c35f82755e7336e"
     ],
     [
       "Spec.MD5.round_op_gen_aux",
@@ -121,7 +121,7 @@
         "typing_Spec.MD5.t"
       ],
       0,
-      "198cccde9838b3a4d1cf501a709626b0"
+      "4fd469bfe7989d67d5ea60072e9d2a8e"
     ],
     [
       "Spec.MD5.round1_aux",
@@ -161,7 +161,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "f4ea7c75e5101cb0edc6d4a3b6757896"
+      "c5867d1f68e43414b27d5c4b258f16ab"
     ],
     [
       "Spec.MD5.round2_aux",
@@ -201,7 +201,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "39feeaf1f59080ffe3e02ec6a342feb5"
+      "51b5814d893a337b04a9497635cd03f0"
     ],
     [
       "Spec.MD5.round3_aux",
@@ -241,7 +241,7 @@
         "typing_FStar.Seq.Base.length", "typing_FStar.UInt32.uint_to_t"
       ],
       0,
-      "0df2713967c205e934ce9b48926d7cdf"
+      "4ce5beab248c3c38d7fe366cb6871b9f"
     ],
     [
       "Spec.MD5.round4_aux",
@@ -281,7 +281,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "c319d683d256060534eccc31344e2a73"
+      "beb1f6e49e3f059017396ad41945d3f5"
     ],
     [
       "Spec.MD5.overwrite_aux",
@@ -302,7 +302,7 @@
         "refinement_interpretation_Tm_refine_a0cd7d06c5da6444b6b51b319febde8e"
       ],
       0,
-      "58959ce853044e6c09503f3d74f2f33b"
+      "fd07570614569051b440d35710327b66"
     ],
     [
       "Spec.MD5.update_aux",
@@ -313,19 +313,15 @@
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented",
         "@fuel_irrelevance_Prims.pow2.fuel_instrumented", "@query",
-        "constructor_distinct_Lib.IntTypes.U32",
         "constructor_distinct_Spec.Hash.Definitions.MD5",
-        "equality_tok_Lib.IntTypes.U32@tok",
-        "equality_tok_Spec.Hash.Definitions.MD5@tok",
-        "equation_Lib.IntTypes.bits", "equation_Lib.IntTypes.unsigned",
-        "equation_Prims.nat", "equation_Spec.Hash.Definitions.word_length",
+        "equality_tok_Spec.Hash.Definitions.MD5@tok", "equation_Prims.nat",
+        "equation_Spec.Hash.Definitions.word_length", "int_typing",
         "lemma_FStar.UInt.pow2_values", "primitive_Prims.op_Multiply",
         "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U32@tok"
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "836531682c9c8a702c555d9c28e62f83"
+      "98ecb18154453f242a2f4efb0d8cfc06"
     ],
     [
       "Spec.MD5.update_aux",
@@ -366,7 +362,7 @@
         "typing_tok_Spec.Hash.Definitions.MD5@tok"
       ],
       0,
-      "42d5f57d6d9d73a65a888c7825dd0148"
+      "f0354b1387f5f9a64eddd851c2e881ea"
     ],
     [
       "Spec.MD5.update",
@@ -383,7 +379,7 @@
         "equation_Spec.Hash.Definitions.word_t"
       ],
       0,
-      "9f1e34f28a5e5298dfcb4bbba2583c7c"
+      "120b4e3c0d4af4ddb2a48cc3b0a3a182"
     ],
     [
       "Spec.MD5.finish",
@@ -392,7 +388,7 @@
       1,
       [ "@query" ],
       0,
-      "aef831a57a72e3eba0e27f7a67751680"
+      "11aec3a860d33ba5060c281e1a95c71e"
     ]
   ]
 ]

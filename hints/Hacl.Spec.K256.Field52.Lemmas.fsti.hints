@@ -1,0 +1,219 @@
+[
+  "pim\u001fÑaﬁÍíÊ*◊êv˝J",
+  [
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.add5_lemma",
+      1,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "b2t_def",
+        "equation_Hacl.Spec.K256.Field52.Definitions.op_Less_Equals_Star",
+        "equation_Prims.nat", "l_and-interp",
+        "primitive_Prims.op_LessThanOrEqual",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__2",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__3",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__4",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__5",
+        "refinement_interpretation_Tm_refine_f40f215756f08e89f7760c81f5e465cb"
+      ],
+      0,
+      "d0e883c1941ca110cfc396dfe889f7ce"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.fadd5_lemma",
+      1,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "b2t_def",
+        "equation_Hacl.Spec.K256.Field52.Definitions.op_Less_Equals_Star",
+        "equation_Prims.nat", "l_and-interp",
+        "primitive_Prims.op_LessThanOrEqual",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__2",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__3",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__4",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__5",
+        "refinement_interpretation_Tm_refine_f40f215756f08e89f7760c81f5e465cb"
+      ],
+      0,
+      "9be481c91ca9c38fe84df490a9cf9496"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.mul15_lemma",
+      1,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "b2t_def",
+        "equation_Hacl.Spec.K256.Field52.Definitions.op_Less_Equals_Star",
+        "equation_Prims.nat", "l_and-interp",
+        "primitive_Prims.op_LessThanOrEqual",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__2",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__3",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__4",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__5",
+        "refinement_interpretation_Tm_refine_4604b33df28f2a38af20742dd361f34f"
+      ],
+      0,
+      "f770f883f73e150421f9fa88163bb99b"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.fmul15_lemma",
+      1,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "b2t_def",
+        "equation_Hacl.Spec.K256.Field52.Definitions.op_Less_Equals_Star",
+        "equation_Prims.nat", "l_and-interp",
+        "primitive_Prims.op_LessThanOrEqual",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__2",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__3",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__4",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__5",
+        "refinement_interpretation_Tm_refine_4604b33df28f2a38af20742dd361f34f"
+      ],
+      0,
+      "7b19fa6c4864c5445094bd614e7a9dde"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.is_felem_eq_vartime5_lemma",
+      1,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
+        "equation_Prims.nat", "function_token_typing_Prims.int",
+        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
+      ],
+      0,
+      "b263302a7c27fa67cee45bda9c5f424d"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.normalize_weak5_lemma",
+      1,
+      0,
+      0,
+      [ "@query" ],
+      0,
+      "e2d0819f5c471e6aea703736202098b8"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.normalize5_lemma",
+      1,
+      0,
+      0,
+      [ "@query" ],
+      0,
+      "5578a96177a9fd36aa1cab6a8f85ace9"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.fmul5_lemma",
+      1,
+      0,
+      0,
+      [ "@query" ],
+      0,
+      "fa26c751bcb3aac2ff8dcaa17c882d85"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.fmul5_lemma1",
+      1,
+      0,
+      0,
+      [ "@query" ],
+      0,
+      "2ef2d1030eb51a2b92326e28cb44d0e5"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.fsqr5_lemma",
+      1,
+      0,
+      0,
+      [ "@query" ],
+      0,
+      "58c74a963d0e9121e61a57e3ed71e685"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.fsqr5_lemma1",
+      1,
+      0,
+      0,
+      [ "@query" ],
+      0,
+      "664cc4b58a7f0cb26d06c8e384753c01"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.fnegate5_lemma",
+      1,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "b2t_def", "equation_Prims.nat",
+        "equation_Prims.squash", "l_and-interp",
+        "primitive_Prims.op_LessThanOrEqual", "primitive_Prims.op_Multiply",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__5",
+        "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
+      ],
+      0,
+      "b22dbe53c1841d1f64ac80cc0418c2cd"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.sub5_lemma",
+      1,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "b2t_def", "equation_Prims.nat",
+        "equation_Prims.squash", "l_and-interp",
+        "primitive_Prims.op_Addition", "primitive_Prims.op_LessThanOrEqual",
+        "primitive_Prims.op_Multiply", "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__2",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__3",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__4",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__5",
+        "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
+      ],
+      0,
+      "30713cec3d92630eccf87efcfdcca623"
+    ],
+    [
+      "Hacl.Spec.K256.Field52.Lemmas.fsub5_lemma",
+      1,
+      0,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "b2t_def", "equation_Prims.nat",
+        "equation_Prims.squash", "l_and-interp",
+        "primitive_Prims.op_Addition", "primitive_Prims.op_LessThanOrEqual",
+        "primitive_Prims.op_Multiply", "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__2",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__3",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__4",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple5__5",
+        "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
+      ],
+      0,
+      "c700e9fc45d49490e5b659288798dc43"
+    ]
+  ]
+]
