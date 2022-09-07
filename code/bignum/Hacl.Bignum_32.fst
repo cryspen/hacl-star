@@ -1,4 +1,4 @@
-module Hacl.Bignum32
+module Hacl.Bignum_32
 
 open FStar.Mul
 
