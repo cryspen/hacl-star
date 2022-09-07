@@ -423,8 +423,8 @@ Hacl_Streaming_Blake2b_256_blake2b_256_no_key_finish(
           Hacl_Impl_Blake2_Core_M256));
   }
   uint8_t *buf_1 = buf_;
-  Lib_IntVector_Intrinsics_vec256 KRML_PRE_ALIGN(32) wv[4U] KRML_POST_ALIGN(32) = { 0U };
-  Lib_IntVector_Intrinsics_vec256 KRML_PRE_ALIGN(32) b[4U] KRML_POST_ALIGN(32) = { 0U };
+  KRML_PRE_ALIGN(32) Lib_IntVector_Intrinsics_vec256 wv[4U] KRML_POST_ALIGN(32) = { 0U };
+  KRML_PRE_ALIGN(32) Lib_IntVector_Intrinsics_vec256 b[4U] KRML_POST_ALIGN(32) = { 0U };
   Hacl_Streaming_Blake2b_256_blake2b_256_block_state tmp_block_state = { .fst = wv, .snd = b };
   Lib_IntVector_Intrinsics_vec256 *src_b = block_state.snd;
   Lib_IntVector_Intrinsics_vec256 *dst_b = tmp_block_state.snd;
