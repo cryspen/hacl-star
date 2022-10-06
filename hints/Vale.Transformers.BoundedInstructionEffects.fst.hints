@@ -31,7 +31,7 @@
         "typing_tok_Vale.Transformers.Locations.ALocMem@tok"
       ],
       0,
-      "c24de37bd58d354127e947cfb0842900"
+      "bc6d3071dec02f7f6a2ad3ec2da0ef70"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.locations_of_maddr",
@@ -46,7 +46,7 @@
         "fuel_guarded_inversion_Vale.X64.Machine_s.maddr"
       ],
       0,
-      "e5f0482f4dcfc9963b56048e0a5f18de"
+      "1abb15333af563aadf9de8c204804367"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.locations_of_operand64",
@@ -58,145 +58,24 @@
         "disc_equation_Vale.X64.Machine_s.OConst",
         "disc_equation_Vale.X64.Machine_s.OMem",
         "disc_equation_Vale.X64.Machine_s.OReg",
-        "disc_equation_Vale.X64.Machine_s.OStack",
-        "equation_Vale.Def.Words_s.nat64",
+        "disc_equation_Vale.X64.Machine_s.OStack", "equation_Prims.eqtype",
+        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
+        "equation_Vale.Def.Words_s.natN",
         "equation_Vale.X64.Machine_s.n_reg_files",
         "equation_Vale.X64.Machine_s.n_regs",
         "equation_Vale.X64.Machine_s.operand64",
         "equation_Vale.X64.Machine_s.reg_64",
         "fuel_guarded_inversion_Vale.X64.Machine_s.operand",
-        "projection_inverse_BoxInt_proj_0"
-      ],
-      0,
-      "d536b351c49ed252187e8b1c6b882cf0"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand64",
-      2,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN", "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "36defc8982a24eddd91b58f15598963e"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand64",
-      3,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_64",
         "function_token_typing_Prims.int",
         "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "ac178c549cade85e34956d2911f2408b"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand64",
-      4,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN", "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "238e46700fd5f0d10c289bdfc4c62a30"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand64",
-      5,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_64",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "haseqTm_refine_c365eb902b454950de62fba701d9049d",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "d3ac7b59ee612528d4bc3dcb65211ea5"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand64",
-      6,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN", "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "9def4f77df34cfb75c7b6d2f8c9de61e"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand64",
-      7,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_64",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "3c8f1ec52de4233ba7365127b61f88bc"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand64",
-      8,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN", "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "26907a7ae17535ffc3319ebc619f8125"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand64",
-      9,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_64",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "ece52e82e64ff50e9e58c9138bf53bd9"
+      "535a54a794d2080f9cb5b0514d397996"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.locations_of_operand128",
@@ -208,81 +87,22 @@
         "disc_equation_Vale.X64.Machine_s.OConst",
         "disc_equation_Vale.X64.Machine_s.OMem",
         "disc_equation_Vale.X64.Machine_s.OReg",
-        "disc_equation_Vale.X64.Machine_s.OStack",
-        "equation_Vale.Def.Types_s.quad32",
+        "disc_equation_Vale.X64.Machine_s.OStack", "equation_Prims.eqtype",
+        "equation_Prims.nat", "equation_Vale.Def.Types_s.quad32",
         "equation_Vale.X64.Machine_s.n_reg_files",
         "equation_Vale.X64.Machine_s.n_regs",
         "equation_Vale.X64.Machine_s.operand128",
         "equation_Vale.X64.Machine_s.reg_xmm",
         "fuel_guarded_inversion_Vale.X64.Machine_s.operand",
-        "projection_inverse_BoxInt_proj_0"
-      ],
-      0,
-      "9ccb9fc7d1235b2e629b22caf18713e8"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand128",
-      2,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_xmm",
         "function_token_typing_Prims.int",
         "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "haseqTm_refine_c365eb902b454950de62fba701d9049d",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "ab85ad491dc99f9c2b22c20d152823d1"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand128",
-      3,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_xmm",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "1d95a033940704415eb65c1dab62d0bd"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand128",
-      4,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_xmm",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "143c3255df61a3760d0c4ec8595264f2"
-    ],
-    [
-      "Vale.Transformers.BoundedInstructionEffects.locations_of_operand128",
-      5,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_xmm",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "fbb7c48068625469b8ed736ff7fc1f2f"
+      "a131c5634b203b3f445aee592ddb1ceb"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.locations_of_explicit",
@@ -301,7 +121,7 @@
         "fuel_guarded_inversion_Vale.X64.Instruction_s.instr_operand_explicit"
       ],
       0,
-      "54b650d8155fe0837d9a77169797ce71"
+      "27109565c891db1de6de809fe657c271"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.locations_of_implicit",
@@ -317,7 +137,7 @@
         "fuel_guarded_inversion_Vale.X64.Instruction_s.instr_operand_implicit"
       ],
       0,
-      "1aa1d740b30e49b6aa6607eb92319399"
+      "1f47f0065a66110650327a61de967705"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.aux_read_set0",
@@ -348,7 +168,7 @@
         "subterm_ordering_Prims.Cons", "typing_Prims.__proj__Cons__item__hd"
       ],
       0,
-      "9fbfca788d65e9f835c36412e490b680"
+      "3ab3474b4486e26de6142755160fdbd8"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.aux_read_set1",
@@ -398,7 +218,7 @@
         "typing_FStar.Pervasives.Native.__proj__Mktuple2__item___2"
       ],
       0,
-      "0244ea2acd4005a947a3b11eabf7aad0"
+      "d5e29650baeeb7c653454c71be5c8365"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.aux_write_set",
@@ -439,7 +259,7 @@
         "typing_FStar.Pervasives.Native.__proj__Mktuple2__item___2"
       ],
       0,
-      "31aab8fcc6f8bdcfdd684a021c0e1573"
+      "d9508bcc2f343dde364bb38f734c7811"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.write_set",
@@ -457,7 +277,7 @@
         "projection_inverse_Vale.X64.Instruction_s.InstrTypeRecord_outs"
       ],
       0,
-      "8172e0821587dce4e1595877697a964c"
+      "b928c803278375df827a15cd090422c9"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.constant_writes",
@@ -481,7 +301,7 @@
         "projection_inverse_Vale.X64.Instruction_s.InstrTypeRecord_outs"
       ],
       0,
-      "c9bc82e6f292701d8146ec678f41b52d"
+      "4a4f4f00b80a619e31a9de7551cad38c"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.rw_set_of_ins",
@@ -503,7 +323,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "fd15954516c296c136d3c25987151fdb"
+      "f898aedcbd7a69fff9e8cb2de4f84b2e"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.locations_of_ocmp",
@@ -522,7 +342,7 @@
         "fuel_guarded_inversion_Vale.X64.Bytes_Code_s.ocmp"
       ],
       0,
-      "358e85fe70ae32d720e2f21efa5476d2"
+      "0efbba81e8dae1c3695c1142126ba622"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.unchanged_at",
@@ -538,7 +358,7 @@
         "fuel_guarded_inversion_Prims.list", "subterm_ordering_Prims.Cons"
       ],
       0,
-      "6df2eb03957196d56621b7b729a247fe"
+      "65eb75aa043d1e2876425208679f82cb"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.constant_on_execution",
@@ -554,7 +374,7 @@
         "fuel_guarded_inversion_Prims.list", "subterm_ordering_Prims.Cons"
       ],
       0,
-      "4978e88f75aa0b467fc47adbca0dafb3"
+      "8885f2a7f9d57bf030cbf1d903c22c32"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.bounded_effects",
@@ -579,7 +399,7 @@
         "typing_Vale.Transformers.Locations.location_val_eqt"
       ],
       0,
-      "8881883b2b7cbe5a34c9b226dd2a55f6"
+      "ffcc850436b009f442db6721b951fd4c"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_instr_write_outputs_only_affects_write",
@@ -819,7 +639,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "c73793b5f22db605e82f7d81c775db3d"
+      "0a763a09a2def0e5d834b5a19513ac5a"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_eval_instr_only_affects_write",
@@ -935,7 +755,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "43f04f2a20bd04778133a453d7e2e192"
+      "f6cb5fdb508497b4f50bb77e34d758b6"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_ins_st_only_affects_write_aux",
@@ -996,7 +816,7 @@
         "typing_Vale.X64.Machine_Semantics_s.eval_instr", "unit_typing"
       ],
       0,
-      "6cc9445df5505334866d90d9bcc7b8ae"
+      "c4cb1a8d823fd273fabd53dd1e6b6675"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_ins_st_only_affects_write",
@@ -1008,7 +828,7 @@
         "equation_Vale.Transformers.BoundedInstructionEffects.unchanged_except"
       ],
       0,
-      "7fc70a1eb0a1382358fd97d2ec4a34b8"
+      "f5af952388509886aad987c7f961465b"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_instr_eval_operand_explicit_same_read_both",
@@ -1143,7 +963,7 @@
         "typing_tok_Vale.Transformers.Locations.ALocStack@tok"
       ],
       0,
-      "62488be7a8aa28733c844edd001714d8"
+      "1701209eaaff98aa312654e07ee6a22b"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_instr_eval_operand_implicit_same_read_both",
@@ -1316,7 +1136,7 @@
         "typing_FStar.List.Tot.Base.append"
       ],
       0,
-      "6f67d0b8b02198503abeee4045d13a5f"
+      "0577f62311956f9378dc4bd6a6891eea"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_instr_apply_eval_args_same_read",
@@ -1386,7 +1206,7 @@
         "unit_typing"
       ],
       0,
-      "d9b03c69c88abb4d7ef31054e6369943"
+      "f53a2da52a5b1a9fa07e2a32cc620bed"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_instr_apply_eval_inouts_same_read",
@@ -1432,6 +1252,7 @@
         "data_elim_FStar.Pervasives.Native.Mktuple2", "data_elim_Prims.Cons",
         "data_elim_Vale.X64.Instruction_s.IOpEx",
         "data_elim_Vale.X64.Instruction_s.IOpIm",
+        "data_typing_intro_Prims.Nil@tok",
         "data_typing_intro_Vale.Transformers.Locations.ALocStack@tok",
         "data_typing_intro_Vale.X64.Instruction_s.Out@tok",
         "disc_equation_FStar.Pervasives.Native.None",
@@ -1515,7 +1336,7 @@
       0,
       [ "@query", "equation_Vale.X64.Machine_Semantics_s.instr_apply_eval" ],
       0,
-      "fba79d5916d68b41f6dffaeb26a211d7"
+      "7e2bbe084a134762bc958997bb769829"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_instr_write_output_explicit_only_writes",
@@ -1697,7 +1518,7 @@
         "unit_typing"
       ],
       0,
-      "c73549632a3dcc9850364ec921a4285e"
+      "a272f520a68a10cfd9286c2efa461783"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_instr_write_output_implicit_only_writes",
@@ -1911,7 +1732,7 @@
         "unit_typing"
       ],
       0,
-      "e02d0cca42e5f5d42a22e08788050843"
+      "74720c89f44d88612a6b417566c27398"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at'_mem",
@@ -1947,7 +1768,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "b82bfe15a7a461891df5afa1df4acfd0"
+      "73bdfe960a93038eda6cbf509baa9f1b"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_except_not_mem",
@@ -1994,7 +1815,7 @@
         "unit_typing"
       ],
       0,
-      "8870a2098512076973c54b0f5bd6275b"
+      "7931f51b36c38a72f84a79a531fd29f8"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at'_maintained",
@@ -2030,7 +1851,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "0107a2c738243918a5b3ab5c71c6ba14"
+      "a1c484354dc27c5f3c11b02237c9cb80"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_disjoint_location_from_locations_append",
@@ -2091,7 +1912,7 @@
         "unit_inversion"
       ],
       0,
-      "e2525ff98f14760cdacabb3bfea5e9c1"
+      "dc239d1426986e764745bdb063ab416d"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_except_extend",
@@ -2104,7 +1925,7 @@
         "fuel_guarded_inversion_Vale.X64.Machine_Semantics_s.machine_state"
       ],
       0,
-      "3bba204c97fff34217213e57ca04533e"
+      "909eddca69cf8411563b131e137f7e69"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_instr_write_outputs_only_affects_write_extend",
@@ -2117,7 +1938,7 @@
         "fuel_guarded_inversion_Vale.X64.Machine_Semantics_s.machine_state"
       ],
       0,
-      "ce517eaaf069020f3773932f6c041d75"
+      "d259686beefdb7035ffc576cbe3e223b"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_instr_write_outputs_only_writes",
@@ -2309,7 +2130,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "f208d79acc291385e94fc0b9b12b8db9"
+      "0c1ddf9e89d5f7031bcfbd80a46f595d"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at'_maintained_upon_flag_update",
@@ -2368,7 +2189,7 @@
         "typing_Vale.X64.Machine_Semantics_s.__proj__Mkmachine_state__item__ms_trace"
       ],
       0,
-      "d50f00a3e43a2ffa730ea0398eae337a"
+      "b2c090503f77e5b4a77f927fa3f6b025"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_eval_instr_unchanged_at'",
@@ -2505,7 +2326,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "0b6094a92fd6bbb192a8ffb44a2b8ab5"
+      "d851b0ce88b537fddb7a489a50a022c5"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_ins_st_ok",
@@ -2547,7 +2368,7 @@
         "typing_Vale.X64.Machine_Semantics_s.eval_instr", "unit_typing"
       ],
       0,
-      "cf3190499bb1b3d62bd2321ffcc91e2e"
+      "7647dabd7ac050c19f6194056d559696"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_ins_st_unchanged_behavior",
@@ -2602,7 +2423,7 @@
         "typing_Vale.X64.Machine_Semantics_s.eval_instr", "unit_typing"
       ],
       0,
-      "75068f0b0bcbf044cad3798ee03d0d4d"
+      "2ae72f02f88536fe5aab90efb4ba9fb6"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_ins_st_constant_on_execution",
@@ -2761,7 +2582,7 @@
         "unit_typing"
       ],
       0,
-      "2057cd54afde311a60c666008a23fa48"
+      "db99a70f782a94d4f2817f051bec9801"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_ins_st_bounded_effects_Instr",
@@ -2840,7 +2661,7 @@
         "typing_tok_Vale.Transformers.Locations.ALocOf@tok"
       ],
       0,
-      "79c9f6c14fcc7a4f5766741c4857dc7c"
+      "acd5c41fc776f52997794f76af17e401"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_ins_st_bounded_effects",
@@ -2853,7 +2674,7 @@
         "typing_Vale.Transformers.BoundedInstructionEffects.safely_bounded"
       ],
       0,
-      "a8c1bf7f6387e3c4987beccbc55531da"
+      "d8f185ebeb73d8e93b012ee0ffa18068"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at_trace",
@@ -2912,7 +2733,7 @@
         "typing_Vale.X64.Machine_Semantics_s.__proj__Mkmachine_state__item__ms_stackTaint"
       ],
       0,
-      "f698730652bcfdb557b9b60d5aca509a"
+      "fe06d8999ce6ae556cfc98c23e174ca5"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.machine_eval_code_Ins",
@@ -2928,7 +2749,7 @@
         "projection_inverse_FStar.Pervasives.Native.Some_v"
       ],
       0,
-      "fdc313a54d336c568853925cad42fb54"
+      "acee05f2dc02405d71f4becebf952a0d"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_code_Ins_bounded_effects_aux1",
@@ -2971,7 +2792,7 @@
         "unit_typing"
       ],
       0,
-      "5519514eb62d509c8730f4a2bf51c42e"
+      "a261061c6eb383918081e007795de23b"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_code_Ins_bounded_effects_aux2",
@@ -3053,7 +2874,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "3b146ad720a0b940fca6b2164ca79f8e"
+      "a78a2a4e7d48e48254adf55618d6bcff"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_code_Ins_bounded_effects_aux3",
@@ -3083,7 +2904,7 @@
         "unit_typing"
       ],
       0,
-      "717bd84f8a5027b83d22a52d496dd073"
+      "611d336b5e7f80e5727e2f12fecdc62c"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_code_Ins_bounded_effects_aux4",
@@ -3126,7 +2947,7 @@
         "unit_typing"
       ],
       0,
-      "f16374be5578a20ce479bd30a490f324"
+      "d5a1343ef1518a6e22252a037e8a9ea4"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_code_Ins_bounded_effects_aux",
@@ -3207,7 +3028,7 @@
         "typing_tok_Vale.Transformers.Locations.ALocOf@tok"
       ],
       0,
-      "0757143ecce86bfa3409215abdcee0f7"
+      "ceb3954a4953128fd11463901a31b43d"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_code_Ins_bounded_effects",
@@ -3223,7 +3044,7 @@
         "projection_inverse_FStar.Pervasives.Native.Some_v"
       ],
       0,
-      "feebf86e68f1316818e202ecb9b9bbe1"
+      "3e185ddab2bd7846caa48f8ec6517e56"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_machine_eval_code_Ins_bounded_effects",
@@ -3235,7 +3056,7 @@
         "equation_Vale.Transformers.BoundedInstructionEffects.machine_eval_code_Ins"
       ],
       0,
-      "a52a435516acb5ecf3899b3c6794a1ba"
+      "25d1bfb0f25406164600016620adbb7d"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_locations_of_ocmp",
@@ -3321,7 +3142,7 @@
         "typing_Vale.X64.Machine_s.t_reg"
       ],
       0,
-      "178983ce9a8489e768421da20d21f661"
+      "6d70906e80fb9d0946b44b6c5c22037d"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.intersect",
@@ -3337,7 +3158,7 @@
         "projection_inverse_BoxBool_proj_0", "subterm_ordering_Prims.Cons"
       ],
       0,
-      "de2e78d622f6b9923c1dc66f5283cdff"
+      "9fd283f2b61304f9f21bd871b931b6ea"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.difference",
@@ -3353,7 +3174,7 @@
         "projection_inverse_BoxBool_proj_0", "subterm_ordering_Prims.Cons"
       ],
       0,
-      "2bc5fb4652d2631268a21e8da6b65a72"
+      "21ceaaf96d48bbf4381c0b3467f9574b"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.rw_set_in_parallel",
@@ -3378,7 +3199,7 @@
         "typing_Vale.Transformers.Locations.location_val_eqt"
       ],
       0,
-      "229395e2c8feab8a12d2c826632791d5"
+      "0b7439ac461b571d89aae4046e317ee0"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.rw_set_in_series",
@@ -3403,7 +3224,7 @@
         "typing_Vale.Transformers.Locations.location_val_eqt"
       ],
       0,
-      "6765f4a7fa152a9a052d0aa849c32c88"
+      "ac08890eeb246fa3f5d0a437246018b6"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_constant_on_execution_mem",
@@ -3428,7 +3249,7 @@
         "typing_Vale.Transformers.Locations.location_val_eqt"
       ],
       0,
-      "1c1d84b03f90dbe318cdaa22acc8f2bc"
+      "47d9b9dbf15d4c2d905deb2839286b18"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_constant_on_execution_mem",
@@ -3481,7 +3302,7 @@
         "typing_Vale.Transformers.Locations.location_val_eqt"
       ],
       0,
-      "b223a2f4f817f0f4afe7e9ccd799a2d4"
+      "dd694835548e01e664271d3e3834961e"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_add_r_to_rw_set",
@@ -3507,7 +3328,7 @@
         "typing_tok_Vale.Transformers.Locations.ALocMem@tok"
       ],
       0,
-      "ed8ce9aab673b894bc7220120544c32b"
+      "19d6da979c29676cf7761f19fc30a815"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_constant_intersect_belongs_to_writes_union",
@@ -3532,7 +3353,7 @@
         "typing_Vale.Transformers.Locations.location_val_eqt"
       ],
       0,
-      "22d11c48e65dba89e734b0ca0fdc8a18"
+      "544cc4f17837be81f3d7a1d25b2ead92"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_constant_intersect_belongs_to_writes_union",
@@ -3584,7 +3405,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "9b1a14424b684f81cdd90aab2a6cea2d"
+      "c6d4ef6bd18deb9558dbc3b4015ccbb2"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at_mem",
@@ -3619,7 +3440,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "a17ad26b74fa22e699b33651ee07f4d3"
+      "8479e3183dce00354560a3fc982e6b67"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at_difference_elim",
@@ -3659,7 +3480,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "ad5f939b27d08ac8537ce2aee3e1a14e"
+      "46ad61a40b9d10c216a22dee139bfcd7"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at_sym_diff_implies_difference",
@@ -3671,7 +3492,7 @@
         "equation_Vale.Transformers.BoundedInstructionEffects.sym_difference"
       ],
       0,
-      "614655a198f196b0c660389827dcdf98"
+      "5302c01efe2bd5c75fbb0108640ff56d"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_disjoint_location_from_locations_not_mem",
@@ -3720,7 +3541,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "df59d3f1c2df28604ecad90b63e32e49"
+      "9b0c7e4eb253d458ad442bf1ef4eb9a0"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_difference_disjoint",
@@ -3768,7 +3589,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "b9d845dd50bb487961f1eeaf79d5a5a1"
+      "0b616acf8c085d40be81407d2bae8095"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_except_to_at_difference",
@@ -3819,7 +3640,7 @@
         "unit_typing"
       ],
       0,
-      "5fbdae0eb9669d247cbb444a12646850"
+      "b92241ae220a71e06653aa4198edecac"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at_maintained",
@@ -3853,7 +3674,7 @@
         "subterm_ordering_Prims.Cons", "unit_inversion", "unit_typing"
       ],
       0,
-      "0d9bf48e3e8b918e0b870efced7f9ea5"
+      "8a18f5417d85f10d6470971b2c4f18f0"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_bounded_effects_parallel_aux1",
@@ -3875,7 +3696,7 @@
         "projection_inverse_Vale.Transformers.BoundedInstructionEffects.Mkrw_set_loc_writes"
       ],
       0,
-      "82c4597a26be45656aa80a0d132210f6"
+      "f0ea7e8874dc3dc4b4d40250e44cc749"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_bounded_effects_parallel_aux2",
@@ -3897,7 +3718,7 @@
         "projection_inverse_Vale.Transformers.BoundedInstructionEffects.Mkrw_set_loc_writes"
       ],
       0,
-      "6c3f644f02dcb2f1a60f1f5fff14cad8"
+      "90023ff8947c1d8267895d8ea1ae8e27"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_bounded_effects_parallel",
@@ -3975,7 +3796,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "b555081eb6c00dfebb5e982818d11a16"
+      "8f458d40de6f95859e4c8c82cde16bfa"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_bounded_effects_series_aux1",
@@ -4018,7 +3839,7 @@
         "typing_Vale.X64.Machine_Semantics_s.__proj__Mkmachine_state__item__ms_ok"
       ],
       0,
-      "b6a2098e4ac02664a15df2b44b0eee65"
+      "ff1fc96ef6bebe284010670f8e44b6af"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_bounded_effects_series_aux2",
@@ -4043,7 +3864,7 @@
         "typing_Vale.Transformers.Locations.location_val_eqt"
       ],
       0,
-      "fa1c46b313abd674f9ea2a9aee0d8b03"
+      "85d7c391229178dd2f844d911d1b0eec"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_bounded_effects_series_aux2",
@@ -4125,7 +3946,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "380f669ebe497021e2f554b3a6a5a219"
+      "ff04192947248c4548b82b880a61779e"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at_except_disjoint",
@@ -4173,7 +3994,7 @@
         "unit_typing"
       ],
       0,
-      "fcb5010a7cf2bf15aed09b62c4901f83"
+      "6c05c678349b446a6c63dfae7d543b5c"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_bounded_effects_series_aux3",
@@ -4203,7 +4024,7 @@
         "unit_typing"
       ],
       0,
-      "0184eb79d2f681ffd49bbcc4e3ad3573"
+      "fe1dfda5d5b07219869c76487cd89064"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_unchanged_at_extend_append",
@@ -4245,7 +4066,7 @@
         "unit_typing"
       ],
       0,
-      "27e6581a05739d8df7a575e0460e4770"
+      "243b038734b5d70596a17c1c79533c3e"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_bounded_effects_series_aux4",
@@ -4281,7 +4102,7 @@
         "typing_Vale.X64.Machine_Semantics_s.__proj__Mkmachine_state__item__ms_ok"
       ],
       0,
-      "f5bdd060abfd608ab33efe2c098f0a58"
+      "c7a993b93a1b06ff1203b1fb9d180d20"
     ],
     [
       "Vale.Transformers.BoundedInstructionEffects.lemma_bounded_effects_series",
@@ -4321,7 +4142,7 @@
         "typing_Vale.Transformers.Locations.location_val_eqt"
       ],
       0,
-      "47628eda086f672fda3abda2cb7b4360"
+      "63a45ce2c8b4912f838950aba950409e"
     ]
   ]
 ]

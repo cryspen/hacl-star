@@ -35,13 +35,16 @@ extern "C" {
 #include "krml/internal/target.h"
 
 
+#include "Lib_Memzero0.h"
 #include "Hacl_Spec.h"
+#include "Hacl_SHA3.h"
 #include "Hacl_Krmllib.h"
 #include "Hacl_Hash_SHA2.h"
 #include "Hacl_Hash_SHA1.h"
 #include "Hacl_Hash_MD5.h"
 #include "Hacl_Hash_Blake2s_128.h"
 #include "Hacl_Hash_Blake2b_256.h"
+#include "EverCrypt_Error.h"
 #include "EverCrypt_AutoConfig2.h"
 #include "evercrypt_targetconfig.h"
 /* SNIPPET_START: EverCrypt_Hash_alg */
@@ -139,6 +142,16 @@ EverCrypt_Hash_uu___is_SHA2_512_s(
 );
 
 /* SNIPPET_END: EverCrypt_Hash_uu___is_SHA2_512_s */
+
+/* SNIPPET_START: EverCrypt_Hash_uu___is_SHA3_256_s */
+
+bool
+EverCrypt_Hash_uu___is_SHA3_256_s(
+  Spec_Hash_Definitions_hash_alg uu___,
+  EverCrypt_Hash_state_s projectee
+);
+
+/* SNIPPET_END: EverCrypt_Hash_uu___is_SHA3_256_s */
 
 /* SNIPPET_START: EverCrypt_Hash_uu___is_Blake2S_s */
 
@@ -362,11 +375,17 @@ EverCrypt_Hash_Incremental_init(Hacl_Streaming_Functor_state_s___EverCrypt_Hash_
 
 /* SNIPPET_END: EverCrypt_Hash_Incremental_init */
 
+/* SNIPPET_START: EverCrypt_Hash_Incremental_max_input_len64 */
+
+uint64_t EverCrypt_Hash_Incremental_max_input_len64(Spec_Hash_Definitions_hash_alg a);
+
+/* SNIPPET_END: EverCrypt_Hash_Incremental_max_input_len64 */
+
 /* SNIPPET_START: EverCrypt_Hash_Incremental_update */
 
-void
+EverCrypt_Error_error_code
 EverCrypt_Hash_Incremental_update(
-  Hacl_Streaming_Functor_state_s___EverCrypt_Hash_state_s____ *p,
+  Hacl_Streaming_Functor_state_s___EverCrypt_Hash_state_s____ *s,
   uint8_t *data,
   uint32_t len
 );
@@ -412,6 +431,16 @@ EverCrypt_Hash_Incremental_finish_sha256(
 );
 
 /* SNIPPET_END: EverCrypt_Hash_Incremental_finish_sha256 */
+
+/* SNIPPET_START: EverCrypt_Hash_Incremental_finish_sha3_256 */
+
+void
+EverCrypt_Hash_Incremental_finish_sha3_256(
+  Hacl_Streaming_Functor_state_s___EverCrypt_Hash_state_s____ *p,
+  uint8_t *dst
+);
+
+/* SNIPPET_END: EverCrypt_Hash_Incremental_finish_sha3_256 */
 
 /* SNIPPET_START: EverCrypt_Hash_Incremental_finish_sha384 */
 

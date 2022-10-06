@@ -36,167 +36,7 @@
         "token_correspondence_Vale.X64.Machine_Semantics_s.instr_annotation@tok"
       ],
       0,
-      "c0970301f43c898884c149c702f67818"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      2,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN", "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "c296964f9079c45ecd39ac049ca1bc0c"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      3,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_64",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "80181ce5d238d9d441dc6791fab2bd07"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      4,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN", "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "c39cd60a0b584d432891f107f12d8bb8"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      5,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_64",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "a1ceb7f3178ac1f4bf6c26198ecc01a7"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      6,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN", "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "40c275f2218d4e32a390c9bfcbe908c0"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      7,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_64",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "d33af98b4cbd621b04f5037704b7ae2e"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      8,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN", "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "cc330ea59bae05d88f1d037519efc324"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      9,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_64",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "acff1f96967036cfef4ada723f63e6be"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      10,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.Def.Words_s.nat64",
-        "equation_Vale.Def.Words_s.natN", "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c1424615841f28cac7fc34e92b7ff33c",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "27a991dbc1c36cfc2acfab4c96900366"
-    ],
-    [
-      "Vale.Transformers.MovMovElim.safe_mov_mov_elim",
-      11,
-      1,
-      4,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
-        "equation_Prims.nat", "equation_Vale.X64.Machine_s.reg_64",
-        "function_token_typing_Prims.int",
-        "haseqTm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "haseqTm_refine_c365eb902b454950de62fba701d9049d",
-        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
-      ],
-      0,
-      "4f6843b07b99ad4311fcd526d0bdd45d"
+      "82ceb5ea6dca5eafe4139e5ad70b2753"
     ],
     [
       "Vale.Transformers.MovMovElim.mov_mov_elim_ph",
@@ -211,7 +51,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "41e253c20282563b9a800005a651c1a3"
+      "2be267b44173ce53e6837f9306966c13"
     ],
     [
       "Vale.Transformers.MovMovElim.lemma_mov_mov_is_mov",
@@ -425,7 +265,7 @@
         "unit_inversion", "unit_typing"
       ],
       0,
-      "9ed9832261c624ad2202c8f72fce6de5"
+      "aedc1ae30742827be59aff9f67a0e805"
     ],
     [
       "Vale.Transformers.MovMovElim.mov_mov_elim_correct",
@@ -469,7 +309,7 @@
         "typing_Vale.X64.Machine_Semantics_s.machine_eval_ins"
       ],
       0,
-      "5ad74622d4fbfec7f97845dcffd9fc71"
+      "07480e65db52c658c08073ef3d6248f7"
     ]
   ]
 ]

@@ -8,7 +8,7 @@
       1,
       [ "@query" ],
       0,
-      "2945a2c502e41976a2570d2eb2b4acc6"
+      "27357c6696ecf8a55fa47f75f5b5e98f"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.polycore_poly1305_padded_higher",
@@ -17,7 +17,7 @@
       1,
       [ "@query" ],
       0,
-      "3de3b5cb46065fbb0bc4cad3876efc57"
+      "a9078026d4161cab651bbf3fed259770"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.polycore_poly1305_padded_higher",
@@ -229,7 +229,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "b77d45658d0945050bd9084454cec0c0"
+      "9cf0447438ede41edfe3b64ce4b261ab"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.polycore_poly1305_padded_higher",
@@ -260,7 +260,7 @@
         "typing_Spec.Poly1305.size_key"
       ],
       0,
-      "2c84cf4f2fcd63a4dde693b202e00137"
+      "674764a9a040238426cbbfda8712b3aa"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_poly1305_do__higher_t",
@@ -340,7 +340,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "d16bdee0cf301fd0efa1bb74987d5286"
+      "df5af779c6227efc48729dee26f0aecc"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_poly1305_do__higher",
@@ -382,7 +382,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "65741465ebebb11604472fff63f5e400"
+      "d7bdae7571955fdf40ec0c8012d73d27"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_poly1305_do__higher",
@@ -529,7 +529,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "566fd018b61c2f60370951be29b60e6b"
+      "c07f958fed4f7009836200fb9ba2202c"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_poly1305_do__higher",
@@ -640,7 +640,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "14469bd741bdc2788555339f22d1a105"
+      "76fe55881c333dab974da04c1814b41f"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_poly1305_do_higher",
@@ -670,7 +670,7 @@
         "typing_Lib.Buffer.length", "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "afbe6bbf4c6126c61c0640c7b930c11d"
+      "2b20394c3e3ac28ab4d477e540104fc3"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_poly1305_do_higher",
@@ -687,8 +687,12 @@
         "constructor_distinct_Lib.Buffer.CONST",
         "constructor_distinct_Lib.Buffer.MUT",
         "constructor_distinct_Lib.IntTypes.PUB",
+        "constructor_distinct_Lib.IntTypes.S16",
+        "constructor_distinct_Lib.IntTypes.S32",
+        "constructor_distinct_Lib.IntTypes.S8",
         "constructor_distinct_Lib.IntTypes.U16",
         "constructor_distinct_Lib.IntTypes.U32",
+        "constructor_distinct_Lib.IntTypes.U64",
         "constructor_distinct_Lib.IntTypes.U8",
         "disc_equation_Hacl.Impl.Poly1305.Fields.M128",
         "disc_equation_Hacl.Impl.Poly1305.Fields.M256",
@@ -999,7 +1003,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "9d6f3d9d7a9ce66a91e4eec6779ca5f8"
+      "c5fa18b1af35174ed3c3cddee35a0b8c"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_derive_key_poly1305_do_higher",
@@ -1058,7 +1062,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "a239fbd2c9c0116862df57d4790db0ad"
+      "e0753d380562be15b7e782f95ef3a1bf"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_derive_key_poly1305_do_higher",
@@ -1228,7 +1232,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "5553f779a9048fe5808176b65c240dca"
+      "13f937182de6f193e9e7b797f7910850"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_derive_key_poly1305_do_higher",
@@ -1361,7 +1365,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "c4f65e1b0abc3b7f7c15078234278198"
+      "3e530dc67e6a080a8caaa644dff7e211"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_aead_encrypt_higher",
@@ -1420,7 +1424,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "dfe963357ef0d8e7c8999cd2bc398a52"
+      "3fbf97ef125f833687045974c20ddeb8"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_aead_encrypt_higher",
@@ -1646,7 +1650,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "a450cc478e21683a4141e6eaeacad650"
+      "c95a7f2818c41d79954b2eaf4f8b9c85"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_aead_decrypt_higher",
@@ -1705,7 +1709,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "5facb67b29586b4274548f9717b5445d"
+      "5792aea9dacd7bbec124d18ad8c80575"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_aead_decrypt_higher",
@@ -1887,7 +1891,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "cf740070f28a908ba24b66e98a5623cc"
+      "cfb19438c1e3ac5c09489d20510b6d1d"
     ],
     [
       "Hacl.Meta.Chacha20Poly1305.chacha20poly1305_aead_decrypt_higher",

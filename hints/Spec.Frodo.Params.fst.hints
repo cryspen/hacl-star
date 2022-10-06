@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "a847a6d2529103aa70c1d8254b70bfd8"
+      "191f0dfde9e1ef6812bad02bcdaf074a"
     ],
     [
       "Spec.Frodo.Params.uu___1",
@@ -17,7 +17,7 @@
       0,
       [ "@query" ],
       0,
-      "e553d20c0c0d8572b3c9f2c87614e813"
+      "ef36ecbe60ac92171f0309184cb54f01"
     ],
     [
       "Spec.Frodo.Params.params_n",
@@ -58,7 +58,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "46d565864e4071cafb2eacef36e71568"
+      "3c39ce9b1f6893bd8644724e33807e3f"
     ],
     [
       "Spec.Frodo.Params.params_logq",
@@ -99,7 +99,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "6d2af0c197cab14847effde98e71fec3"
+      "be89c6949d9109e7b344bd4e33a86d8b"
     ],
     [
       "Spec.Frodo.Params.params_extracted_bits",
@@ -149,7 +149,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "10de384507b6f7a2ce10fa65e1717683"
+      "bc1702881863364adcdb94f5294c7933"
     ],
     [
       "Spec.Frodo.Params.crypto_bytes",
@@ -190,7 +190,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "251b874315aef39096961cd8a0b1f8d1"
+      "1d89e8feee6894e9b69e42aa7b24a277"
     ],
     [
       "Spec.Frodo.Params.bytes_mu",
@@ -226,7 +226,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "e9c92ceb522f9c70caf73d315069f25c"
+      "1d032878b28a4605eb23c60648bce4ba"
     ],
     [
       "Spec.Frodo.Params.publicmatrixbytes_len",
@@ -261,7 +261,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "a3fbd1bc8d0a5570da0e87c6cf84d029"
+      "21ac1e495ed207b1581546319a51821f"
     ],
     [
       "Spec.Frodo.Params.secretmatrixbytes_len",
@@ -292,7 +292,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "09ce8a584aeba0f6d583a5c9e8540546"
+      "f2a32e43c4ec19e184e83f3ffbafc6c7"
     ],
     [
       "Spec.Frodo.Params.ct1bytes_len",
@@ -327,7 +327,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "a6184eb76da44eaf58e067e4e6a07d0b"
+      "735a23c1045aee49ddd8f581fce409ea"
     ],
     [
       "Spec.Frodo.Params.ct2bytes_len",
@@ -358,7 +358,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "39f27db9d43e460b02edc3b55a3fe9a3"
+      "3247e575679226c915a0dd957404858f"
     ],
     [
       "Spec.Frodo.Params.crypto_publickeybytes",
@@ -398,7 +398,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "f319a91eb1c7a1da9a7abff98f290943"
+      "7433936c3a4450516ff5cf15dc316b12"
     ],
     [
       "Spec.Frodo.Params.crypto_secretkeybytes",
@@ -445,7 +445,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "1b06f724b7dd502fbc9d179dcb99e4f9"
+      "74ea40ebb0aefcce07d01d1e34f84f68"
     ],
     [
       "Spec.Frodo.Params.crypto_ciphertextbytes",
@@ -485,7 +485,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "3ec02e731b853c25135b9ddf3a0da54a"
+      "a4154e0b918ffb1a06a8208ab2143f6a"
     ],
     [
       "Spec.Frodo.Params.expand_crypto_publickeybytes",
@@ -494,7 +494,7 @@
       1,
       [ "@query", "equation_Spec.Frodo.Params.crypto_publickeybytes" ],
       0,
-      "56a8bdd8faee6ab40db5daa73ad5b0da"
+      "9673b9c2ee05eb8cc31cbac624954508"
     ],
     [
       "Spec.Frodo.Params.expand_crypto_secretkeybytes",
@@ -503,7 +503,7 @@
       1,
       [ "@query", "equation_Spec.Frodo.Params.crypto_secretkeybytes" ],
       0,
-      "552274c1575a48e33780a453f65a065c"
+      "8e78253f1b8d966a13a40f2acbd26bbb"
     ],
     [
       "Spec.Frodo.Params.expand_crypto_ciphertextbytes",
@@ -546,7 +546,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "94479530350ca9a1631c3a76cb9bc3e7"
+      "5be482e75e01e293da9c2d0761f1506c"
     ],
     [
       "Spec.Frodo.Params.params_n_sqr",
@@ -581,7 +581,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "f3e8bb09f6a1f9625734d28c63dea7d5"
+      "08d41f651de64abb0275c05c2b40bae9"
     ],
     [
       "Spec.Frodo.Params.frodo_shake",
@@ -601,7 +601,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "2f64b8d5c282c47d82eb3190eef15762"
+      "1bdd78a69c6774d9f07cab98f72fa015"
     ],
     [
       "Spec.Frodo.Params.frodo_gen_matrix_st",
@@ -616,7 +616,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "9cd1e9bf07933e25dccb543f3b73ab26"
+      "5c8331fefd9e828183feb3eed656e843"
     ],
     [
       "Spec.Frodo.Params.frodo_gen_matrix",
@@ -634,7 +634,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "46006bc694b098a1ccd0a66e0d4573c8"
+      "05d780605b6fcaea4cc5c9481111256b"
     ],
     [
       "Spec.Frodo.Params.cdf_list_640",
@@ -670,7 +670,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "f25761ae505f58dba42510e4362cb425"
+      "90a6ef689e97e3adadc2b407b88ff861"
     ],
     [
       "Spec.Frodo.Params.cdf_list_976",
@@ -706,7 +706,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "16cbfbb8f965d144989d68b0d67abfdc"
+      "a1e383f17eeeddaac7d96eeda8c31a68"
     ],
     [
       "Spec.Frodo.Params.cdf_list_1344",
@@ -742,7 +742,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "d1ed5b825fa76f50adb69f87d6495911"
+      "09b77501897b1058fc47677ce4b4378c"
     ],
     [
       "Spec.Frodo.Params.cdf_table_len",
@@ -777,7 +777,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "ea94be5c7a90f011770033e4130a0864"
+      "722e78240b94128e99347282175cf7d7"
     ],
     [
       "Spec.Frodo.Params.cdf_list",
@@ -806,7 +806,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "866d7cd14f6612e2d608689c44aad295"
+      "4d280fdb071d02c2392a913914f1cb01"
     ],
     [
       "Spec.Frodo.Params.cdf_table",
@@ -821,7 +821,7 @@
         "typing_Spec.Frodo.Params.cdf_table_len"
       ],
       0,
-      "cdac31d15522d0b2d0b1abe5dcde2c34"
+      "cc1b45435f97f44358635ded3ac3b76c"
     ],
     [
       "Spec.Frodo.Params.lemma_cdf_list_640",
@@ -844,7 +844,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "68f7fbade171dcc31fcd48007cad9af0"
+      "74422add2f0a28163bb3dbee60fccf1e"
     ],
     [
       "Spec.Frodo.Params.lemma_cdf_list_640",
@@ -886,7 +886,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "d4d1bc2b9d352d6828b295b36c400911"
+      "1497067c2ac26e2367724cdbb2bce091"
     ],
     [
       "Spec.Frodo.Params.lemma_cdf_list_976",
@@ -909,7 +909,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "f23f663d12a50375a4f5df84021c8dcc"
+      "aa1f0e8117fbe9052d7e046bc209508f"
     ],
     [
       "Spec.Frodo.Params.lemma_cdf_list_976",
@@ -951,7 +951,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "d41dd4bf64f751a0b332bcecb7bbaecc"
+      "dfcaf3a06edd79886754fda2d9502cac"
     ],
     [
       "Spec.Frodo.Params.lemma_cdf_list_1344",
@@ -974,7 +974,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "949bafef89846fe11b8f95cf1b130a24"
+      "0f554081129103fa887e6f0c6fa75513"
     ],
     [
       "Spec.Frodo.Params.lemma_cdf_list_1344",
@@ -1017,7 +1017,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "e166aff40471f3a1931849a22f44cd7c"
+      "69a28e10c314ecad299a3ced65df3c73"
     ],
     [
       "Spec.Frodo.Params.lemma_cdf_list",
@@ -1044,7 +1044,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "4d3d4b210ce5f6f258d47a85aea48e16"
+      "4312b78b36e27899d9f57db8ddff46bc"
     ],
     [
       "Spec.Frodo.Params.lemma_cdf_list",
@@ -1075,7 +1075,7 @@
         "refinement_interpretation_Tm_refine_9c98bbfe1ca9f7370893405acffb5b23"
       ],
       0,
-      "6a98ead00def640d16fde843a95b7689"
+      "caa05e2b70c72f2024d81fbf42920f61"
     ]
   ]
 ]

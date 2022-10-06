@@ -81,7 +81,7 @@
         "typing_tok_LowStar.ConstBuffer.IMMUTABLE@tok"
       ],
       0,
-      "5bfaf2ecc07e75fbb43226ef78c1ef3a"
+      "99d6d3ce682a9011420507a0c5f401b0"
     ],
     [
       "Hacl.Curve25519_64.point_add_and_double",
@@ -90,7 +90,7 @@
       0,
       [ "@query" ],
       0,
-      "5d5355c00b6f5c1f6147d1060338143e"
+      "67a51714d8accdb51edca289d69030ff"
     ],
     [
       "Hacl.Curve25519_64.point_double",
@@ -99,7 +99,7 @@
       0,
       [ "@query" ],
       0,
-      "6ff5510342a23bf67406d1c85c18fc97"
+      "351b541f0637744ea61d28696cccb9ef"
     ],
     [
       "Hacl.Curve25519_64.montgomery_ladder",
@@ -108,7 +108,7 @@
       0,
       [ "@query" ],
       0,
-      "ac0e39ef2ba3cae4cf3b9a4935223c90"
+      "3f1a1e7a067dbf1071755dd4a5712524"
     ],
     [
       "Hacl.Curve25519_64.fsquare_times",
@@ -117,7 +117,7 @@
       0,
       [ "@query" ],
       0,
-      "04ba9ab2742e37d6aca0b451f1693dad"
+      "d1d261fb71894826acbd4353f5a44911"
     ],
     [
       "Hacl.Curve25519_64.finv",
@@ -126,7 +126,7 @@
       0,
       [ "@query" ],
       0,
-      "313c293ee53317b1072885c8d426664c"
+      "c4bc9d6174f8094111f593ea9f5fbe9a"
     ],
     [
       "Hacl.Curve25519_64.store_felem",
@@ -135,7 +135,7 @@
       0,
       [ "@query" ],
       0,
-      "140e3f9e5bf0d6f0be4ca1784891da1f"
+      "451c55f793fdfc003a4ad1cb4591a7d9"
     ],
     [
       "Hacl.Curve25519_64.encode_point",
@@ -144,7 +144,7 @@
       0,
       [ "@query" ],
       0,
-      "cec9eef493026b6dd588069ba2108ee0"
+      "a923e93494ca4f25d43613c43a485027"
     ],
     [
       "Hacl.Curve25519_64.scalarmult",
@@ -160,7 +160,7 @@
         "refinement_interpretation_Tm_refine_dac39a08e8a2b6d884d0b86408735945"
       ],
       0,
-      "55294ffe425849913646bb1ba35763d3"
+      "d40bcf49ac0594fa38c0e7d0099d6d17"
     ],
     [
       "Hacl.Curve25519_64.secret_to_public",
@@ -176,7 +176,7 @@
         "refinement_interpretation_Tm_refine_dac39a08e8a2b6d884d0b86408735945"
       ],
       0,
-      "f694f03d56c1db00e9006bdb8f7b9e1d"
+      "3bf679c80eee393bc488fc42fd050f55"
     ],
     [
       "Hacl.Curve25519_64.ecdh",
@@ -190,7 +190,7 @@
         "refinement_interpretation_Tm_refine_dac39a08e8a2b6d884d0b86408735945"
       ],
       0,
-      "dcf8c228d3a47430290ea66ea5bae808"
+      "cf65894adbbb027781f36bcf99c2fd7f"
     ]
   ]
 ]

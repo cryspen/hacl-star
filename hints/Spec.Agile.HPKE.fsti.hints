@@ -1,5 +1,5 @@
 [
-  "\u0010¶0ÀD\u0000”\rÉü±j\nè‚\u0004",
+  ".]\u001aÜºà^0§*þî\u001d™^\u001d",
   [
     [
       "Spec.Agile.HPKE.__proj__Seal__item__alg",
@@ -11,7 +11,7 @@
         "refinement_interpretation_Tm_refine_7e243f7b4521dde93169db5262d0532c"
       ],
       0,
-      "0d93aeb031ab20425a91bcfd3f682761"
+      "75b110a47d7d0ec8d54ce1090c7eb2dd"
     ],
     [
       "Spec.Agile.HPKE.hash_of_cs",
@@ -31,7 +31,7 @@
         "typing_Spec.Agile.HPKE.is_valid_hash"
       ],
       0,
-      "ca8e8deac837dbb70d07a1e9fbc5a0b7"
+      "a61e6a1308ce68e41396ff555ac7c710"
     ],
     [
       "Spec.Agile.HPKE.is_valid_not_export_only_ciphersuite",
@@ -48,7 +48,7 @@
         "typing_Spec.Agile.HPKE.aead_of_cs"
       ],
       0,
-      "0e612a320e6381644a6a1a165021a23d"
+      "158250648ac218eee633bb94157b44e7"
     ],
     [
       "Spec.Agile.HPKE.aead_alg_of",
@@ -65,7 +65,7 @@
         "typing_Spec.Agile.HPKE.is_valid_not_export_only_ciphersuite"
       ],
       0,
-      "d367fffef806c05dc1c0be9f13fc3e2d"
+      "349b2437f6e56a7a58929a87511ef6df"
     ],
     [
       "Spec.Agile.HPKE.size_label_version",
@@ -90,7 +90,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "3ab905952e4dc0ee89c1eee927e01d5c"
+      "c65fbee5163e9cfad1820cdb9ffdb52a"
     ],
     [
       "Spec.Agile.HPKE.label_version_list",
@@ -122,7 +122,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "7406e3fff6be82fb9545ea4e4362916a"
+      "32e759ec89960efdce56634967ad57c7"
     ],
     [
       "Spec.Agile.HPKE.label_version",
@@ -135,7 +135,7 @@
         "typing_Spec.Agile.HPKE.size_label_version"
       ],
       0,
-      "9c88f38ae39cf69cdee9e335e9e9b5fd"
+      "852c387f87168745a7cbdd3e2c827512"
     ],
     [
       "Spec.Agile.HPKE.size_label_eae_prk",
@@ -160,7 +160,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "74546c827cfe2ed64d2dcb93f4b7ce56"
+      "3afaf75208a47e3de639641c926abe42"
     ],
     [
       "Spec.Agile.HPKE.label_eae_prk_list",
@@ -192,7 +192,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "c5dd7501b7626d3cffe4d27a58893aa2"
+      "4e7179d083e53537e69aede4595ad703"
     ],
     [
       "Spec.Agile.HPKE.label_eae_prk",
@@ -205,7 +205,7 @@
         "typing_Spec.Agile.HPKE.size_label_eae_prk"
       ],
       0,
-      "fb12d62dfc6613590a760cb87ba68538"
+      "84f22e8d4b346441d65682cf82b9150b"
     ],
     [
       "Spec.Agile.HPKE.size_label_KEM",
@@ -230,7 +230,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "57b91d283956106aa0d660b872ffc250"
+      "1b8c7763eddf506aaf6181359ba568cd"
     ],
     [
       "Spec.Agile.HPKE.label_KEM_list",
@@ -262,7 +262,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "f947e95cd815703460844770beb13028"
+      "c73cec99a2f9e2809afd124fbc0a636b"
     ],
     [
       "Spec.Agile.HPKE.label_KEM",
@@ -275,7 +275,7 @@
         "typing_Spec.Agile.HPKE.size_label_KEM"
       ],
       0,
-      "d34f6e79d6d624a4a0e2ff9a41ebe028"
+      "cffa49471f00936f0f263ddad6f45428"
     ],
     [
       "Spec.Agile.HPKE.size_label_HPKE",
@@ -300,7 +300,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "ac801098b05c139e5fd672c854944885"
+      "72fa8403c2d403dd81fb4f1db3f7ac5a"
     ],
     [
       "Spec.Agile.HPKE.label_HPKE_list",
@@ -332,7 +332,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "341c4bf21ca5a90e88eab1383b37cf20"
+      "0411479607bc026a45e0448bd51fd145"
     ],
     [
       "Spec.Agile.HPKE.label_HPKE",
@@ -345,7 +345,7 @@
         "typing_Spec.Agile.HPKE.size_label_HPKE"
       ],
       0,
-      "482bbf975e5aabe45f28425feeed78a3"
+      "6769d10a594fe4f31481fd810e7f9f4a"
     ],
     [
       "Spec.Agile.HPKE.size_label_shared_secret",
@@ -370,7 +370,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "7c4683e62b0ff9ebed0fc582eca3ea66"
+      "81b62aeb712fccf5ffc6f9435de32fb2"
     ],
     [
       "Spec.Agile.HPKE.label_shared_secret_list",
@@ -402,7 +402,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "a1430b9dcb7ae1d88e5e1e1785885026"
+      "a8f129e563a4ac1ef235e39072ca8f1e"
     ],
     [
       "Spec.Agile.HPKE.label_shared_secret",
@@ -415,7 +415,7 @@
         "typing_Spec.Agile.HPKE.size_label_shared_secret"
       ],
       0,
-      "61d6feba7d294d64731ae1465c34b310"
+      "c2f4e3f0691205cb95740d3302a91e8b"
     ],
     [
       "Spec.Agile.HPKE.size_label_psk_id_hash",
@@ -440,7 +440,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "0b445df85421d9db33ed13e32f2621d2"
+      "ad221b6c6fb9255b63618ddf4288fed5"
     ],
     [
       "Spec.Agile.HPKE.label_psk_id_hash_list",
@@ -472,7 +472,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "42e5689b43032d935923de5f75558977"
+      "12f7e5e9197942556b3510df81925eb2"
     ],
     [
       "Spec.Agile.HPKE.label_psk_id_hash",
@@ -485,7 +485,7 @@
         "typing_Spec.Agile.HPKE.size_label_psk_id_hash"
       ],
       0,
-      "7f7cf45dd34337740f3d04ccd10b4a9e"
+      "f43384f5e6041c2c03bcb795d35845e4"
     ],
     [
       "Spec.Agile.HPKE.size_label_info_hash",
@@ -510,7 +510,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "0ab9c7a57613acef59b18cfba028d0c9"
+      "3375e758e89af3448252de645cf8e388"
     ],
     [
       "Spec.Agile.HPKE.label_info_hash_list",
@@ -542,7 +542,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "a5010b6ad447a2a3d85d59f87de4dd8e"
+      "b546c1cca7802eaa12b9387a867dea05"
     ],
     [
       "Spec.Agile.HPKE.label_info_hash",
@@ -555,7 +555,7 @@
         "typing_Spec.Agile.HPKE.size_label_info_hash"
       ],
       0,
-      "2b1aa9a1bd93709c38934609c0dac72b"
+      "49a5e9a2d14e016c35baa34cdd0e6aa7"
     ],
     [
       "Spec.Agile.HPKE.size_label_secret",
@@ -580,7 +580,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "e0f5cb6f3bb117261c14dbb6940df9bc"
+      "efb4503a066f2c462b975890762a8fdc"
     ],
     [
       "Spec.Agile.HPKE.label_secret_list",
@@ -612,7 +612,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "e12132b22936012c1b6eb0d77bbc7c32"
+      "42bd14bf396992a46cd1c15bce0639e8"
     ],
     [
       "Spec.Agile.HPKE.label_secret",
@@ -625,7 +625,7 @@
         "typing_Spec.Agile.HPKE.size_label_secret"
       ],
       0,
-      "3c5bbe8dffe111c72abad0db60c177f9"
+      "e34d4cccbd32118871a2f8026fff84c0"
     ],
     [
       "Spec.Agile.HPKE.size_label_key",
@@ -650,7 +650,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "60ab17041ddd0a2ad00e0bfc3de2b8e6"
+      "31781737e8506600a6b4285598b42bf4"
     ],
     [
       "Spec.Agile.HPKE.label_key_list",
@@ -682,7 +682,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "39cc8c624b89d558b66eb6887d2b2681"
+      "61c0bf459ddec697e92ec81f2dd00459"
     ],
     [
       "Spec.Agile.HPKE.label_key",
@@ -695,7 +695,7 @@
         "typing_Spec.Agile.HPKE.size_label_key"
       ],
       0,
-      "e28561930ba62e74552b7c4df00a90b8"
+      "d77557f589ee2c79a296762198f2a6b0"
     ],
     [
       "Spec.Agile.HPKE.size_label_base_nonce",
@@ -720,7 +720,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "08ab82e25a8e149effb7fad50d15cdba"
+      "32143dd47b9f83b35bd59a342667a2b7"
     ],
     [
       "Spec.Agile.HPKE.label_base_nonce_list",
@@ -752,7 +752,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "64d76b54f29efa4f3588116023708b95"
+      "377dda2ae8662a5c3613d3f000642967"
     ],
     [
       "Spec.Agile.HPKE.label_base_nonce",
@@ -765,7 +765,7 @@
         "typing_Spec.Agile.HPKE.size_label_base_nonce"
       ],
       0,
-      "8c2a3a74c6c90c469efd276f637eb1d8"
+      "d1db772d22d44d164f6d77637dc6003e"
     ],
     [
       "Spec.Agile.HPKE.size_label_exp",
@@ -790,7 +790,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "2d71fb1b8a26606a12570b934f37038d"
+      "63118e99817419943274d3c7352efe0f"
     ],
     [
       "Spec.Agile.HPKE.label_exp_list",
@@ -822,7 +822,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "0de4d08dd45be765c6dc2da35a0820b3"
+      "50fb62f28b6f3024eb90a81c69bca60b"
     ],
     [
       "Spec.Agile.HPKE.label_exp",
@@ -835,7 +835,7 @@
         "typing_Spec.Agile.HPKE.size_label_exp"
       ],
       0,
-      "1d98ee9a40c07f082afd03a227b7b1c5"
+      "17c076d9f9d861c6309cf6dbd07f83f9"
     ],
     [
       "Spec.Agile.HPKE.size_label_sec",
@@ -860,7 +860,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "49d3de442bec28cecba04d772ce3d71b"
+      "b5cfdb2ccd030b4c9553204ceebc5274"
     ],
     [
       "Spec.Agile.HPKE.label_sec_list",
@@ -892,7 +892,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "4c6963eff7e62276dc2a6257af61662c"
+      "6b8d007b73cb0eb42a298f786d742608"
     ],
     [
       "Spec.Agile.HPKE.label_sec",
@@ -905,7 +905,7 @@
         "typing_Spec.Agile.HPKE.size_label_sec"
       ],
       0,
-      "81ce0edda18604f297d4350b6cf53474"
+      "66d3b1aa4e43679104ebe7d5a8749039"
     ],
     [
       "Spec.Agile.HPKE.size_label_dkp_prk",
@@ -930,7 +930,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "f486f4ed54af23f1a860e07af6b4647a"
+      "23ba119a844286db9775e5c44e8b60f3"
     ],
     [
       "Spec.Agile.HPKE.label_dkp_prk_list",
@@ -962,7 +962,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "c4d47b96eee7028a127088377d92f247"
+      "276e7fd823ce0428f1ad7faa954e675d"
     ],
     [
       "Spec.Agile.HPKE.label_dkp_prk",
@@ -975,7 +975,7 @@
         "typing_Spec.Agile.HPKE.size_label_dkp_prk"
       ],
       0,
-      "2a21a1b13507c23b6e84f76f881850f6"
+      "e0dc59358edea0f4a8f9f66acd41ccc4"
     ],
     [
       "Spec.Agile.HPKE.size_label_candidate",
@@ -1000,7 +1000,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "64b2ffe60ef5cb9c464649639bbd8d28"
+      "233505b77d97d1c8e4c5ebc84fb34a89"
     ],
     [
       "Spec.Agile.HPKE.label_candidate_list",
@@ -1032,7 +1032,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "21219bacb5159cfc0c45f3722ecbb27e"
+      "f425be9e185ff1222ea1bdf1127b5e43"
     ],
     [
       "Spec.Agile.HPKE.label_candidate",
@@ -1045,7 +1045,7 @@
         "typing_Spec.Agile.HPKE.size_label_candidate"
       ],
       0,
-      "b0a0f705e4a568febd3c6423c5cc8b89"
+      "7857eee027dca20fa1dc735a301e3a7a"
     ],
     [
       "Spec.Agile.HPKE.size_label_sk",
@@ -1070,7 +1070,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "e27f0a5df80e3a1360e98339e2a05e23"
+      "f8d9ef1a1ab2ff1853e3b802b5a2edf8"
     ],
     [
       "Spec.Agile.HPKE.label_sk_list",
@@ -1102,7 +1102,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "9525e551ae84ec24ad676707ab5b3e8f"
+      "a3c82ea6956f3f780dfab4b25a1d7043"
     ],
     [
       "Spec.Agile.HPKE.label_sk",
@@ -1115,7 +1115,7 @@
         "typing_Spec.Agile.HPKE.size_label_sk"
       ],
       0,
-      "9fdbeb3ebcce223571c4897dc7c36380"
+      "e6ce086597ecbe55eb4411176136462e"
     ],
     [
       "Spec.Agile.HPKE.size_aead_nonce",
@@ -1158,7 +1158,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "633deb59c5cefe780fd75d6484fb0344"
+      "46f3dc8b75e6977bf6d0752524447c81"
     ],
     [
       "Spec.Agile.HPKE.size_aead_key",
@@ -1234,7 +1234,7 @@
         "typing_tok_Spec.Agile.Cipher.CHACHA20@tok"
       ],
       0,
-      "ff0abc90a824676f0338b52f01797158"
+      "e707d0581338599663dee1360e5dd737"
     ],
     [
       "Spec.Agile.HPKE.size_aead_tag",
@@ -1305,7 +1305,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "99cd5b83a94b5ac9fdd4d3fd2974aa9f"
+      "f8bb45ea05f49be4009bcf1dfb831a7b"
     ],
     [
       "Spec.Agile.HPKE.size_dh_public",
@@ -1354,7 +1354,7 @@
         "typing_tok_Spec.Agile.DH.DH_P256@tok"
       ],
       0,
-      "65b4df5213532eebc99f9e3cf33731f3"
+      "f72aba581d6efd2c5d91691c7e1c0d2a"
     ],
     [
       "Spec.Agile.HPKE.size_dh_serialized",
@@ -1371,7 +1371,7 @@
         "typing_Spec.Agile.HPKE.kem_dh_of_cs"
       ],
       0,
-      "d497ad0dd14038c96d0973236dc013ee"
+      "f028b28f36db42a2a3209f7f2c5ba2ba"
     ],
     [
       "Spec.Agile.HPKE.size_kem_kdf",
@@ -1429,7 +1429,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "e7c2b386161ea23162531984b5609009"
+      "883117e5a3fe770c9ad8b7c489ac4d38"
     ],
     [
       "Spec.Agile.HPKE.size_kem_key",
@@ -1487,7 +1487,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "739218c0b992a06a872ae72a3f247764"
+      "1b615a66253288b5c91abdba038393a3"
     ],
     [
       "Spec.Agile.HPKE.size_kdf",
@@ -1553,7 +1553,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "9f3dc89265a4a1a3da973822fd63dd25"
+      "fd83669535668fc1c8bdd9eb416242ea"
     ],
     [
       "Spec.Agile.HPKE.max_seq",
@@ -1595,7 +1595,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "fe8c46e6de46e51fd1adae74b90b5d57"
+      "ee82de2337aa7ffbf704bf75b8e426ca"
     ],
     [
       "Spec.Agile.HPKE.size_suite_id_kem",
@@ -1622,7 +1622,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "08fa38ef591a7f502a126a57fc9b7333"
+      "e7b9308fcc8d81d43de05d12c642934d"
     ],
     [
       "Spec.Agile.HPKE.size_suite_id_hpke",
@@ -1649,7 +1649,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "e0a2c7e6cc092f1a69d642caffef23ec"
+      "cd71a590279bab035ac24654eac67fde"
     ],
     [
       "Spec.Agile.HPKE.size_mode_identifier",
@@ -1674,7 +1674,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "f3b7852ec668ed089e87d2b497b99517"
+      "6fdcf4e13a1cd97033312bc1fdf66118"
     ],
     [
       "Spec.Agile.HPKE.size_ks_ctx",
@@ -1742,7 +1742,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "da171f21b43b6b84a816ae614a9a9804"
+      "49a81b736832aaffe5c2e724c3b42f13"
     ],
     [
       "Spec.Agile.HPKE.labeled_extract_ikm_length_pred",
@@ -1756,7 +1756,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "53c95cc09bb70c06a2084fd0c4402f22"
+      "3e48e21099f95ce10db0fd4f50691a25"
     ],
     [
       "Spec.Agile.HPKE.labeled_expand_info_length_pred",
@@ -1770,7 +1770,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "689bb531edf586c9aca7d359c3e9e298"
+      "64a9e63488bc0f094f8e53a4267a9caa"
     ],
     [
       "Spec.Agile.HPKE.pow2_61_1",
@@ -1779,7 +1779,7 @@
       1,
       [ "@query" ],
       0,
-      "0b8973ab54a9d261a790f7363c4d385d"
+      "f8eb20fbf192363cf3f18ae384ed9f3b"
     ],
     [
       "Spec.Agile.HPKE.pow2_125_1",
@@ -1788,57 +1788,105 @@
       1,
       [ "@query" ],
       0,
-      "58f814d4be9ef290b2f380e2e33e707f"
+      "1fdff0174b072c1d0d1ffb013e63efd8"
     ],
     [
-      "Spec.Agile.HPKE.hash_max_input_length",
+      "Spec.Agile.HPKE.labeled_extract_max_length_ikm",
       1,
       0,
       1,
       [
-        "@MaxIFuel_assumption", "@query",
-        "disc_equation_Spec.Hash.Definitions.SHA2_224",
-        "disc_equation_Spec.Hash.Definitions.SHA2_256",
-        "disc_equation_Spec.Hash.Definitions.SHA2_384",
-        "disc_equation_Spec.Hash.Definitions.SHA2_512",
-        "equation_Spec.Agile.HPKE.hash_algorithm",
-        "equation_Spec.Agile.HPKE.is_valid_hash",
-        "projection_inverse_BoxBool_proj_0",
-        "refinement_interpretation_Tm_refine_e9f1676169bdb1eb03ff7957d71f76e0"
-      ],
-      0,
-      "71ccd369c5cf55bc7d8ba6bca63defb6"
-    ],
-    [
-      "Spec.Agile.HPKE.lemma_hash_max_input_lengths_equality",
-      1,
-      0,
-      1,
-      [
-        "@MaxIFuel_assumption", "@query",
+        "@MaxIFuel_assumption", "@query", "bool_inversion",
         "constructor_distinct_FStar.Integers.W16",
+        "constructor_distinct_FStar.Integers.W32",
         "constructor_distinct_FStar.Integers.W64",
         "constructor_distinct_FStar.Integers.W8",
+        "constructor_distinct_FStar.Pervasives.Native.Some",
         "constructor_distinct_Lib.IntTypes.U1",
         "constructor_distinct_Lib.IntTypes.U64",
-        "constructor_distinct_Tm_unit",
+        "disc_equation_FStar.Pervasives.Native.None",
+        "disc_equation_FStar.Pervasives.Native.Some",
+        "disc_equation_Spec.Hash.Definitions.SHA3_256",
         "equality_tok_FStar.Integers.W16@tok",
+        "equality_tok_FStar.Integers.W32@tok",
         "equality_tok_FStar.Integers.W64@tok",
-        "equality_tok_FStar.Integers.W8@tok",
-        "equation_Spec.Agile.HPKE.hash_max_input_length",
+        "equality_tok_FStar.Integers.W8@tok", "equation_Prims.pos",
+        "equation_Spec.Agile.HPKE.hash_algorithm",
+        "equation_Spec.Agile.HPKE.is_valid_hash",
         "equation_Spec.Agile.HPKE.pow2_125_1",
         "equation_Spec.Agile.HPKE.pow2_61_1",
         "equation_Spec.Hash.Definitions.max_input_length",
         "function_token_typing_Spec.Agile.HPKE.pow2_125_1",
-        "function_token_typing_Spec.Agile.HPKE.pow2_61_1", "int_inversion",
+        "function_token_typing_Spec.Agile.HPKE.pow2_61_1",
+        "lemma_FStar.Pervasives.invertOption",
+        "projection_inverse_BoxBool_proj_0",
         "projection_inverse_FStar.Integers.Signed__0",
         "projection_inverse_FStar.Integers.Unsigned__0",
         "refinement_interpretation_Tm_refine_412d400e773dec3974a41daf3f319fc1",
         "refinement_interpretation_Tm_refine_c1dde07afb63a067417246e20b4aedd8",
-        "typing_Spec.Agile.HPKE.hash_max_input_length"
+        "refinement_interpretation_Tm_refine_e9f1676169bdb1eb03ff7957d71f76e0",
+        "refinement_kinding_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "typing_Spec.Hash.Definitions.max_input_length",
+        "typing_Spec.Hash.Definitions.uu___is_SHA3_256"
       ],
       0,
-      "7a1f202350850c9cca3cf34851cfd143"
+      "149d2a07dddec8f650c997d9bac53139"
+    ],
+    [
+      "Spec.Agile.HPKE.labeled_expand_max_length_info",
+      1,
+      0,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "bool_inversion",
+        "constructor_distinct_FStar.Integers.W16",
+        "constructor_distinct_FStar.Integers.W32",
+        "constructor_distinct_FStar.Integers.W64",
+        "constructor_distinct_FStar.Integers.W8",
+        "constructor_distinct_FStar.Pervasives.Native.Some",
+        "constructor_distinct_Lib.IntTypes.U1",
+        "constructor_distinct_Lib.IntTypes.U64",
+        "disc_equation_FStar.Pervasives.Native.None",
+        "disc_equation_FStar.Pervasives.Native.Some",
+        "disc_equation_Spec.Hash.Definitions.SHA3_256",
+        "equality_tok_FStar.Integers.W16@tok",
+        "equality_tok_FStar.Integers.W32@tok",
+        "equality_tok_FStar.Integers.W64@tok",
+        "equality_tok_FStar.Integers.W8@tok", "equation_Prims.pos",
+        "equation_Spec.Agile.HPKE.hash_algorithm",
+        "equation_Spec.Agile.HPKE.is_valid_hash",
+        "equation_Spec.Agile.HPKE.pow2_125_1",
+        "equation_Spec.Agile.HPKE.pow2_61_1",
+        "equation_Spec.Hash.Definitions.max_input_length",
+        "function_token_typing_Spec.Agile.HPKE.pow2_125_1",
+        "function_token_typing_Spec.Agile.HPKE.pow2_61_1",
+        "lemma_FStar.Pervasives.invertOption",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_FStar.Integers.Signed__0",
+        "projection_inverse_FStar.Integers.Unsigned__0",
+        "refinement_interpretation_Tm_refine_412d400e773dec3974a41daf3f319fc1",
+        "refinement_interpretation_Tm_refine_c1dde07afb63a067417246e20b4aedd8",
+        "refinement_interpretation_Tm_refine_e9f1676169bdb1eb03ff7957d71f76e0",
+        "refinement_kinding_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
+        "typing_Spec.Hash.Definitions.max_input_length",
+        "typing_Spec.Hash.Definitions.uu___is_SHA3_256"
+      ],
+      0,
+      "ba6c2d79a41703c94e023587d2339aac"
+    ],
+    [
+      "Spec.Agile.HPKE.maybe_lte",
+      1,
+      0,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.eqtype",
+        "function_token_typing_Prims.int",
+        "lemma_FStar.Pervasives.invertOption",
+        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
+      ],
+      0,
+      "5cbf3642c71c2cc05d1f17c2b19696ba"
     ],
     [
       "Spec.Agile.HPKE.context_seal",
@@ -1900,7 +1948,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "65c6f369afa1b549c9ba5b1578561651"
+      "d6a74bdac22ec64a352f13797a611fb6"
     ],
     [
       "Spec.Agile.HPKE.context_open",
@@ -1962,7 +2010,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "ff0b1206bb5e1da4f2888f5fc415cf7f"
+      "b6d1c11bb0fc5749bc79e1ed5ae210e3"
     ],
     [
       "Spec.Agile.HPKE.sealBase",
@@ -2024,7 +2072,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "f040a2957135277873bd6cb2d9d0094e"
+      "1bbe9f231ad60af07a9dd7d5f4577c04"
     ],
     [
       "Spec.Agile.HPKE.openBase",
@@ -2086,7 +2134,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "b00043f038b27fb6a383830ecf66243d"
+      "b4074740e4374cb8dc1985091f8d6c5f"
     ],
     [
       "Spec.Agile.HPKE.sealPSK",
@@ -2148,7 +2196,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "0e9c0d7784aa9b5f988303bfe58f0014"
+      "b886e8293c37e149aca58d40df8c378f"
     ],
     [
       "Spec.Agile.HPKE.openPSK",
@@ -2210,7 +2258,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "24a05000adf0359197cc89237b313d51"
+      "f38c358e61b4f9299c58df1394e19e6b"
     ],
     [
       "Spec.Agile.HPKE.sealAuth",
@@ -2272,7 +2320,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "7925cabbed726c6ecf7822e2e8ea5eb4"
+      "6178388f4ee13cf94cb9923f6b757bfe"
     ],
     [
       "Spec.Agile.HPKE.openAuth",
@@ -2334,7 +2382,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "b3e76cc662c6d1b1c22013b143d0d8f6"
+      "39692a12291ef0ca0d0a99e3c90ad391"
     ],
     [
       "Spec.Agile.HPKE.sealAuthPSK",
@@ -2396,7 +2444,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "4f5faad763387bf5a5a5f70db3651d4a"
+      "29ba01ab1f5819e48064b8da9dd1219d"
     ],
     [
       "Spec.Agile.HPKE.openAuthPSK",
@@ -2458,7 +2506,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "64db1b27a5daeb24a6a26156864d9adc"
+      "bdc333b37491f3b79ca5c7c66b97b2a6"
     ]
   ]
 ]

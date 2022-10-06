@@ -622,13 +622,17 @@ Hacl_Bignum_Karatsuba_bn_karatsuba_mul_uint32(
     c01 = Lib_IntTypes_Intrinsics_add_carry_u32((uint32_t)0U, r[0U], c7, r);
     if ((uint32_t)1U < aLen + aLen - (aLen + aLen2))
     {
-      uint32_t rLen = aLen + aLen - (aLen + aLen2) - (uint32_t)1U;
       uint32_t *a11 = r + (uint32_t)1U;
       uint32_t *res1 = r + (uint32_t)1U;
       uint32_t c = c01;
       {
         uint32_t i;
-        for (i = (uint32_t)0U; i < rLen / (uint32_t)4U; i++)
+        for
+        (i
+          = (uint32_t)0U;
+          i
+          < (aLen + aLen - (aLen + aLen2) - (uint32_t)1U) / (uint32_t)4U;
+          i++)
         {
           uint32_t t11 = a11[(uint32_t)4U * i];
           uint32_t *res_i0 = res1 + (uint32_t)4U * i;
@@ -652,7 +656,12 @@ Hacl_Bignum_Karatsuba_bn_karatsuba_mul_uint32(
       }
       {
         uint32_t i;
-        for (i = rLen / (uint32_t)4U * (uint32_t)4U; i < rLen; i++)
+        for
+        (i
+          = (aLen + aLen - (aLen + aLen2) - (uint32_t)1U) / (uint32_t)4U * (uint32_t)4U;
+          i
+          < aLen + aLen - (aLen + aLen2) - (uint32_t)1U;
+          i++)
         {
           uint32_t t11 = a11[i];
           uint32_t *res_i = res1 + i;
@@ -795,13 +804,17 @@ Hacl_Bignum_Karatsuba_bn_karatsuba_mul_uint64(
     c01 = Lib_IntTypes_Intrinsics_add_carry_u64((uint64_t)0U, r[0U], c7, r);
     if ((uint32_t)1U < aLen + aLen - (aLen + aLen2))
     {
-      uint32_t rLen = aLen + aLen - (aLen + aLen2) - (uint32_t)1U;
       uint64_t *a11 = r + (uint32_t)1U;
       uint64_t *res1 = r + (uint32_t)1U;
       uint64_t c = c01;
       {
         uint32_t i;
-        for (i = (uint32_t)0U; i < rLen / (uint32_t)4U; i++)
+        for
+        (i
+          = (uint32_t)0U;
+          i
+          < (aLen + aLen - (aLen + aLen2) - (uint32_t)1U) / (uint32_t)4U;
+          i++)
         {
           uint64_t t11 = a11[(uint32_t)4U * i];
           uint64_t *res_i0 = res1 + (uint32_t)4U * i;
@@ -825,7 +838,12 @@ Hacl_Bignum_Karatsuba_bn_karatsuba_mul_uint64(
       }
       {
         uint32_t i;
-        for (i = rLen / (uint32_t)4U * (uint32_t)4U; i < rLen; i++)
+        for
+        (i
+          = (aLen + aLen - (aLen + aLen2) - (uint32_t)1U) / (uint32_t)4U * (uint32_t)4U;
+          i
+          < aLen + aLen - (aLen + aLen2) - (uint32_t)1U;
+          i++)
         {
           uint64_t t11 = a11[i];
           uint64_t *res_i = res1 + i;
@@ -928,13 +946,17 @@ Hacl_Bignum_Karatsuba_bn_karatsuba_sqr_uint32(
     c01 = Lib_IntTypes_Intrinsics_add_carry_u32((uint32_t)0U, r[0U], c7, r);
     if ((uint32_t)1U < aLen + aLen - (aLen + aLen2))
     {
-      uint32_t rLen = aLen + aLen - (aLen + aLen2) - (uint32_t)1U;
       uint32_t *a11 = r + (uint32_t)1U;
       uint32_t *res1 = r + (uint32_t)1U;
       uint32_t c = c01;
       {
         uint32_t i;
-        for (i = (uint32_t)0U; i < rLen / (uint32_t)4U; i++)
+        for
+        (i
+          = (uint32_t)0U;
+          i
+          < (aLen + aLen - (aLen + aLen2) - (uint32_t)1U) / (uint32_t)4U;
+          i++)
         {
           uint32_t t1 = a11[(uint32_t)4U * i];
           uint32_t *res_i0 = res1 + (uint32_t)4U * i;
@@ -958,7 +980,12 @@ Hacl_Bignum_Karatsuba_bn_karatsuba_sqr_uint32(
       }
       {
         uint32_t i;
-        for (i = rLen / (uint32_t)4U * (uint32_t)4U; i < rLen; i++)
+        for
+        (i
+          = (aLen + aLen - (aLen + aLen2) - (uint32_t)1U) / (uint32_t)4U * (uint32_t)4U;
+          i
+          < aLen + aLen - (aLen + aLen2) - (uint32_t)1U;
+          i++)
         {
           uint32_t t1 = a11[i];
           uint32_t *res_i = res1 + i;
@@ -1061,13 +1088,17 @@ Hacl_Bignum_Karatsuba_bn_karatsuba_sqr_uint64(
     c01 = Lib_IntTypes_Intrinsics_add_carry_u64((uint64_t)0U, r[0U], c7, r);
     if ((uint32_t)1U < aLen + aLen - (aLen + aLen2))
     {
-      uint32_t rLen = aLen + aLen - (aLen + aLen2) - (uint32_t)1U;
       uint64_t *a11 = r + (uint32_t)1U;
       uint64_t *res1 = r + (uint32_t)1U;
       uint64_t c = c01;
       {
         uint32_t i;
-        for (i = (uint32_t)0U; i < rLen / (uint32_t)4U; i++)
+        for
+        (i
+          = (uint32_t)0U;
+          i
+          < (aLen + aLen - (aLen + aLen2) - (uint32_t)1U) / (uint32_t)4U;
+          i++)
         {
           uint64_t t1 = a11[(uint32_t)4U * i];
           uint64_t *res_i0 = res1 + (uint32_t)4U * i;
@@ -1091,7 +1122,12 @@ Hacl_Bignum_Karatsuba_bn_karatsuba_sqr_uint64(
       }
       {
         uint32_t i;
-        for (i = rLen / (uint32_t)4U * (uint32_t)4U; i < rLen; i++)
+        for
+        (i
+          = (aLen + aLen - (aLen + aLen2) - (uint32_t)1U) / (uint32_t)4U * (uint32_t)4U;
+          i
+          < aLen + aLen - (aLen + aLen2) - (uint32_t)1U;
+          i++)
         {
           uint64_t t1 = a11[i];
           uint64_t *res_i = res1 + i;
