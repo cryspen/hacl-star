@@ -2,9 +2,9 @@ name: Dist CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ cryspen ]
   pull_request:
-    branches: [ main ]
+    branches: [ cryspen ]
   workflow_dispatch:
 
 
